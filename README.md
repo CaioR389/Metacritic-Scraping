@@ -4,7 +4,9 @@ The focus of this project is to analyze data from recent years (especially from 
 
 ## What this project exactly do?
 ** Data Scraping**
+
 ** Structuring in CSV**
+
 ** Comparative Analysis**
 
 ### What exactly do we analyze and compare?
