@@ -1,25 +1,22 @@
-# Metacritic Data Analytics Project
+# Projeto de Análise de Dados do Metacritic
 
-The focus of this project is to analyze data from recent years (especially from games) on the Metacritic platform and to make a comparison between scores, ratings, rankings, etc.
+O foco deste projeto é analisar dados de anos recentes (especialmente de jogos) na plataforma Metacritic e realizar comparações entre pontuações, avaliações, classificações, etc.
 
-## What this project exactly do?
-- **Data Scraping**
+## O que este projeto faz, exatamente?
+- **Coleta de dados (Data Scraping)**
 
-- **Structuring in CSV**
+- **Estruturação em formato CSV**
 
-- **Comparative Analysis**
+- **Análise comparativa**
 
-### What exactly do we analyze and compare?
--**Convergence vs Divergence**
+## O que exatamente analisamos e comparamos?
+- **Convergência vs. Divergência**
 
--**Historic evolution**
+- **Evolução histórica**
 
--**Rankings**
+- **Classificações (Rankings)**
 
-
-## Technologies
+## Tecnologias
 - **Python 3**
-- 
 
-## Notes
-
+## Observações
