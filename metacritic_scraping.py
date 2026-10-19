@@ -5,9 +5,18 @@ import config
 
 # Adquire as notas de críticos e usuários
 # Notas iguais (metascore = userscore) significa que não tem dados de um deles, e substitui pelo outro
-def adquirir_dados(url):
+def game_scraping(url):
+    tabela_data = {"Jan" : "01", "Feb" : "02", "Mar" : "03", "Apr" : "04", "May" : "05", "Jun" : "06", "Jul" : "07", "Aug" : "08", "Sep" : "09", "Oct" : "10", "Nov" : "11", "Dec" : "12"}
+
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
+
+    data_lançamento = soup.find("div", {"class" : "hero-release-date__value"}).text
+
+    if len(data_lançamento) == 11:
+        data_lançamento = f"0{data_lançamento[5]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
+    else:
+        data_lançamento = f"{data_lançamento[4:6]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
 
     notas = soup.find_all("span", {"data-testid" : "global-score-value"})
     qnt_avaliações = soup.find_all("a", {"data-testid" : "global-score-review-count-link"})
@@ -30,7 +39,10 @@ def adquirir_dados(url):
         publisher = info_publisher.find("span", {"class" : "c-product-details__section__value"}).text
 
     # A bagunça dos or é por causa que algumas desenvolvedoras pequenas não tem link no Metacritic
-    return {"metascore" : notas[0].text,
+    return {"nome" : soup.find("h1", {"class" : "text-4xl font-bold text-[#333]"}).text,
+            "url" : url,
+            "data_lançamento" : data_lançamento,
+            "metascore" : notas[0].text,
             "qnt_críticos" : qnt_avaliações[0].text[9:-15],
             "userscore" : notas[1].text,
             "qnt_usuários" : qnt_avaliações[1].text[9:-13],
@@ -54,14 +66,14 @@ def append_csv(nome_arquivo, cabeçalho, dados: dict):
             else: arquivo.write(dados[atributo] + '\n')
 
 # Procura na página de browse global do Metacritic
-def browse_scrapping(url, ano: str):
+def browse_scrapping(url, ano):
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
     # Nome do CSV em que será armazenado os dados
     nome_arquivo = "dados/jogos_por_ano/jogos" + str(ano) + ".csv"
     # Cabeçalho para organização. A ordem importa. Todos os atributos listados aqui devem estar contidos na variável dados passada ao append_csv
-    cabeçalho = ["nome", "url", "ano", "metascore", "qnt_críticos", "userscore", "qnt_usuários", "gênero", "desenvolvedora", "publisher"]
+    cabeçalho = ["nome", "url", "data_lançamento", "metascore", "qnt_críticos", "userscore", "qnt_usuários", "gênero", "desenvolvedora", "publisher"]
 
     qnt_jogos = soup.find("span", {"class" : "hidden lg:inline text-base text-gray-500"}).text[0:-8]
     qnt_paginas = int(soup.find_all("span", {"class" : "c-navigation-pagination__item-content"})[3].text)
@@ -73,19 +85,13 @@ def browse_scrapping(url, ano: str):
 
     while pagina_atual <= qnt_paginas:
 
-        nomes = soup.find_all("h3", {"data-testid" : "product-title"})
         jogos = soup.find_all("div", {"data-testid" : "filter-results"})
 
-        for i in range(len(jogos)):
-            nome_jogo = nomes[i].find_all("span")[1].text
-
-            link_jogo = "https://www.metacritic.com" + jogos[i].find('a')["href"]
+        for jogo in jogos:
+            link_jogo = "https://www.metacritic.com" + jogo.find('a')["href"]
 
             # Organiza os dados do jogo. A ordem do dicionário não importa
-            dados = adquirir_dados(link_jogo)
-            dados["nome"] = nome_jogo
-            dados["url"] = link_jogo
-            dados["ano"] = ano
+            dados = game_scraping(link_jogo)
 
             # Escreve no CSV os dados do jogo atual
             append_csv(nome_arquivo, cabeçalho, dados)            
