@@ -12,14 +12,31 @@ def adquirir_dados(url):
     notas = soup.find_all("span", {"data-testid" : "global-score-value"})
     qnt_avaliações = soup.find_all("a", {"data-testid" : "global-score-review-count-link"})
 
+    # Bloco desenvolvedora
+    info_developer = soup.find("p", {"class" : "m-0 text-sm leading-7"})
+
+    caracteristicas_developer = info_developer.find_all("span")
+    if len(caracteristicas_developer) > 1:
+        desenvolvedora = caracteristicas_developer[1].text
+    else:
+        desenvolvedora = info_developer.find('a').text
+
+    # Bloco publisher
+    info_publisher = soup.find_all("div", {"class" : "c-product-details__section-group c-product-details__section-group--game"})[1]
+
+    if info_publisher.find("a", {"class" : "c-product-detail-link"}) != None:
+        publisher = info_publisher.find("a", {"class" : "c-product-detail-link"}).text
+    else:
+        publisher = info_publisher.find("span", {"class" : "c-product-details__section__value"}).text
+
     # A bagunça dos or é por causa que algumas desenvolvedoras pequenas não tem link no Metacritic
     return {"metascore" : notas[0].text,
             "qnt_críticos" : qnt_avaliações[0].text[9:-15],
             "userscore" : notas[1].text,
             "qnt_usuários" : qnt_avaliações[1].text[9:-13],
             "gênero" : soup.find("span", {"class" : "global-link-button__label"}).text,
-            "desenvolvedora" : ( soup.find("a", {"class" : "text-gray-800 underline"}) or soup.find_all("span", {"class" : "text-gray-800"})[1] ).text,
-            "publisher" : (soup.find("a", {"class" : "c-product-detail-link"}) or soup.find_all("span", {"class" : "c-product-details__section__value"})[1]).text
+            "desenvolvedora" : desenvolvedora,
+            "publisher" : publisher
             }
 
 # Sobrescreve o arquivo anterior e cria o cabeçalho
@@ -64,12 +81,11 @@ def browse_scrapping(url, ano: str):
 
             link_jogo = "https://www.metacritic.com" + jogos[i].find('a')["href"]
 
+            # Organiza os dados do jogo. A ordem do dicionário não importa
             dados = adquirir_dados(link_jogo)
-            dados_basicos = {"nome" : nome_jogo, "url" : link_jogo, "ano" : ano}
-
-            # Termina de organizar os dados para enfim escrevê-los
-            for chave in dados_basicos:
-                dados[chave] = dados_basicos[chave]
+            dados["nome"] = nome_jogo
+            dados["url"] = link_jogo
+            dados["ano"] = ano
 
             # Escreve no CSV os dados do jogo atual
             append_csv(nome_arquivo, cabeçalho, dados)            
