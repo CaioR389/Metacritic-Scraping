@@ -11,11 +11,9 @@ def game_scraping(url):
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
-    data_lançamento = soup.find("div", {"class" : "hero-release-date__value"})
-
     # Tinha um jogo sem data de lançamento, por isso essa manipulação toda só para pegar a data
-    if data_lançamento != None:
-        data_lançamento = data_lançamento.text()
+    if soup.find("div", {"class" : "hero-release-date__value"}) != None:
+        data_lançamento = soup.find("div", {"class" : "hero-release-date__value"}).text
         if len(data_lançamento) == 11:
             data_lançamento = f"0{data_lançamento[4]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
         else:
