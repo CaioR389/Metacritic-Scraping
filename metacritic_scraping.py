@@ -14,55 +14,62 @@ def game_scraping(url):
     data_lançamento = soup.find("div", {"class" : "hero-release-date__value"}).text
 
     if len(data_lançamento) == 11:
-        data_lançamento = f"0{data_lançamento[5]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
+        data_lançamento = f"0{data_lançamento[4]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
     else:
         data_lançamento = f"{data_lançamento[4:6]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
 
+    # Adquire a lista com todas as notas. Primeira é metascore, segunda é userscore
     notas = soup.find_all("span", {"data-testid" : "global-score-value"})
+    # Quantidade de avaliações. Primeira é de críticos, segunda de usuários. Não são valores inteiros, mas sim textos
     qnt_avaliações = soup.find_all("a", {"data-testid" : "global-score-review-count-link"})
 
-    # Bloco desenvolvedora
-    info_developer = soup.find("p", {"class" : "m-0 text-sm leading-7"})
+    # plataformas & notas_p_plataforma
+    plataformas = soup.find("div", {"class" : "c-product-details__section c-product-details__section--grouped"}).find_all("li", {"class" : "c-product-details__section__list-item"})
+    notas_plataformas =  soup.find_all("div", {"class" : "c-siteReviewScore_background c-siteReviewScore_background-critic_xlarge product-score-card__score"})
+    plataforma_nota = ""
+    for plataforma in range(len(plataformas)):
+        plataforma_nota += plataformas[plataforma].text + ':' + notas_plataformas[plataforma].find("span").text + ", "
 
+    # desenvolvedora
+    info_developer = soup.find("p", {"class" : "m-0 text-sm leading-7"})
     caracteristicas_developer = info_developer.find_all("span")
     if len(caracteristicas_developer) > 1:
         desenvolvedora = caracteristicas_developer[1].text
     else:
         desenvolvedora = info_developer.find('a').text
 
-    # Bloco publisher
+    # publisher
     info_publisher = soup.find_all("div", {"class" : "c-product-details__section-group c-product-details__section-group--game"})[1]
-
     if info_publisher.find("a", {"class" : "c-product-detail-link"}) != None:
         publisher = info_publisher.find("a", {"class" : "c-product-detail-link"}).text
     else:
         publisher = info_publisher.find("span", {"class" : "c-product-details__section__value"}).text
 
-    # A bagunça dos or é por causa que algumas desenvolvedoras pequenas não tem link no Metacritic
     return {"nome" : soup.find("h1", {"class" : "text-4xl font-bold text-[#333]"}).text,
             "url" : url,
-            "data_lançamento" : data_lançamento,
+            "lançamento" : data_lançamento,
             "metascore" : notas[0].text,
-            "qnt_críticos" : qnt_avaliações[0].text[9:-15],
+            "qnt_meta" : qnt_avaliações[0].text[9:-15],
             "userscore" : notas[1].text,
-            "qnt_usuários" : qnt_avaliações[1].text[9:-13],
-            "gênero" : soup.find("span", {"class" : "global-link-button__label"}).text,
+            "qnt_user" : qnt_avaliações[1].text[9:-13],
+            "plataforma:nota" : plataforma_nota[:-2],
             "desenvolvedora" : desenvolvedora,
-            "publisher" : publisher
+            "publisher" : publisher,
+            "gênero" : soup.find("span", {"class" : "global-link-button__label"}).text
             }
 
 # Sobrescreve o arquivo anterior e cria o cabeçalho
-def criar_csv(nome_arquivo, cabeçalho):
+def criar_csv(nome_arquivo):
     with open(nome_arquivo, 'w') as arquivo:
-        for atributo in cabeçalho:
-            if atributo != cabeçalho[-1]: arquivo.write(atributo + ", ")
+        for atributo in config.cabeçalho:
+            if atributo != config.cabeçalho[-1]: arquivo.write(atributo + "  ")
             else: arquivo.write(atributo + '\n')
 
 # Adiciona os jogos ao arquivo CSV
-def append_csv(nome_arquivo, cabeçalho, dados: dict):
+def append_csv(nome_arquivo, dados: dict):
     with open(nome_arquivo, 'a') as arquivo:
-        for atributo in cabeçalho:
-            if atributo != cabeçalho[-1]: arquivo.write(dados[atributo] + ", ")
+        for atributo in config.cabeçalho:
+            if atributo != config.cabeçalho[-1]: arquivo.write(dados[atributo] + "   ")
             else: arquivo.write(dados[atributo] + '\n')
 
 # Procura na página de browse global do Metacritic
@@ -72,13 +79,11 @@ def browse_scrapping(url, ano):
 
     # Nome do CSV em que será armazenado os dados
     nome_arquivo = "dados/jogos_por_ano/jogos" + str(ano) + ".csv"
-    # Cabeçalho para organização. A ordem importa. Todos os atributos listados aqui devem estar contidos na variável dados passada ao append_csv
-    cabeçalho = ["nome", "url", "data_lançamento", "metascore", "qnt_críticos", "userscore", "qnt_usuários", "gênero", "desenvolvedora", "publisher"]
 
     qnt_jogos = soup.find("span", {"class" : "hidden lg:inline text-base text-gray-500"}).text[0:-8]
     qnt_paginas = int(soup.find_all("span", {"class" : "c-navigation-pagination__item-content"})[3].text)
 
-    criar_csv(nome_arquivo, cabeçalho)
+    criar_csv(nome_arquivo)
 
     pagina_atual = 1
     progresso = 0
@@ -94,7 +99,7 @@ def browse_scrapping(url, ano):
             dados = game_scraping(link_jogo)
 
             # Escreve no CSV os dados do jogo atual
-            append_csv(nome_arquivo, cabeçalho, dados)            
+            append_csv(nome_arquivo, dados)            
 
             progresso += 1
             print(str(progresso) + '/' + qnt_jogos)
