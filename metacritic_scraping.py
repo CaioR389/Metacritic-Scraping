@@ -23,6 +23,14 @@ def game_scraping(url):
     # Quantidade de avaliações. Primeira é de críticos, segunda de usuários. Não são valores inteiros, mas sim textos
     qnt_avaliações = soup.find_all("a", {"data-testid" : "global-score-review-count-link"})
 
+    # Porcentagem de avaliações positivas, mistas e negativas
+    positivas = soup.find_all("div", {"class" : "reviews-stats__positive-stats"})
+    mistas = soup.find_all("div", {"class" : "reviews-stats__neutral-stats"})
+    negativas = soup.find_all("div", {"class" : "reviews-stats__negative-stats"})
+
+    p_m_n_meta = positivas[0].find("span", {"class" : "bold"}).text[:-10] + ':' + mistas[0].find("span", {"class" : "bold"}).text[:-7] + ':' + negativas[0].find("span", {"class" : "bold"}).text[:-10]
+    p_m_n_user = positivas[1].find("span", {"class" : "bold"}).text[:-10] + ':' + mistas[1].find("span", {"class" : "bold"}).text[:-7] + ':' + negativas[1].find("span", {"class" : "bold"}).text[:-10]
+
     # plataformas & notas_p_plataforma
     plataformas = soup.find("div", {"class" : "c-product-details__section c-product-details__section--grouped"}).find_all("li", {"class" : "c-product-details__section__list-item"})
     notas_plataformas =  soup.find_all("div", {"class" : "c-siteReviewScore_background c-siteReviewScore_background-critic_xlarge product-score-card__score"})
@@ -50,8 +58,10 @@ def game_scraping(url):
             "lançamento" : data_lançamento,
             "metascore" : notas[0].text,
             "qnt_meta" : qnt_avaliações[0].text[9:-15],
+            "p:m:n-meta" : p_m_n_meta,
             "userscore" : notas[1].text,
             "qnt_user" : qnt_avaliações[1].text[9:-13],
+            "p:m:n-user" : p_m_n_user,
             "plataforma:nota" : plataforma_nota[:-2],
             "desenvolvedora" : desenvolvedora,
             "publisher" : publisher,
