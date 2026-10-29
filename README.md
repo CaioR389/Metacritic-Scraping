@@ -1,7 +1,21 @@
 # Projeto de Análise de Dados do Metacritic
 
-O foco deste projeto é analisar dados de anos recentes (especialmente de jogos) na plataforma Metacritic e realizar comparações entre pontuações, avaliações, classificações, etc.
+ - **2** O foco deste projeto é analisar dados de jogos lançados entre 2000 e 2026 na plataforma Metacritic e comparar avalições dos críticos e usuários ao longo dos anos, assim como a distribuição das notas.
+ -
+ - **3**
+ -   *3.1* -A função browse_scraping percorre todos os jogos de determinado ano seguindo a página de browse do metacritic, e escrevendo os dados retirados através de game_scraping em um arquivo .csv        função scrap_metacritic percorre os anos que o usuário escolher, chamando o browse para cada ano, que então escreve no arquivo .csv
+       Dados indisponíveis são determinados "tdb" (to be determinated)
 
+ -    *3.2* -O arquivo config.py funciona como um indicador na formatação do csv (cabeçalho)
+ -    
+ - **4** São este o conjunto de dados e avaliações de profissionais, usuários comuns da comunidade gamer e "crítica": Nome do jogo
+   Sobre o arquivo -Metacritc-Scraping:
+
+   | Nome| url | Nota | Nota  |
+   |.....|.....|......|.......|
+   |jogo0|url0 |Nota0 | Nota1 |
+   
+-   Em Metacritic-Scraping é feito a extração dos dados apartir do beutifulsoup4, e extraido do site Metacritc dados das demais avaliações de usuários e analistas profissionais;   
 ## O que este projeto faz, exatamente?
 - **Coleta de dados (Data Scraping)**
 
