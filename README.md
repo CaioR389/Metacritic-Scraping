@@ -10,10 +10,9 @@
  -    *3.3* -Em Metacritic-Scraping é feito a extração dos dados de avaliações presentes no site: https://www.metracritc.com, apartir da ferramenta beutifulsoup4 (biblioteca python).  
 
  -    
- - **4** São este o conjunto de dados e avaliações de profissionais, usuários comuns da comunidade gamer e "crítica": Nome do jogo
-   Sobre o arquivo -Metacritc-Scraping:
+ - **4** São este o conjunto de dados e avaliações de profissionais, usuários comuns da comunidade gamer e "crítica":
 
-   -*representação ilustrativa da saída*
+
    
    | Nome| url | metascore | userscore  | qnt_meta |  qnt_user |desenvolvedora |publisher | gênero | ANO |
    |-----|-----|-----------|-------------|----------|----------|---------------|----------|--------|-----| 
@@ -23,6 +22,8 @@
    |.....|.....|    0-5    |     0-10    |..........|..........|...............|..........|........|.....|
    |jogoN|urlN |    0-5    |     0-10    | qntmetaN | qntuserN |desenvolvedoraN|publishern|gêneroN |ANON |
    -------------------------------------------------------------------------------------------------------
+                                                                  -*representação ilustrativa da saída*
+
    
 ## O que este projeto faz, exatamente?
 - **Coleta de dados (Data Scraping)**
