@@ -4,9 +4,11 @@
  -
  - **3**
  -   *3.1* -A função browse_scraping percorre todos os jogos de determinado ano seguindo a página de browse do metacritic, e escrevendo os dados retirados através de game_scraping em um arquivo .csv        função scrap_metacritic percorre os anos que o usuário escolher, chamando o browse para cada ano, que então escreve no arquivo .csv
-       Dados indisponíveis são determinados "tdb" (to be determinated)
+       Dados indisponíveis são determinados "tdb" (to be determinated).
 
  -    *3.2* -O arquivo config.py funciona como um indicador na formatação do csv (cabeçalho)
+ -    *3.3* -Em Metacritic-Scraping é feito a extração dos dados de avaliações presentes no site: https://www.metracritc.com, apartir da ferramenta beutifulsoup4 (biblioteca python).  
+
  -    
  - **4** São este o conjunto de dados e avaliações de profissionais, usuários comuns da comunidade gamer e "crítica": Nome do jogo
    Sobre o arquivo -Metacritc-Scraping:
@@ -22,7 +24,6 @@
    |jogoN|urlN |    0-5    |     0-10    | qntmetaN | qntuserN |desenvolvedoraN|publishern|gêneroN |ANON |
    -------------------------------------------------------------------------------------------------------
    
--   Em Metacritic-Scraping é feito a extração dos dados apartir do beutifulsoup4, e extraido do site Metacritc dados das demais avaliações de usuários e analistas profissionais;   
 ## O que este projeto faz, exatamente?
 - **Coleta de dados (Data Scraping)**
 
