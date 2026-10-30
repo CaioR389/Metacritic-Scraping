@@ -22,7 +22,7 @@
    |.....|.....|    0-5    |     0-10    |..........|..........|...............|..........|........|.....|
    |jogoN|urlN |    0-5    |     0-10    | qntmetaN | qntuserN |desenvolvedoraN|publishern|gêneroN |ANON |
    -------------------------------------------------------------------------------------------------------
-                                                                  -*representação ilustrativa da saída*
+   -*representação ilustrativa da saída*
 
    
 ## O que este projeto faz, exatamente?
