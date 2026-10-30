@@ -13,7 +13,11 @@
 
    | Nome| url | Nota profissional | Nota users  |
    |-----|-----|-------------------|-------------|
-   |jogo0|url0 |       Nota0       |    Nota1    |
+   |jogo1|url1 |       0-10       |    0-10    |
+   |jogo2|url2 |       0-10       |    0-10    |
+   |jogo3|url3 |       0-10       |    0-10    |
+   |jogo...|url...|       0-10       |    0-10    |
+   |jogoN|urlN |       0-10       |    0-10    |
    
 -   Em Metacritic-Scraping é feito a extração dos dados apartir do beutifulsoup4, e extraido do site Metacritc dados das demais avaliações de usuários e analistas profissionais;   
 ## O que este projeto faz, exatamente?
