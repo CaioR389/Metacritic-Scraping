@@ -11,9 +11,9 @@
  - **4** São este o conjunto de dados e avaliações de profissionais, usuários comuns da comunidade gamer e "crítica": Nome do jogo
    Sobre o arquivo -Metacritc-Scraping:
 
-   | Nome| url | Nota | Nota  |
-   |.....|.....|......|.......|
-   |jogo0|url0 |Nota0 | Nota1 |
+   | Nome| url | Nota profissional | Nota users  |
+   |-----|-----|-------------------|-------------|
+   |jogo0|url0 |       Nota0       |    Nota1    |
    
 -   Em Metacritic-Scraping é feito a extração dos dados apartir do beutifulsoup4, e extraido do site Metacritc dados das demais avaliações de usuários e analistas profissionais;   
 ## O que este projeto faz, exatamente?
