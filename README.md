@@ -11,13 +11,16 @@
  - **4** São este o conjunto de dados e avaliações de profissionais, usuários comuns da comunidade gamer e "crítica": Nome do jogo
    Sobre o arquivo -Metacritc-Scraping:
 
-   | Nome| url | Nota profissional | Nota users  |
-   |-----|-----|-------------------|-------------|
-   |jogo1|url1 |       0-5       |    0-10    |
-   |jogo2|url2 |       0-5       |    0-10    |
-   |jogo3|url3 |       0-5       |    0-10    |
-   |jogo...|url...|       0-5       |    0-10    |
-   |jogoN|urlN |       0-5       |    0-10    |
+   -*representação ilustrativa da saída*
+   
+   | Nome| url | metascore | userscore  | qnt_meta |  qnt_user |desenvolvedora |publisher | gênero | ANO |
+   |-----|-----|-----------|-------------|----------|----------|---------------|----------|--------|-----| 
+   |jogo1|url1 |    0-5    |     0-10    | qntmeta1 | qntuser1 |desenvolvedora1|publisher1|gênero1 |ANOx |
+   |jogo2|url2 |    0-5    |     0-10    | qntmeta2 | qntuser2 |desenvolvedora2|publisher2|gênero2 |ANOy |
+   |jogo3|url3 |    0-5    |     0-10    | qntmeta3 | qntuser3 |desenvolvedora3|publisher3|gênero3 |ANOz |
+   |.....|.....|    0-5    |     0-10    |..........|..........|...............|..........|........|.....|
+   |jogoN|urlN |    0-5    |     0-10    | qntmetaN | qntuserN |desenvolvedoraN|publishern|gêneroN |ANON |
+   -------------------------------------------------------------------------------------------------------
    
 -   Em Metacritic-Scraping é feito a extração dos dados apartir do beutifulsoup4, e extraido do site Metacritc dados das demais avaliações de usuários e analistas profissionais;   
 ## O que este projeto faz, exatamente?
