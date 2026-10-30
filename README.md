@@ -24,22 +24,23 @@
    -------------------------------------------------------------------------------------------------------
    -*representação ilustrativa da saída*
 
-   
-## O que este projeto faz, exatamente?
+
+## RESUMO  
+ # O que este projeto faz, exatamente?
 - **Coleta de dados (Data Scraping)**
 
 - **Estruturação em formato CSV**
 
 - **Análise comparativa**
 
-## O que exatamente analisamos e comparamos?
+# O que exatamente analisamos e comparamos?
 - **Convergência vs. Divergência**
 
 - **Evolução histórica**
 
 - **Classificações (Rankings)**
 
-## Tecnologias
+# Tecnologias
 - **Python 3**
 
-## Observações
+# Observações
