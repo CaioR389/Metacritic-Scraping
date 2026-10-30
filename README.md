@@ -44,3 +44,4 @@
 - **Python 3**
 
 # Observações
+-*Em alguns jogos, devido a má organização da distribuidora, pode ocasionar ou não em erros na extração de dados*
