@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-import config
+import config_scraping as config
 
 # Adquire as notas de críticos e usuários
 # Notas iguais (metascore = userscore) significa que não tem dados de um deles, e substitui pelo outro
@@ -142,7 +142,7 @@ def game_scraping(url):
         except AttributeError:
             return "tdb"
 
-    html = requests.get(url, headers=config.headers).text
+    html = requests.get(url, headers=config_scrap.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
     return {"nome" : scrap_nome(soup),
@@ -180,7 +180,7 @@ def browse_scraping(url, ano):
     soup = BeautifulSoup(html, "html.parser")
 
     # Nome do CSV em que será armazenado os dados
-    nome_arquivo = "dados/jogos_por_ano/jogos" + str(ano) + ".csv"
+    nome_arquivo = "jogos_por_ano/jogos" + str(ano) + ".csv"
 
     qnt_jogos = soup.find("span", {"class" : "hidden lg:inline text-base text-gray-500"}).text[0:-8]
     qnt_paginas = int(soup.find_all("span", {"class" : "c-navigation-pagination__item-content"})[3].text)
@@ -209,5 +209,5 @@ def browse_scraping(url, ano):
 
         # Executa todas as operações para o próximo loop while
         pagina_atual += 1
-        html = requests.get(url + f"&page={pagina_atual}", headers=config.headers).text
+        html = requests.get(url + f"&page={pagina_atual}", headers=config_scrap.headers).text
         soup = BeautifulSoup(html, "html.parser")
