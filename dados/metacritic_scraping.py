@@ -142,7 +142,7 @@ def game_scraping(url):
         except AttributeError:
             return "tdb"
 
-    html = requests.get(url, headers=config_scrap.headers).text
+    html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
     return {"nome" : scrap_nome(soup),
@@ -209,5 +209,5 @@ def browse_scraping(url, ano):
 
         # Executa todas as operações para o próximo loop while
         pagina_atual += 1
-        html = requests.get(url + f"&page={pagina_atual}", headers=config_scrap.headers).text
+        html = requests.get(url + f"&page={pagina_atual}", headers=config.headers).text
         soup = BeautifulSoup(html, "html.parser")
