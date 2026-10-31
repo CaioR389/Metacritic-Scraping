@@ -13,44 +13,94 @@ def game_scraping(url):
         tabela_data = {"Jan" : "01", "Feb" : "02", "Mar" : "03", "Apr" : "04", "May" : "05", "Jun" : "06", "Jul" : "07", "Aug" : "08", "Sep" : "09", "Oct" : "10", "Nov" : "11", "Dec" : "12"}
 
         # Tinha um jogo sem data de lançamento, por isso essa manipulação toda só para pegar a data
-        if soup.find("div", {"class" : "hero-release-date__value"}) != None:
+        try:
             data_lançamento = soup.find("div", {"class" : "hero-release-date__value"}).text
             if len(data_lançamento) == 11:
                 data_lançamento = f"0{data_lançamento[4]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
             else:
                 data_lançamento = f"{data_lançamento[4:6]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
-        else:
+
+        except AttributeError:
             data_lançamento = "tdb"
 
         return data_lançamento
 
     def scrap_metascore(soup):
-        return soup.find_all("span", {"data-testid" : "global-score-value"})[0].text
+        reviews = soup.find_all("div", {"data-testid" : "global-score-wrapper"})
+
+        for review in reviews:
+            if review.find("div", {"data-testid" : "global-score-header"}).text == "Metascore":
+                return review.find("div", {"data-testid" : "global-score-value-wrapper"}).find("span").text
+
+        return soup.find("span", {"data-testid" : "global-score-value"}).text
 
     def scrap_qnt_meta(soup):
-        return soup.find_all("a", {"data-testid" : "global-score-review-count-link"})[0].text[9:-15]
+        reviews = soup.find_all("div", {"data-testid" : "global-score-wrapper"})
+        
+        for review in reviews:
+            if review.find("div", {"data-testid" : "global-score-header"}).text == "Metascore":
+                try:
+                    return review.find("a", {"data-testid" : "global-score-review-count-link"}).text[9:-13]
+                except AttributeError:
+                    return "tdb"
 
     def scrap_pmn_meta(soup):
-        # Porcentagem de avaliações positivas, mistas e negativas
-        positivas = soup.find_all("div", {"class" : "reviews-stats__positive-stats"})
-        mistas = soup.find_all("div", {"class" : "reviews-stats__neutral-stats"})
-        negativas = soup.find_all("div", {"class" : "reviews-stats__negative-stats"})
-                
-        return positivas[0].find("span", {"class" : "bold"}).text[:-10] + ':' + mistas[0].find("span", {"class" : "bold"}).text[:-7] + ':' + negativas[0].find("span", {"class" : "bold"}).text[:-10]
+        reviews = soup.find_all("div", {"class" : "flex flex-col lg:flex-row gap-5 pt-6 pb-4"})
 
+        for review in reviews:
+            try:
+                if review.find("div", {"data-testid" : "global-score-header"}).text == "Metascore":
+                    bloco_metascore = review
+
+                    positivas = bloco_metascore.find("div", {"class" : "reviews-stats__positive-stats"})
+                    mistas = bloco_metascore.find("div", {"class" : "reviews-stats__neutral-stats"})
+                    negativas = bloco_metascore.find("div", {"class" : "reviews-stats__negative-stats"})
+                                
+                    return positivas.find("span", {"class" : "bold"}).text[:-10] + ':' + mistas.find("span", {"class" : "bold"}).text[:-7] + ':' + negativas.find("span", {"class" : "bold"}).text[:-10]
+
+            # Não é uma review
+            except AttributeError:
+                continue
+
+        return "tdb"
+            
     def scrap_userscore(soup):
-        return soup.find_all("span", {"data-testid" : "global-score-value"})[1].text
+        reviews = soup.find_all("div", {"data-testid" : "global-score-wrapper"})
+
+        for review in reviews:
+            if review.find("div", {"data-testid" : "global-score-header"}).text == "User score":
+                return review.find("div", {"data-testid" : "global-score-value-wrapper"}).find("span").text
 
     def scrap_qnt_user(soup):
-        return soup.find_all("a", {"data-testid" : "global-score-review-count-link"})[1].text[9:-13]
+        reviews = soup.find_all("div", {"data-testid" : "global-score-wrapper"})
+        
+        for review in reviews:
+            if review.find("div", {"data-testid" : "global-score-header"}).text == "User score":
+                try:
+                    return review.find("a", {"data-testid" : "global-score-review-count-link"}).text[9:-13]
+                except AttributeError:
+                    return "tdb"
 
     def scrap_pmn_user(soup):
-        # Porcentagem de avaliações positivas, mistas e negativas
-        positivas = soup.find_all("div", {"class" : "reviews-stats__positive-stats"})
-        mistas = soup.find_all("div", {"class" : "reviews-stats__neutral-stats"})
-        negativas = soup.find_all("div", {"class" : "reviews-stats__negative-stats"})
-        
-        return positivas[1].find("span", {"class" : "bold"}).text[:-10] + ':' + mistas[1].find("span", {"class" : "bold"}).text[:-7] + ':' + negativas[1].find("span", {"class" : "bold"}).text[:-10]
+        reviews = soup.find_all("div", {"class" : "flex flex-col lg:flex-row gap-5 pt-6 pb-4"})
+
+        for review in reviews:
+            try:
+                if review.find("div", {"data-testid" : "global-score-header"}).text == "User score":
+                    bloco_userscore = review
+
+                    # Porcentagem de avaliações positivas, mistas e negativas
+                    positivas = bloco_userscore.find("div", {"class" : "reviews-stats__positive-stats"})
+                    mistas = bloco_userscore.find("div", {"class" : "reviews-stats__neutral-stats"})
+                    negativas = bloco_userscore.find("div", {"class" : "reviews-stats__negative-stats"})
+                        
+                    return positivas.find("span", {"class" : "bold"}).text[:-10] + ':' + mistas.find("span", {"class" : "bold"}).text[:-7] + ':' + negativas.find("span", {"class" : "bold"}).text[:-10]
+
+            # Não é uma review
+            except AttributeError:
+                continue
+
+        return "tdb"
 
     def scrap_plataformas_notas(soup):
         # plataformas & notas_p_plataforma
@@ -63,54 +113,47 @@ def game_scraping(url):
         return plataforma_nota[:-2]
 
     def scrap_desenvolvedora(soup):
-        info_developer = soup.find("p", {"class" : "m-0 text-sm leading-7"})
-        caracteristicas_developer = info_developer.find_all("span")
-        if len(caracteristicas_developer) > 1:
-            return caracteristicas_developer[1].text
-        else:
-            return info_developer.find('a').text
+        try: 
+            info_developer = soup.find("p", {"class" : "m-0 text-sm leading-7"})
+            caracteristicas_developer = info_developer.find_all("span")
+            if len(caracteristicas_developer) > 1:
+                return caracteristicas_developer[1].text
+            else:
+                return info_developer.find('a').text
+
+        except AttributeError:
+            return "tbd"
 
     def scrap_publisher(soup):
-        info_publisher = soup.find_all("div", {"class" : "c-product-details__section-group c-product-details__section-group--game"})[1]
-        if info_publisher.find("a", {"class" : "c-product-detail-link"}) != None:
-            return info_publisher.find("a", {"class" : "c-product-detail-link"}).text
-        else:
-            return info_publisher.find("span", {"class" : "c-product-details__section__value"}).text
+        try: 
+            info_publisher = soup.find_all("div", {"class" : "c-product-details__section-group c-product-details__section-group--game"})[1]
+            if info_publisher.find("a", {"class" : "c-product-detail-link"}) != None:
+                return info_publisher.find("a", {"class" : "c-product-detail-link"}).text
+            else:
+                return info_publisher.find("span", {"class" : "c-product-details__section__value"}).text
+
+        except AttributeError:
+            return "tbd"
 
     def scrap_genero(soup):
-        return soup.find("span", {"class" : "global-link-button__label"}).text
+        try:
+            return soup.find("span", {"class" : "global-link-button__label"}).text
+        
+        except AttributeError:
+            return "tdb"
 
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
-    metascore = scrap_metascore(soup)
-    userscore = scrap_userscore(soup)
-
-    # Se não tiver Metascore ou Userscore, evita de tentar acessar uma posição inválida da lista de p:m:n
-    if metascore == userscore:
-        if '.' in metascore:
-            metascore = "tdb"
-            pmn_meta = "tdb"
-            # Meta sempre é o primeiro valor. No caso, só tem 1 valor
-            pmn_user = scrap_pmn_meta(soup)
-        else:
-            userscore = "tdb"
-            pmn_meta = scrap_pmn_meta(soup)
-            pmn_user = "tdb"
-
-    else:
-        pmn_meta = scrap_pmn_meta(soup)
-        pmn_user = scrap_pmn_user(soup)
-
     return {"nome" : scrap_nome(soup),
             "url" : url,
             "lançamento" : scrap_data_lancamento(soup),
-            "metascore" : metascore,
+            "metascore" : scrap_metascore(soup),
             "qnt_meta" : scrap_qnt_meta(soup),
-            "p:m:n-meta" : pmn_meta,
-            "userscore" : userscore,
+            "p:m:n-meta" : scrap_pmn_meta(soup),
+            "userscore" : scrap_userscore(soup),
             "qnt_user" : scrap_qnt_user(soup),
-            "p:m:n-user" : pmn_user,
+            "p:m:n-user" : scrap_pmn_user(soup),
             "plataforma:nota" : scrap_plataformas_notas(soup),
             "desenvolvedora" : scrap_desenvolvedora(soup),
             "publisher" : scrap_publisher(soup),
@@ -132,7 +175,7 @@ def append_csv(nome_arquivo, dados: dict):
             else: arquivo.write(dados[atributo] + '\n')
 
 # Procura na página de browse global do Metacritic
-def browse_scrapping(url, ano):
+def browse_scraping(url, ano):
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
@@ -153,6 +196,7 @@ def browse_scrapping(url, ano):
 
         for jogo in jogos:
             link_jogo = "https://www.metacritic.com" + jogo.find('a')["href"]
+            print(link_jogo)
 
             # Organiza os dados do jogo. A ordem do dicionário não importa
             dados = game_scraping(link_jogo)

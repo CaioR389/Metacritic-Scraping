@@ -1,554 +1,151 @@
-nome, url, ano, metascore, qnt_críticos, userscore, qnt_usuários, gênero, desenvolvedora, publisher
-The Elder Scrolls V: Skyrim, https://www.metacritic.com/game/the-elder-scrolls-v-skyrim/, 2011, 96, 89, 8.7, 8,266, Western RPG, Bethesda Game Studios, Bethesda Softworks
-Portal 2, https://www.metacritic.com/game/portal-2/, 2011, 95, 66, 8.9, 4,165, FPS, Valve Software, Valve Software
-Batman: Arkham City, https://www.metacritic.com/game/batman-arkham-city/, 2011, 94, 87, 8.8, 4,716, Open-World Action, Rocksteady Studios, Warner Bros. Interactive Entertainment
-The Legend of Zelda: Ocarina of Time 3D, https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-3d/, 2011, 94, 85, 9.1, 2,542, Open-World Action, GREZZO, Nintendo
-Minecraft, https://www.metacritic.com/game/minecraft/, 2011, 93, 33, 8.4, 11,965, Sandbox, Mojang AB, Mojang AB
-The Legend of Zelda: Skyward Sword, https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword/, 2011, 93, 81, 8.3, 3,137, Open-World Action, Nintendo, Nintendo
-Uncharted 3: Drake's Deception, https://www.metacritic.com/game/uncharted-3-drakes-deception/, 2011, 92, 97, 8.4, 6,976, Linear Action Adventure, Naughty Dog, SCEA
-The ICO & Shadow of the Colossus Collection, https://www.metacritic.com/game/the-ico-and-shadow-of-the-colossus-collection/, 2011, 92, 58, 8.7, 803, Compilation, Bluepoint Games, SCEA
-LittleBigPlanet 2, https://www.metacritic.com/game/littlebigplanet-2/, 2011, 91, 86, 8.6, 1,040, 2D Platformer, Media Molecule, SCEA
-Forza Motorsport 4, https://www.metacritic.com/game/forza-motorsport-4/, 2011, 91, 83, 8.4, 826, Auto Racing Sim, Turn 10, Microsoft Game Studios
-Gears of War 3, https://www.metacritic.com/game/gears-of-war-3/, 2011, 91, 96, 8.2, 2,416, Third Person Shooter, Epic Games, Microsoft Game Studios
-FIFA Soccer 12, https://www.metacritic.com/game/fifa-soccer-12/, 2011, 90, 69, 7.0, 481, Soccer Sim, Electronic Arts, Electronic Arts
-MLB 11: The Show, https://www.metacritic.com/game/mlb-11-the-show/, 2011, 90, 30, 8.0, 90, Baseball Sim, SCEA San Diego Studios, SCEA
-Dead Space 2, https://www.metacritic.com/game/dead-space-2/, 2011, 90, 83, 8.7, 1,526, Third Person Shooter, Visceral Games, Electronic Arts
-Super Mario 3D Land, https://www.metacritic.com/game/super-mario-3d-land/, 2011, 90, 82, 8.3, 1,918, 3D Platformer, Nintendo, Nintendo
-Pushmo, https://www.metacritic.com/game/pushmo/, 2011, 90, 31, 8.3, 237, Action Puzzle, Intelligent Systems, Nintendo
-Total War: Shogun 2, https://www.metacritic.com/game/total-war-shogun-2/, 2011, 90, 62, 8.3, 1,603, Turn-Based Strategy, Creative Assembly, Sega
-NBA 2K12, https://www.metacritic.com/game/nba-2k12/, 2011, 90, 42, 7.9, 179, Basketball Sim, Visual Concepts, 2K Sports
-Dark Souls, https://www.metacritic.com/game/dark-souls/, 2011, 89, 66, 8.5, 2,681, Action RPG, From Software, Namco Bandai Games
-Metal Gear Solid HD Collection, https://www.metacritic.com/game/metal-gear-solid-hd-collection/, 2011, 89, 50, 9.1, 591, Compilation, Bluepoint Games, Konami
-Battlefield 3, https://www.metacritic.com/game/battlefield-3/, 2011, 89, 61, 7.7, 6,427, Tactical FPS, EA DICE, Electronic Arts
-Deus Ex: Human Revolution, https://www.metacritic.com/game/deus-ex-human-revolution/, 2011, 89, 70, 8.2, 1,219, Action Adventure, Eidos Montreal, Square Enix
-L.A. Noire, https://www.metacritic.com/game/l-a-noire/, 2011, 89, 83, 8.0, 1,533, Open-World Action, Team Bondi, Rockstar Games
-Call of Duty: Modern Warfare 3, https://www.metacritic.com/game/call-of-duty-modern-warfare-3/, 2011, 88, 81, 4.0, 9,870, FPS, Infinity Ward, Activision
-Kerbal Space Program, https://www.metacritic.com/game/kerbal-space-program/, 2011, 88, 24, 8.3, 882, Space Sim, Squad, Squad
-Joe Danger: Special Edition, https://www.metacritic.com/game/joe-danger-special-edition/, 2011, 88, 38, 7.5, 26, Auto Racing, Hello Games, Microsoft Game Studios
-Pokemon White Version, https://www.metacritic.com/game/pokemon-white-version/, 2011, 87, 56, 8.1, 1,196, Trainer RPG, Game Freak, Nintendo
-Tactics Ogre: Let Us Cling Together, https://www.metacritic.com/game/tactics-ogre-1995/, 2011, 87, 49, 8.6, 169, Turn-Based Tactics, Square Enix, Square Enix
-DiRT 3, https://www.metacritic.com/game/dirt-3/, 2011, 87, 81, 7.3, 271, Auto Racing Sim, Codemasters, Codemasters
-Pokemon Black Version, https://www.metacritic.com/game/pokemon-black-version/, 2011, 87, 63, 8.1, 1,360, Trainer RPG, Game Freak, Nintendo
-Rayman Origins, https://www.metacritic.com/game/rayman-origins/, 2011, 87, 55, 8.3, 564, 2D Platformer, UBlart Montpellier, Ubisoft
-Radiant Silvergun, https://www.metacritic.com/game/radiant-silvergun/, 2011, 86, 25, 8.3, 39, Vertical Shoot-'Em-Up, Treasure, Microsoft Game Studios
-Mortal Kombat (2011), https://www.metacritic.com/game/mortal-kombat-2011/, 2011, 86, 66, 8.3, 810, 2D Fighting, NetherRealm Studios, Warner Bros. Interactive Entertainment
-Street Fighter III: 3rd Strike - Fight for the Future, https://www.metacritic.com/game/street-fighter-iii-3rd-strike/, 2011, 86, 41, 7.9, 114, 2D Fighting, Iron Galaxy Studios, Capcom
-Dance Central 2, https://www.metacritic.com/game/dance-central-2/, 2011, 86, 56, 8.4, 70, Dancing, Harmonix Music Systems, Microsoft Game Studios
-Bastion, https://www.metacritic.com/game/bastion/, 2011, 86, 79, 8.1, 508, Action RPG, Supergiant Games, Warner Bros. Interactive Entertainment
-Fight Night Champion, https://www.metacritic.com/game/fight-night-champion/, 2011, 86, 59, 7.7, 210, Combat Sport, EA Canada, EA Sports
-NHL 12, https://www.metacritic.com/game/nhl-12/, 2011, 86, 56, 7.1, 83, Hockey Sim, Electronic Arts, Electronic Arts
-Battlefield 3: Back to Karkand, https://www.metacritic.com/game/battlefield-3-back-to-karkand/, 2011, 86, 9, 7.3, 186, Tactical FPS, EA DICE, Electronic Arts
-Super Street Fighter IV, https://www.metacritic.com/game/super-street-fighter-iv/, 2011, 85, 69, 7.9, 270, 2D Fighting, Capcom, Capcom
-The Legend of Zelda: Four Swords Anniversary Edition, https://www.metacritic.com/game/the-legend-of-zelda-four-swords-anniversary-editi/, 2011, 85, 13, 7.4, 116, Action Adventure, GREZZO, Nintendo
-Marvel vs. Capcom 3: Fate of Two Worlds, https://www.metacritic.com/game/marvel-vs-capcom-3-fate-of-two-worlds/, 2011, 85, 77, 7.2, 206, 2D Fighting, Capcom, Capcom
-Frozen Synapse, https://www.metacritic.com/game/frozen-synapse/, 2011, 85, 27, 7.5, 209, Turn-Based Tactics, Mode 7 Games, Matrix Games
-NBA JAM: On Fire Edition, https://www.metacritic.com/game/nba-jam-on-fire-edition/, 2011, 85, 20, 7.7, 44, Basketball, EA Sports, Electronic Arts
-Mario Kart 7, https://www.metacritic.com/game/mario-kart-7/, 2011, 85, 73, 8.1, 1,300, Auto Racing, Retro Studios, Nintendo
-Star Wars: The Old Republic, https://www.metacritic.com/game/star-wars-the-old-republic/, 2011, 85, 73, 6.1, 3,037, MMORPG, BioWare, Electronic Arts
-Crysis 2, https://www.metacritic.com/game/crysis-2/, 2011, 84, 72, 7.6, 968, FPS, Crytek, EA Games
-SpaceChem, https://www.metacritic.com/game/spacechem/, 2011, 84, 13, 8.3, 183, Puzzle, Zachtronics Industries, Zachtronics Industries
-Beyond Good & Evil HD, https://www.metacritic.com/game/beyond-good-and-evil-hd/, 2011, 84, 57, 8.6, 142, Action Adventure, Ubisoft Shanghai, Ubisoft
-God of War: Origins Collection, https://www.metacritic.com/game/god-of-war-origins-collection/, 2011, 84, 58, 8.8, 389, Compilation, Ready at Dawn, SCEA
-Top Spin 4, https://www.metacritic.com/game/top-spin-4/, 2011, 84, 54, 8.3, 106, Tennis, 2K Czech, 2K Sports
-Outland, https://www.metacritic.com/game/outland/, 2011, 84, 55, 7.4, 75, 2D Platformer, Housemarque, Ubisoft
-Football Manager 2012, https://www.metacritic.com/game/football-manager-2012/, 2011, 84, 45, 8.2, 210, Soccer Management, Sports Interactive, Sega
-Unity of Command, https://www.metacritic.com/game/unity-of-command/, 2011, 84, 7, 7.2, 75, Turn-Based Strategy, 2x2 Games, 2x2 Games
-Killzone 3, https://www.metacritic.com/game/killzone-3/, 2011, 84, 85, 8.1, 1,218, FPS, Guerrilla, SCEA
-Stacking, https://www.metacritic.com/game/stacking/, 2011, 84, 68, 8.0, 56, Third-Person Adventure, Double Fine Productions, THQ
-F1 2011, https://www.metacritic.com/game/f1-2011/, 2011, 84, 61, 7.3, 82, Auto Racing Sim, Codemasters, Codemasters
-Bulletstorm, https://www.metacritic.com/game/bulletstorm/, 2011, 84, 83, 7.6, 614, FPS, People Can Fly, Electronic Arts
-Pinball FX 2: Marvel Pinball - Vengeance and Virtue, https://www.metacritic.com/game/pinball-fx-2-marvel-pinball-vengeance-and-virtu/, 2011, 84, 7, 84, 7 C, Pinball, Zen Studios, Zen Studios
-Saints Row: The Third, https://www.metacritic.com/game/saints-row-the-third/, 2011, 84, 70, 7.6, 925, Open-World Action, Volition Inc., THQ
-The Binding of Isaac, https://www.metacritic.com/game/the-binding-of-isaac/, 2011, 84, 30, 8.2, 1,259, Top-Down Shoot-'Em-Up, Edmund McMillen, Edmund McMillen
-Trine 2, https://www.metacritic.com/game/trine-2/, 2011, 84, 55, 8.3, 826, 2D Platformer, Frozenbyte, Inc., Frozenbyte, Inc.
-Rift (2011), https://www.metacritic.com/game/rift-2011/, 2011, 84, 59, 7.3, 596, MMORPG, Trion Worlds, Trion Worlds
-Child of Eden, https://www.metacritic.com/game/child-of-eden/, 2011, 84, 81, 7.9, 99, Rail Shooter, Q Entertainment, Ubisoft
-Resident Evil 4 HD, https://www.metacritic.com/game/resident-evil-4-hd/, 2011, 84, 36, 8.5, 519, Survival, Capcom, Capcom
-Anno 2070, https://www.metacritic.com/game/anno-2070/, 2011, 83, 33, 7.2, 571, Management, Blue Byte, Ubisoft
-Ghost Trick: Phantom Detective, https://www.metacritic.com/game/ghost-trick-phantom-detective/, 2011, 83, 60, 7.9, 396, Adventure, Capcom, Capcom
-Guardian Heroes, https://www.metacritic.com/game/guardian-heroes/, 2011, 83, 32, 8.5, 31, Action RPG, Treasure, Sega
-Fallout: New Vegas - Old World Blues, https://www.metacritic.com/game/fallout-new-vegas-old-world-blues/, 2011, 83, 19, 8.0, 186, Western RPG, Obsidian Entertainment, Bethesda Softworks
-Resistance 3, https://www.metacritic.com/game/resistance-3/, 2011, 83, 91, 7.9, 743, FPS, Insomniac Games, SCEA
-inFamous 2, https://www.metacritic.com/game/infamous-2/, 2011, 83, 90, 8.6, 1,514, Open-World Action, Sucker Punch, SCEA
-Professor Layton and the Last Specter, https://www.metacritic.com/game/professor-layton-and-the-last-specter/, 2011, 83, 58, 8.2, 123, Point-and-Click, Level 5, Nintendo
-Kirby Mass Attack, https://www.metacritic.com/game/kirby-mass-attack/, 2011, 83, 46, 7.8, 108, 2D Platformer, HAL Labs, Nintendo
-VVVVVV, https://www.metacritic.com/game/vvvvvv/, 2011, 83, 19, 7.8, 134, Metroidvania, Terry Cavanagh, Nicalis
-Ms. 'Splosion Man, https://www.metacritic.com/game/ms-splosion-man/, 2011, 83, 62, 7.0, 36, 2D Platformer, Twisted Pixel Games, Twisted Pixel Games
-The Book of Unwritten Tales, https://www.metacritic.com/game/the-book-of-unwritten-tales/, 2011, 82, 32, 8.3, 170, Adventure, KING Art, The Adventure Company
-Cave Story 3D, https://www.metacritic.com/game/cave-story-3d/, 2011, 82, 29, 7.9, 78, Metroidvania, Nicalis, NIS America
-You Don't Know Jack (2011), https://www.metacritic.com/game/you-dont-know-jack-2011/, 2011, 82, 23, 7.9, 29, Trivia, Iron Galaxy Studios, THQ
-Shift 2: Unleashed, https://www.metacritic.com/game/shift-2-unleashed/, 2011, 82, 70, 6.7, 137, Auto Racing Sim, Slightly Mad Studios, Electronic Arts
-Iron Brigade, https://www.metacritic.com/game/iron-brigade/, 2011, 82, 43, 8.1, 82, Defense, Double Fine Productions, Microsoft Game Studios
-Gemini Rue: Verschworung auf Barracus, https://www.metacritic.com/game/gemini-rue-verschworung-auf-barracus/, 2011, 82, 24, 8.3, 234, Point-and-Click, Joshua Nuernberger, Wadjet Eye Games
-Sonic CD, https://www.metacritic.com/game/sonic-cd/, 2011, 82, 20, 7.9, 230, 2D Platformer, Sega, Sega
-NCAA Football 12, https://www.metacritic.com/game/ncaa-football-12/, 2011, 82, 25, 6.8, 62, Football Sim, EA Sports, EA Sports
-PixelJunk Shooter 2, https://www.metacritic.com/game/pixeljunk-shooter-2/, 2011, 82, 41, 7.8, 32, Top-Down Shoot-'Em-Up, Q-Games, SCEA
-Okamiden, https://www.metacritic.com/game/okamiden/, 2011, 82, 48, 8.2, 84, Action Adventure, Capcom, Capcom
-Flight Control HD, https://www.metacritic.com/game/flight-control-hd/, 2011, 82, 14, 5.2, 6, Action Puzzle, Firemint Pty Ltd, Firemint Pty Ltd
-Halo: Combat Evolved Anniversary, https://www.metacritic.com/game/halo-combat-evolved-anniversary/, 2011, 82, 73, 8.0, 795, FPS, 343 Industries, Microsoft Game Studios
-To the Moon, https://www.metacritic.com/game/to-the-moon/, 2011, 81, 26, 8.8, 1,757, Adventure, Freebird Games, Freebird Games
-Torchlight, https://www.metacritic.com/game/torchlight/, 2011, 81, 61, 7.6, 182, Action RPG, Runic Games, Microsoft Game Studios
-Renegade Ops, https://www.metacritic.com/game/renegade-ops/, 2011, 81, 36, 7.8, 24, Top-Down Shoot-'Em-Up, Avalanche Studios, Sega
-Where is My Heart?, https://www.metacritic.com/game/where-is-my-heart/, 2011, 81, 10, 7.9, 9, 2D Platformer, Die Gute Fabrik, Copenhagen Game Collective
-Mighty Milky Way, https://www.metacritic.com/game/mighty-milky-way/, 2011, 81, 10, 8.2, 13, Action Puzzle, WayForward, WayForward
-Toy Soldiers: Cold War, https://www.metacritic.com/game/toy-soldiers-cold-war/, 2011, 81, 46, 8.0, 101, Real-Time Strategy, Signal Studios, Microsoft Game Studios
-ilomilo, https://www.metacritic.com/game/ilomilo/, 2011, 81, 53, 8.3, 65, Action Puzzle, Southend Interactive, Microsoft Game Studios
-RAGE, https://www.metacritic.com/game/rage/, 2011, 81, 77, 6.8, 720, FPS, id Software, Bethesda Softworks
-Bit.Trip Flux, https://www.metacritic.com/game/bit-trip-flux/, 2011, 81, 15, 8.0, 8, Rhythm, Gaijin Games, Aksys Games
-Star Fox 64 3D, https://www.metacritic.com/game/star-fox-64-3d/, 2011, 81, 65, 8.0, 315, Rail Shooter, Q-Games, Nintendo
-The Dishwasher: Vampire Smile, https://www.metacritic.com/game/the-dishwasher-vampire-smile/, 2011, 81, 55, 8.3, 35, 2D Beat-'Em-Up, Ska Studios, Microsoft Game Studios
-escapeVektor: Chapter 1, https://www.metacritic.com/game/escapevektor-chapter-1/, 2011, 81, 7, 7.2, 5, Action Puzzle, Nnooo, Nnooo
-Jamestown: Legend of the Lost Colony, https://www.metacritic.com/game/jamestown-legend-of-the-lost-colony/, 2011, 81, 20, 7.4, 145, Vertical Shoot-'Em-Up, Final Form Games, LLC, Final Form Games, LLC
-Prince of Persia Trilogy, https://www.metacritic.com/game/prince-of-persia-trilogy/, 2011, 81, 21, 8.1, 100, Compilation, Ubisoft, Ubisoft
-TrackMania 2 Canyon, https://www.metacritic.com/game/trackmania-2-canyon/, 2011, 81, 37, 7.7, 119, Auto Racing, Nadeo, Ubisoft
-The 2D Adventures of Rotating Octopus Character, https://www.metacritic.com/game/the-2d-adventures-of-rotating-octopus-character/, 2011, 81, 7, 4.4, 5, 2D Platformer, Dakko Dakko, Dakko Dakko
-Anomaly: Warzone Earth, https://www.metacritic.com/game/anomaly-warzone-earth/, 2011, 80, 36, 7.2, 185, Real-Time Strategy, 11 bit studios, 11 bit studios
-Assassin's Creed: Revelations, https://www.metacritic.com/game/assassins-creed-revelations/, 2011, 80, 77, 7.6, 1,726, Open-World Action, Ubisoft Montreal, Ubisoft
-Driver: San Francisco, https://www.metacritic.com/game/driver-san-francisco/, 2011, 80, 63, 8.0, 280, Auto Racing, Ubisoft Reflections, Ubisoft
-From Dust, https://www.metacritic.com/game/from-dust/, 2011, 80, 76, 7.7, 101, Strategy, Ubisoft Montpellier, Ubisoft
-Disgaea 4: A Promise Unforgotten, https://www.metacritic.com/game/disgaea-4-a-promise-unforgotten/, 2011, 80, 39, 8.5, 122, Turn-Based Tactics, Nippon Ichi Software, NIS America
-Tetris (2009), https://www.metacritic.com/game/tetris-2009/, 2011, 80, 11, 7.2, 18, Stacking Puzzle, EA Mobile, Electronic Arts
-World of Tanks, https://www.metacritic.com/game/world-of-tanks/, 2011, 80, 38, 3.4, 2,395, Vehicle Combat Sim, Wargaming.net, Wargaming.net
-Warhammer 40,000: Dawn of War II - Retribution, https://www.metacritic.com/game/warhammer-40-000-dawn-of-war-ii-retribution/, 2011, 80, 52, 7.7, 291, Real-Time Strategy, Relic Entertainment, THQ
-Pro Evolution Soccer 2012, https://www.metacritic.com/game/pro-evolution-soccer-2012/, 2011, 80, 41, 6.9, 209, Soccer Sim, Konami, Konami
-Panzer Corps, https://www.metacritic.com/game/panzer-corps/, 2011, 80, 12, 8.0, 90, Turn-Based Tactics, The Lordz Games Studio, Slitherine
-Tiger Woods PGA Tour 12: The Masters, https://www.metacritic.com/game/tiger-woods-pga-tour-12-the-masters/, 2011, 80, 50, 6.1, 27, Golf Sim, Electronic Arts, Electronic Arts
-The King of Fighters XIII, https://www.metacritic.com/game/the-king-of-fighters-xiii/, 2011, 79, 31, 8.3, 97, 2D Fighting, SNK Playmore, Atlus
-Sesame Street: Once Upon a Monster, https://www.metacritic.com/game/sesame-street-once-upon-a-monster/, 2011, 79, 26, 7.3, 27, Third-Person Adventure, Double Fine Productions, Warner Bros. Interactive Entertainment
-Dead or Alive Dimensions, https://www.metacritic.com/game/dead-or-alive-dimensions/, 2011, 79, 62, 8.0, 149, 3D Fighting, Team Ninja, Tecmo Koei Games
-Puzzle Dimension, https://www.metacritic.com/game/puzzle-dimension/, 2011, 79, 23, 79, 23 C, Puzzle, Doctor Entertainment, Doctor Entertainment
-Runaway: A Twist of Fate, https://www.metacritic.com/game/runaway-a-twist-of-fate/, 2011, 79, 15, 8.3, 67, Point-and-Click, Pendulo Studios, Focus Home Interactive
-Bloodline Champions, https://www.metacritic.com/game/bloodline-champions/, 2011, 79, 13, 8.0, 95, MOBA, Stunlock Studios, Funcom
-Legends of War: Patton's Campaign, https://www.metacritic.com/game/legends-of-war-pattons-campaign/, 2011, 79, 8, 8.2, 18, Strategy, Enigma Software Productions, Enigma Software Productions
-The Legend of Heroes: Trails in the Sky, https://www.metacritic.com/game/the-legend-of-heroes-trails-in-the-sky/, 2011, 79, 22, 8.3, 189, JRPG, Falcom, XSEED Games
-Orcs Must Die!, https://www.metacritic.com/game/orcs-must-die/, 2011, 79, 37, 7.8, 95, Defense, Robot Entertainment, Robot Entertainment
-Dungeons of Dredmor, https://www.metacritic.com/game/dungeons-of-dredmor/, 2011, 79, 18, 7.6, 222, Roguelike, Gaslamp Games, Gaslamp Games
-Rochard, https://www.metacritic.com/game/rochard/, 2011, 79, 34, 4.6, 48, 2D Platformer, Recoil Games, Sony Online Entertainment
-Catherine, https://www.metacritic.com/game/catherine/, 2011, 79, 61, 8.2, 614, Survival, Atlus, Atlus
-Monster Tale, https://www.metacritic.com/game/monster-tale/, 2011, 79, 15, 7.9, 30, Metroidvania, DreamRift, Majesco
-Call of Duty: Black Ops - Escalation, https://www.metacritic.com/game/call-of-duty-black-ops-escalation/, 2011, 79, 19, 5.4, 83, Tactical FPS, Treyarch, Activision
-Dragon Age II, https://www.metacritic.com/game/dragon-age-ii/, 2011, 79, 75, 5.0, 2,889, Action RPG, BioWare, Electronic Arts
-The Sims 3: Pets, https://www.metacritic.com/game/the-sims-3-pets/, 2011, 79, 18, 6.3, 86, Virtual Life, The Sims Studio, Electronic Arts
-Mighty Switch Force!, https://www.metacritic.com/game/mighty-switch-force/, 2011, 79, 30, 7.8, 62, 2D Platformer, WayForward, WayForward
-Yakuza 4, https://www.metacritic.com/game/yakuza-4/, 2011, 78, 59, 8.3, 317, Open-World Action, Ryu ga Gotoku Studios, Sega
-Skylanders: Spyro's Adventure, https://www.metacritic.com/game/skylanders-spyros-adventure/, 2011, 78, 35, 6.9, 141, 3D Platformer, Toys for Bob, Activision
-Madden NFL 12, https://www.metacritic.com/game/madden-nfl-12/, 2011, 78, 55, 6.4, 124, Football Sim, EA Tiburon, EA Sports
-inFamous: Festival of Blood, https://www.metacritic.com/game/infamous-festival-of-blood/, 2011, 78, 32, 8.0, 216, Open-World Action, Sucker Punch, SCEA
-Dragon Quest VI: Realms of Revelation, https://www.metacritic.com/game/dragon-quest-vi-realms-of-revelation/, 2011, 78, 41, 7.9, 62, JRPG, ArtePiazza, Nintendo
-The Tomb Raider Trilogy, https://www.metacritic.com/game/the-tomb-raider-trilogy/, 2011, 78, 37, 8.3, 96, Compilation, Crystal Dynamics, Square Enix
-Super Street Fighter IV: Arcade Edition, https://www.metacritic.com/game/super-street-fighter-iv-arcade-edition/, 2011, 78, 32, 7.2, 67, 2D Fighting, Capcom, Capcom
-Two Worlds II: Pirates of the Flying Fortress, https://www.metacritic.com/game/two-worlds-ii-pirates-of-the-flying-fortress/, 2011, 78, 9, 7.3, 41, Action RPG, Reality Pump, TopWare Interactive
-Call of Duty: Black Ops - First Strike, https://www.metacritic.com/game/call-of-duty-black-ops-first-strike/, 2011, 78, 14, 6.5, 60, Tactical FPS, Treyarch, Activision
-Chime Super Deluxe, https://www.metacritic.com/game/chime-super-deluxe/, 2011, 78, 19, 8.0, 16, Stacking Puzzle, Zoe Mode, Zoe Mode
-Bangai-O HD: Missile Fury, https://www.metacritic.com/game/bangai-o-hd-missile-fury/, 2011, 78, 27, 7.6, 11, Vertical Shoot-'Em-Up, Treasure, D3Publisher
-Dissidia 012: Duodecim Final Fantasy, https://www.metacritic.com/game/dissidia-012-duodecim-final-fantasy/, 2011, 78, 52, 7.3, 201, 3D Fighting, Square Enix, Square Enix
-Shin Megami Tensei: Devil Survivor Overclocked, https://www.metacritic.com/game/shin-megami-tensei-devil-survivor-overclocked/, 2011, 78, 27, 8.0, 188, Turn-Based Tactics, Atlus, Atlus
-Ace Combat: Assault Horizon, https://www.metacritic.com/game/ace-combat-assault-horizon/, 2011, 78, 71, 6.1, 98, Aircraft Combat Sim, Project Aces , Namco Bandai Games
-El Shaddai: Ascension of the Metatron, https://www.metacritic.com/game/el-shaddai-ascension-of-the-metatron/, 2011, 78, 46, 7.6, 59, Action Adventure, Ignition Entertainment, Ignition Entertainment
-Tropico 4, https://www.metacritic.com/game/tropico-4/, 2011, 78, 46, 7.7, 445, Management, Haemimont Games, Kalypso
-Call of Duty: Black Ops - Annihilation, https://www.metacritic.com/game/call-of-duty-black-ops-annihilation/, 2011, 78, 17, 5.2, 57, Tactical FPS, Treyarch, Activision
-Tom Clancy's Ghost Recon: Shadow Wars, https://www.metacritic.com/game/tom-clancys-ghost-recon-shadow-wars/, 2011, 77, 49, 7.9, 84, Turn-Based Strategy, Ubisoft, Ubisoft
-Angry Birds, https://www.metacritic.com/game/angry-birds/, 2011, 77, 14, 5.4, 122, Action Puzzle, Abstraction Games, Chillingo
-Your Shape Fitness Evolved 2012, https://www.metacritic.com/game/your-shape-fitness-evolved-2012/, 2011, 77, 13, 7.5, 20, Exercise, Ubisoft, Ubisoft
-Final Fantasy IV: The Complete Collection, https://www.metacritic.com/game/final-fantasy-iv-the-complete-collection/, 2011, 77, 41, 7.7, 114, Compilation, Bullets, Square Enix
-Gears of War 3: RAAM's Shadow, https://www.metacritic.com/game/gears-of-war-3-raams-shadow/, 2011, 77, 32, 8.1, 79, Third Person Shooter, Epic Games, Microsoft Game Studios
-Men of War: Assault Squad, https://www.metacritic.com/game/men-of-war-assault-squad/, 2011, 77, 21, 8.0, 124, Real-Time Tactics, THQ, 1C Entertainment
-MotorStorm: Apocalypse, https://www.metacritic.com/game/motorstorm-apocalypse/, 2011, 77, 74, 7.9, 229, Auto Racing Sim, Evolution Studios, SCEA
-Sonic Generations, https://www.metacritic.com/game/sonic-generations/, 2011, 77, 49, 8.4, 966, 3D Platformer, Sonic Team, Sega
-Daytona USA (2011), https://www.metacritic.com/game/daytona-usa-2011/, 2011, 77, 27, 8.2, 24, Auto Racing, Sega AM2, Sega
-Kirby's Return to Dream Land, https://www.metacritic.com/game/kirbys-return-to-dream-land/, 2011, 77, 49, 8.8, 364, 2D Platformer, HAL Labs, Nintendo
-Kirby's Adventure, https://www.metacritic.com/game/kirbys-adventure/, 2011, 77, 7, 7.9, 97, 2D Platformer, Arika, Nintendo
-Dungeon Defenders, https://www.metacritic.com/game/dungeon-defenders/, 2011, 77, 38, 7.2, 75, Defense, Trendy Entertainment, Trendy Entertainment
-Fable III: Traitor's Keep Quest Pack, https://www.metacritic.com/game/fable-iii-traitors-keep-quest-pack/, 2011, 77, 13, 7.5, 23, Action RPG, Lionhead Studios, Microsoft Game Studios
-Rocksmith, https://www.metacritic.com/game/rocksmith/, 2011, 77, 30, 8.2, 66, Rhythm, Ubisoft, Ubisoft
-LEGO Harry Potter: Years 5-7, https://www.metacritic.com/game/lego-harry-potter-years-5-7/, 2011, 77, 35, 7.6, 194, Action Adventure, Traveller's Tales, Warner Bros. Interactive Entertainment
-Might & Magic: Heroes VI, https://www.metacritic.com/game/might-and-magic-heroes-vi/, 2011, 77, 48, 5.9, 726, Turn-Based Strategy, Black Hole Games, Ubisoft
-SkyDrift, https://www.metacritic.com/game/skydrift/, 2011, 77, 24, 8.0, 27, Arcade Racing, Digital Reality, Digital Reality
-The Gunstringer, https://www.metacritic.com/game/the-gunstringer/, 2011, 77, 60, 8.1, 47, Rail Shooter, Twisted Pixel Games, Twisted Pixel Games
-The Adventures of Shuggy, https://www.metacritic.com/game/the-adventures-of-shuggy/, 2011, 77, 25, 8.2, 11, Puzzle, Smudged Cat Games, Valcon Games
-Xenonauts, https://www.metacritic.com/game/xenonauts/, 2011, 77, 21, 7.8, 203, Strategy, Goldhawk Interactive, Goldhawk Interactive
-The Sims Medieval, https://www.metacritic.com/game/the-sims-medieval/, 2011, 77, 56, 6.1, 218, Virtual Life, The Sims Studio, Electronic Arts
-de Blob 2, https://www.metacritic.com/game/de-blob-2/, 2011, 77, 54, 7.1, 41, 3D Platformer, Blue Tongue Entertainment, THQ
-Full House Poker, https://www.metacritic.com/game/full-house-poker/, 2011, 77, 28, 6.8, 34, Gambling, Microsoft Game Studios, Microsoft Game Studios
-Dragon Quest Monsters: Joker 2, https://www.metacritic.com/game/dragon-quest-monsters-joker-2/, 2011, 77, 33, 8.1, 44, Trainer RPG, TOSE, Nintendo
-Insanely Twisted Shadow Planet, https://www.metacritic.com/game/insanely-twisted-shadow-planet/, 2011, 76, 76, 7.7, 45, Metroidvania, Shadow Planet Productions, Fuelcell Games
-Half-Minute Hero: Super Mega Neo Climax, https://www.metacritic.com/game/half-minute-hero-super-mega-neo-climax/, 2011, 76, 20, 8.2, 11, Action RPG, Opus, Microsoft Game Studios
-Shadows of the Damned, https://www.metacritic.com/game/shadows-of-the-damned/, 2011, 76, 76, 8.1, 203, Action Adventure, Grasshopper Manufacture, Electronic Arts
-Shift Extended, https://www.metacritic.com/game/shift-extended/, 2011, 76, 7, 7.9, 15, Action, Zallag, Zallag
-Solatorobo: Red the Hunter, https://www.metacritic.com/game/solatorobo-red-the-hunter/, 2011, 76, 40, 8.7, 52, Action RPG, CyberConnect2, XSEED Games
-Antipole (2011), https://www.metacritic.com/game/antipole-2011/, 2011, 76, 7, 76, 7 C, 2D Platformer, Saturnine Games, Saturnine Games
-Deus Ex: Human Revolution - The Missing Link, https://www.metacritic.com/game/deus-ex-human-revolution-the-missing-link/, 2011, 76, 18, 7.3, 36, Action Adventure, Eidos Montreal, Square Enix
-Tales From Space: About a Blob, https://www.metacritic.com/game/tales-from-space-about-a-blob/, 2011, 76, 24, 7.8, 18, 2D Platformer, DrinkBox Studios, DrinkBox Studios
-PixelJunk SideScroller, https://www.metacritic.com/game/pixeljunk-sidescroller/, 2011, 76, 33, 7.0, 23, Horizontal Shoot-'Em-Up, Q-Games, SCEA
-Section 8: Prejudice, https://www.metacritic.com/game/section-8-prejudice/, 2011, 76, 40, 7.7, 67, FPS, TimeGate Studios, TimeGate Studios
-Dragon Age II: Mark of the Assassin, https://www.metacritic.com/game/dragon-age-ii-mark-of-the-assassin/, 2011, 76, 13, 6.1, 60, Action RPG, BioWare, Electronic Arts
-Red Orchestra 2: Heroes of Stalingrad, https://www.metacritic.com/game/red-orchestra-2-heroes-of-stalingrad/, 2011, 76, 49, 7.3, 786, FPS, Tripwire Interactive, Tripwire Interactive
-Aliens: Infestation, https://www.metacritic.com/game/aliens-infestation/, 2011, 76, 43, 8.2, 44, 2D Platformer, WayForward, Sega
-Warhammer 40,000: Space Marine, https://www.metacritic.com/game/warhammer-40-000-space-marine/, 2011, 76, 57, 7.7, 450, Third Person Shooter, Relic Entertainment, THQ
-1000 Tiny Claws, https://www.metacritic.com/game/1000-tiny-claws/, 2011, 76, 8, 6.9, 9, Action, Mediatonic, Mediatonic
-Avadon: The Black Fortress, https://www.metacritic.com/game/avadon-the-black-fortress/, 2011, 75, 8, 7.7, 69, Western RPG, Spiderweb Software, Spiderweb Software
-Kenshi, https://www.metacritic.com/game/kenshi/, 2011, 75, 9, 8.5, 420, RPG, Lo-Fi Games, Lo-Fi Games
-Black Mirror III: Final Fear, https://www.metacritic.com/game/black-mirror-iii/, 2011, 75, 15, 7.7, 50, Third-Person Adventure, DTP Entertainment, Viva Media
-Bit.Trip Complete / THE BIT.TRIP, https://www.metacritic.com/game/bittrip-complete-the-bittrip/, 2011, 75, 21, 8.0, 31, Compilation, Gaijin Games, Aksys Games
-Back to the Future: The Game - Episode V: OUTATIME, https://www.metacritic.com/game/back-to-the-future-the-game-episode-v-outatime/, 2011, 75, 17, 7.2, 46, Third-Person Adventure, Telltale Games, Telltale Games
-F.E.A.R. 3, https://www.metacritic.com/game/f-e-a-r-3/, 2011, 75, 71, 6.6, 227, FPS, Day 1 Studios, Warner Bros. Interactive Entertainment
-Persona 2: Innocent Sin, https://www.metacritic.com/game/persona-2-innocent-sin/, 2011, 75, 25, 7.7, 216, JRPG, ITL, Atlus
-Atom Zombie Smasher, https://www.metacritic.com/game/atom-zombie-smasher/, 2011, 75, 7, 7.2, 114, Real-Time Strategy, Blendo Games, Blendo Games
-Inazuma Eleven Go: Shadow, https://www.metacritic.com/game/inazuma-eleven-go-dark/, 2011, 75, 14, 7.3, 64, Soccer, Level 5, Level 5
-WWE All Stars, https://www.metacritic.com/game/wwe-all-stars/, 2011, 75, 64, 7.5, 74, Wrestling, THQ, THQ
-Magic: The Gathering - Duels of the Planeswalkers 2012, https://www.metacritic.com/game/magic-the-gathering-duels-of-the-planeswalkers-2011-2/, 2011, 75, 24, 7.7, 27, Card Battle, Stainless Games, Wizards of the Coast
-The House of the Dead: Overkill - Extended Cut, https://www.metacritic.com/game/the-house-of-the-dead-overkill-extended-cut/, 2011, 75, 48, 7.6, 48, Light Gun, Headstrong Games, Sega
-Ridge Racer 3D, https://www.metacritic.com/game/ridge-racer-3d/, 2011, 75, 59, 7.3, 66, Auto Racing, Xeen, Namco Bandai Games
-Nano Assault, https://www.metacritic.com/game/nano-assault/, 2011, 75, 8, 7.5, 21, Top-Down Shoot-'Em-Up, Shin'en, Majesco
-Hard Corps: Uprising, https://www.metacritic.com/game/hard-corps-uprising/, 2011, 75, 47, 6.9, 28, 2D Platformer, Arc System Works, Konami
-The Next Big Thing, https://www.metacritic.com/game/the-next-big-thing/, 2011, 75, 30, 7.5, 53, Point-and-Click, Pendulo Studios, Focus Home Interactive
-Hector: Badge of Carnage - Episode 1: We Negotiate With Terrorists, https://www.metacritic.com/game/hector-badge-of-carnage-episode-1-we-negotiate/, 2011, 75, 23, 6.7, 33, Point-and-Click, Straandlooper, Telltale Games
-Assassin's Creed: Brotherhood - The Da Vinci Disappearance, https://www.metacritic.com/game/assassins-creed-brotherhood-the-da-vinci-disap/, 2011, 75, 13, 7.8, 44, Open-World Action, Ubisoft Montreal, Ubisoft
-Dead Nation: Road of Devastation, https://www.metacritic.com/game/dead-nation-road-of-devastation/, 2011, 75, 10, 7.0, 18, Top-Down Shoot-'Em-Up, Housemarque, SCEA
-LEGO Star Wars III: The Clone Wars, https://www.metacritic.com/game/lego-star-wars-iii-the-clone-wars/, 2011, 75, 43, 7.9, 267, Action Adventure, Traveller's Tales, LucasArts
-Pro Cycling Manager Season 2011: Le Tour de France, https://www.metacritic.com/game/pro-cycling-manager-season-2011-le-tour-de-france/, 2011, 74, 10, 74, 10 C, Biking, Cyanide, Focus Home Interactive
-ClaDun x2, https://www.metacritic.com/game/cladun-x2/, 2011, 74, 12, 8.4, 22, Action RPG, System Prisma, NIS America
-Back to the Future: The Game - Episode II: Get Tannen!, https://www.metacritic.com/game/back-to-the-future-the-game-episode-ii-get-tan/, 2011, 74, 21, 7.0, 49, Third-Person Adventure, Telltale Games, Telltale Games
-Inazuma Eleven Go: Light, https://www.metacritic.com/game/inazuma-eleven-go-shine/, 2011, 74, 19, 7.7, 55, Soccer, Level 5, Level 5
-Patapon 3, https://www.metacritic.com/game/patapon-3/, 2011, 74, 41, 7.5, 78, Rhythm, SCE Japan Studio, SCEA
-Edge (2011), https://www.metacritic.com/game/edge-2011/, 2011, 74, 12, 7.3, 61, 3D Platformer, Two Tribes, Two Tribes
-Tetris Axis, https://www.metacritic.com/game/tetris-axis/, 2011, 74, 33, 7.1, 36, Stacking Puzzle, Hudson Soft, Nintendo
-Space Pirates and Zombies, https://www.metacritic.com/game/space-pirates-and-zombies/, 2011, 74, 12, 7.6, 160, Adventure, MinMax Games Ltd., MinMax Games Ltd.
-99Bullets, https://www.metacritic.com/game/99bullets/, 2011, 74, 8, 74, 8 C, Vertical Shoot-'Em-Up, EnjoyUp Games, EnjoyUp Games
-Zoonies - Escape From Makatu, https://www.metacritic.com/game/zoonies-escape-from-makatu/, 2011, 74, 8, 74, 8 C, 2D Platformer, Kiloo, Kiloo
-Mercury Hg, https://www.metacritic.com/game/mercury-hg/, 2011, 74, 22, 7.6, 10, Puzzle, UTV Ignition Games, UTV Ignition Games
-Magicka, https://www.metacritic.com/game/magicka/, 2011, 74, 44, 7.5, 707, Linear Action Adventure, Arrowhead Game Studios, Paradox Interactive
-Galaga Legions DX, https://www.metacritic.com/game/galaga-legions-dx/, 2011, 74, 31, 5.8, 6, Vertical Shoot-'Em-Up, Namco Bandai Games, Namco Bandai Games
-Atelier Totori: The Adventurer of Arland, https://www.metacritic.com/game/atelier-totori-the-adventurer-of-arland/, 2011, 74, 19, 8.1, 95, JRPG, Gust, NIS America
-Gatling Gears, https://www.metacritic.com/game/gatling-gears/, 2011, 74, 40, 7.8, 24, Vertical Shoot-'Em-Up, Vanguard Games, Electronic Arts
-TrackMania: Build to Race, https://www.metacritic.com/game/trackmania-build-to-race/, 2011, 74, 17, 7.7, 11, Auto Racing, Firebrand Games, City Interactive
-Fortix 2, https://www.metacritic.com/game/fortix-2/, 2011, 74, 8, 6.8, 38, Action Puzzle, Nemesys, Nemesys
-Hamilton's Great Adventure, https://www.metacritic.com/game/hamiltons-great-adventure/, 2011, 74, 15, 5.8, 9, Adventure, Fatshark, Fatshark
-Rocketbirds: Hardboiled Chicken, https://www.metacritic.com/game/rocketbirds-hardboiled-chicken/, 2011, 74, 29, 6.6, 18, 2D Platformer, Ratloop Asia Pte Ltd, Ratloop Asia Pte Ltd
-LEGO Pirates of the Caribbean: The Video Game, https://www.metacritic.com/game/lego-pirates-of-the-caribbean-the-video-game/, 2011, 73, 54, 7.6, 182, Action Adventure, Traveller's Tales, Disney Interactive Studios
-Eufloria, https://www.metacritic.com/game/eufloria/, 2011, 73, 18, 7.1, 14, Strategy, Rudolf Kremers, Omni Systems Limited
-Sideway: New York, https://www.metacritic.com/game/sideway-new-york/, 2011, 73, 24, 6.9, 19, 2D Platformer, Playbrains, Sony Online Entertainment
-The Blackwell Deception, https://www.metacritic.com/game/the-blackwell-deception/, 2011, 73, 10, 7.2, 69, Adventure, Wadjet Eye Games, Wadjet Eye Games
-Hard Reset, https://www.metacritic.com/game/hard-reset/, 2011, 73, 49, 7.3, 389, FPS, Flying Wild Hog, Flying Wild Hog
-Rugby Challenge, https://www.metacritic.com/game/rugby-challenge/, 2011, 73, 14, 6.4, 9, Rugby, Sidhe Interactive, Mad Catz
-FAST - Racing League, https://www.metacritic.com/game/fast-racing-league/, 2011, 73, 11, 7.9, 19, Future Racing, Shin'en, Shin'en
-Kinect: Disneyland Adventures, https://www.metacritic.com/game/kinect-disneyland-adventures/, 2011, 73, 33, 4.2, 61, Action Adventure, Frontier Developments, Microsoft Game Studios
-Crimson Alliance, https://www.metacritic.com/game/crimson-alliance/, 2011, 72, 51, 7.1, 38, Action Adventure, Certain Affinity, Certain Affinity
-Rock of Ages, https://www.metacritic.com/game/rock-of-ages/, 2011, 72, 42, 7.9, 39, Action, ACE Team, Atlus
-Solar 2, https://www.metacritic.com/game/solar-2/, 2011, 72, 8, 6.9, 78, Sandbox, Murudai, Murudai
-No More Heroes: Heroes Paradise, https://www.metacritic.com/game/no-more-heroes-heroes-paradise/, 2011, 72, 38, 7.5, 60, 3D Beat-'Em-Up, FeelPlus, Konami
-Serious Sam 3: BFE, https://www.metacritic.com/game/serious-sam-3-bfe/, 2011, 72, 53, 7.9, 856, FPS, Croteam, Devolver Digital
-Blocks That Matter, https://www.metacritic.com/game/blocks-that-matter/, 2011, 72, 8, 7.1, 61, 2D Platformer, Swing Swing Submarine, Swing Swing Submarine
-Disney/Pixar Cars 2, https://www.metacritic.com/game/cars-2-the-video-game/, 2011, 72, 35, 7.2, 95, Auto Racing, Avalanche Software, Disney Interactive Studios
-Dungeon Siege III, https://www.metacritic.com/game/dungeon-siege-iii/, 2011, 72, 55, 6.0, 122, Action RPG, Obsidian Entertainment, Square Enix
-Go! Go! Kokopolo, https://www.metacritic.com/game/go-go-kokopolo/, 2011, 72, 7, 72, 7 C, 2D Platformer, Tanukii Studios, Room 4 Games Limited
-Gray Matter, https://www.metacritic.com/game/gray-matter/, 2011, 72, 27, 7.7, 110, Point-and-Click, Wizarbox, Viva Media
-GoldenEye 007: Reloaded, https://www.metacritic.com/game/goldeneye-007-reloaded/, 2011, 72, 56, 6.1, 126, FPS, Eurocom, Activision
-Dead Rising 2: Off the Record, https://www.metacritic.com/game/dead-rising-2-off-the-record/, 2011, 72, 48, 7.7, 95, Open-World Action, Capcom Vancouver, Capcom
-FIFA Manager 12, https://www.metacritic.com/game/fifa-manager-12/, 2011, 72, 11, 4.7, 35, Soccer Management, Bright Future GmbH, Electronic Arts
-Divinity II: The Dragon Knight Saga, https://www.metacritic.com/game/divinity-ii-the-dragon-knight-saga/, 2011, 72, 13, 7.8, 72, Action RPG, Larian Studios Games, Atlus
-DodoGo! Robo, https://www.metacritic.com/game/dodogo-robo/, 2011, 72, 7, 72, 7 C, 2D Platformer, Alien After All, Neko Entertainment
-Nintendogs + Cats: French Bulldog & New Friends, https://www.metacritic.com/game/nintendogs-cats-french-bulldog-and-new-friend/, 2011, 71, 40, 7.3, 26, Virtual Pet, Nintendo, Nintendo
-Red Faction: Armageddon, https://www.metacritic.com/game/red-faction-armageddon/, 2011, 71, 74, 6.9, 115, Third Person Shooter, Volition Inc., THQ
-Back to the Future: The Game - Episode III: Citizen Brown, https://www.metacritic.com/game/back-to-the-future-the-game-episode-iii-citize/, 2011, 71, 23, 6.0, 37, Third-Person Adventure, Telltale Games, Telltale Games
-Nintendogs + Cats: Toy Poodle & New Friends, https://www.metacritic.com/game/nintendogs-cats-toy-poodle-and-new-friends/, 2011, 71, 43, 7.4, 21, Virtual Pet, Nintendo, Nintendo
-WWE '12, https://www.metacritic.com/game/wwe-12/, 2011, 71, 52, 6.6, 140, Wrestling, Yuke's, THQ
-Nintendogs + Cats: Golden Retriever & New Friends, https://www.metacritic.com/game/nintendogs-cats-golden-retriever-and-new-frie/, 2011, 71, 42, 7.3, 62, Virtual Pet, Nintendo, Nintendo
-Dead Island, https://www.metacritic.com/game/dead-island/, 2011, 71, 75, 6.9, 918, Survival, Techland, Deep Silver
-Boulder Dash-XL, https://www.metacritic.com/game/boulder-dash-xl/, 2011, 71, 21, 71, 21 C, Action Puzzle, Catnip Games, Kalypso
-Zeit Squared, https://www.metacritic.com/game/zeit-squared/, 2011, 71, 20, 5.8, 4, Vertical Shoot-'Em-Up, Brightside Games, Ubisoft
-Corpse Party, https://www.metacritic.com/game/corpse-party/, 2011, 71, 18, 8.4, 106, Survival, Team GrisGris, XSEED Games
-Stacking: The Lost Hobo King, https://www.metacritic.com/game/stacking-the-lost-hobo-king/, 2011, 71, 7, 8.7, 6, Third-Person Adventure, Double Fine Productions, THQ
-Nuclear Dawn, https://www.metacritic.com/game/nuclear-dawn/, 2011, 71, 25, 7.5, 130, FPS, Interwave Studios, Viva Media
-Ace Combat: Assault Horizon Legacy, https://www.metacritic.com/game/ace-combat-assault-horizon-legacy/, 2011, 71, 37, 7.4, 34, Aircraft Combat Sim, Project Aces , Namco Bandai Games
-Black Mirror II: Reigning Evil, https://www.metacritic.com/game/black-mirror-ii-reigning-evil/, 2011, 71, 14, 7.7, 72, Third-Person Adventure, Cranberry Studios, Viva Media
-Gods Eater Burst, https://www.metacritic.com/game/gods-eater-burst/, 2011, 71, 30, 8.0, 43, Action RPG, Shift, D3Publisher
-Pilotwings Resort, https://www.metacritic.com/game/pilotwings-resort/, 2011, 71, 64, 7.1, 116, Aircraft Sim, Monster Games Inc., Nintendo
-Fruit Ninja Kinect, https://www.metacritic.com/game/fruit-ninja-kinect/, 2011, 71, 44, 6.4, 42, Arcade, Halfbrick Studios, Microsoft Game Studios
-The 3rd Birthday, https://www.metacritic.com/game/the-3rd-birthday/, 2011, 71, 56, 6.3, 174, Third Person Shooter, HexaDrive, Square Enix
-Back to the Future: The Game - Episode IV: Double Visions, https://www.metacritic.com/game/back-to-the-future-the-game-episode-iv-double/, 2011, 71, 17, 6.1, 36, Third-Person Adventure, Telltale Games, Telltale Games
-Hector: Badge of Carnage - Episode 3: Beyond Reasonable Doom, https://www.metacritic.com/game/hector-badge-of-carnage-episode-3-beyond-reaso/, 2011, 70, 11, 6.5, 15, Point-and-Click, Straandlooper, Telltale Games
-The Sims 3: Pets (2011), https://www.metacritic.com/game/the-sims-3-pets-2011/, 2011, 70, 26, 4.2, 29, Virtual Life, The Sims Studio, Electronic Arts
-Age of Empires Online, https://www.metacritic.com/game/age-of-empires-online/, 2011, 70, 44, 5.7, 194, Command RTS, Gas Powered Games, Microsoft Game Studios
-Sanctum (2011), https://www.metacritic.com/game/sanctum-2011/, 2011, 70, 22, 6.7, 248, FPS, Coffee Stain Studios, Coffee Stain Studios
-Payday: The Heist, https://www.metacritic.com/game/payday-the-heist/, 2011, 70, 30, 6.5, 137, FPS, Overkill Software, Sony Online Entertainment
-Take On Helicopters, https://www.metacritic.com/game/take-on-helicopters/, 2011, 70, 10, 6.6, 30, Aircraft Sim, Bohemia Interactive, Bohemia Interactive
-SEGA Rally Online Arcade, https://www.metacritic.com/game/sega-rally-online-arcade/, 2011, 70, 32, 5.5, 8, Auto Racing, Sumo Digital, Sega
-Ratchet & Clank: All 4 One, https://www.metacritic.com/game/ratchet-and-clank-all-4-one/, 2011, 70, 65, 6.7, 282, 3D Platformer, Insomniac Games, SCEA
-Just Dance 3, https://www.metacritic.com/game/just-dance-3/, 2011, 70, 34, 7.8, 28, Dancing, Ubisoft, Ubisoft
-Cities in Motion, https://www.metacritic.com/game/cities-in-motion/, 2011, 70, 20, 7.6, 119, Management, Colossal Order, Paradox Interactive
-The Sims 3: Generations, https://www.metacritic.com/game/the-sims-3-generations/, 2011, 70, 22, 4.0, 95, Virtual Life, The Sims Studio, EA Games
-The Kore Gang, https://www.metacritic.com/game/the-kore-gang/, 2011, 70, 10, 8.4, 8, Action Adventure, Snap Dragon Games, Atari SA
-Cubixx HD, https://www.metacritic.com/game/cubixx-hd/, 2011, 70, 15, 6.4, 12, Puzzle, Laughing Jackal, Laughing Jackal
-Call of Duty: Black Ops - Rezurrection, https://www.metacritic.com/game/call-of-duty-black-ops-rezurrection/, 2011, 70, 7, 4.9, 46, Tactical FPS, Treyarch, Activision
-Alice: Madness Returns, https://www.metacritic.com/game/alice-madness-returns/, 2011, 70, 67, 8.2, 442, 3D Platformer, Spicy Horse, Electronic Arts
-Homefront, https://www.metacritic.com/game/homefront/, 2011, 70, 85, 6.1, 502, FPS, Kaos Studios, THQ
-Before the Echo, https://www.metacritic.com/game/before-the-echo/, 2011, 70, 7, 7.3, 66, Rhythm, Iridium Studios, Iridium Studios
-UFC Personal Trainer: The Ultimate Fitness System, https://www.metacritic.com/game/ufc-personal-trainer-the-ultimate-fitness-system/, 2011, 70, 36, 6.5, 17, Exercise, Heavy Iron Studios, THQ
-Pride of Nations, https://www.metacritic.com/game/pride-of-nations/, 2011, 70, 14, 5.3, 18, Turn-Based Strategy, AGEOD, Paradox Interactive
-Fate of the World, https://www.metacritic.com/game/fate-of-the-world/, 2011, 70, 11, 7.5, 40, Strategy, Red Redemption, Red Redemption
-L.A. Noire: Nicholson Electroplating Disaster, https://www.metacritic.com/game/l-a-noire-nicholson-electroplating-disaster/, 2011, 70, 7, 8.3, 8, Open-World Action, Team Bondi, Rockstar Games
-Sengoku, https://www.metacritic.com/game/sengoku/, 2011, 70, 13, 6.6, 91, Real-Time Strategy, Paradox Development Studio, Paradox Interactive
-Scene It? Movie Night, https://www.metacritic.com/game/scene-it-movie-night/, 2011, 70, 7, 70, 7 C, Trivia, Sarbakan Inc., Screenlife Games
-Fusion: Genesis, https://www.metacritic.com/game/fusion-genesis/, 2011, 69, 17, 8.0, 9, Top-Down Shoot-'Em-Up, Starfire Studios, Microsoft Game Studios
-Under Siege (2011), https://www.metacritic.com/game/under-siege-2011/, 2011, 69, 17, 8.3, 27, Real-Time Strategy, Seed Studios, Lda, Seed Studios, Lda
-Trouble Witches Neo!, https://www.metacritic.com/game/trouble-witches-neo/, 2011, 69, 8, 7.0, 10, Horizontal Shoot-'Em-Up, Adventure Planning Service, SNK Playmore
-Shinobi (2011), https://www.metacritic.com/game/shinobi-2011/, 2011, 69, 33, 7.3, 45, 2D Platformer, Griptonite Games, Sega
-Q.U.B.E., https://www.metacritic.com/game/q-u-b-e/, 2011, 69, 26, 7.4, 149, Action Puzzle, Toxic Games, Toxic Games
-Operation Flashpoint: Red River, https://www.metacritic.com/game/operation-flashpoint-red-river/, 2011, 69, 64, 5.9, 38, FPS, Codemasters, Codemasters
-Swarm (2011), https://www.metacritic.com/game/swarm-2011/, 2011, 69, 41, 7.6, 5, Miscellaneous, Hothead Games, Ignition Entertainment
-Akimi Village, https://www.metacritic.com/game/akimi-village/, 2011, 69, 12, 4.2, 6, Miscellaneous, NinjaBee, Sony Online Entertainment
-Forsaken World, https://www.metacritic.com/game/forsaken-world/, 2011, 69, 7, 5.3, 91, MMORPG, Perfect World Entertainment, Perfect World Entertainment
-Runespell: Overture, https://www.metacritic.com/game/runespell-overture/, 2011, 69, 14, 6.6, 33, RPG, Mystic Box, Mystic Box
-Virtua Tennis 4, https://www.metacritic.com/game/virtua-tennis-4/, 2011, 69, 49, 6.7, 43, Tennis, Sega, Sega
-Major League Baseball 2K11, https://www.metacritic.com/game/major-league-baseball-2k11/, 2011, 69, 27, 6.9, 25, Baseball Sim, Visual Concepts, 2K Sports
-Fishing Resort, https://www.metacritic.com/game/fishing-resort/, 2011, 69, 9, 8.3, 14, Fishing, Prope, XSEED Games
-Prinny 2: Dawn of Operation Panties, Dood!, https://www.metacritic.com/game/prinny-2-dawn-of-operation-panties-dood/, 2011, 68, 31, 7.9, 33, 2D Platformer, Nippon Ichi Software, NIS America
-Fossil Fighters: Champions, https://www.metacritic.com/game/fossil-fighters-champions/, 2011, 68, 8, 8.0, 24, Trainer RPG, Artdink, Nintendo
-Brink, https://www.metacritic.com/game/brink/, 2011, 68, 85, 5.8, 432, FPS, Splash Damage, Bethesda Softworks
-MotoGP 10/11, https://www.metacritic.com/game/motogp-10-11/, 2011, 68, 32, 6.7, 25, Auto Racing Sim, Monumental Games, Capcom
-Freakyforms: Your Creations, Alive!, https://www.metacritic.com/game/freakyforms-your-creations-alive/, 2011, 68, 10, 7.7, 15, Miscellaneous, Asobism, Nintendo
-Lost in Shadow, https://www.metacritic.com/game/lost-in-shadow/, 2011, 68, 38, 8.7, 28, 2D Platformer, Hudson Soft, Hudson Soft
-Test Drive Unlimited 2, https://www.metacritic.com/game/test-drive-unlimited-2/, 2011, 68, 61, 6.9, 132, Auto Racing Sim, Eden Studios, Atari SA
-Arcana Heart 3, https://www.metacritic.com/game/arcana-heart-3/, 2011, 68, 13, 68, 13 C, 2D Fighting, Examu, Aksys Games
-Bejeweled Blitz Live, https://www.metacritic.com/game/bejeweled-blitz-live/, 2011, 68, 18, 7.5, 10, Matching Puzzle, Torpex Games LLC, PopCap
-Fortune Street, https://www.metacritic.com/game/fortune-street/, 2011, 68, 42, 7.2, 43, Board, Marvelous AQL, Nintendo
-BloodRayne: Betrayal, https://www.metacritic.com/game/bloodrayne-betrayal/, 2011, 68, 35, 7.3, 29, 2D Platformer, WayForward, Majesco
-Rango (2011), https://www.metacritic.com/game/rango-2011/, 2011, 68, 25, 8.2, 21, Action Adventure, Behaviour Interactive, Paramount Digital Entertainment
-Earth Defense Force: Insect Armageddon, https://www.metacritic.com/game/earth-defense-force-insect-armageddon/, 2011, 68, 40, 7.8, 53, Third Person Shooter, Vicious Cycle, D3Publisher
-Need for Speed: The Run, https://www.metacritic.com/game/need-for-speed-the-run/, 2011, 68, 65, 6.8, 323, Auto Racing Sim, EA Black Box, Electronic Arts
-TwinBee, https://www.metacritic.com/game/twinbee/, 2011, 68, 7, 7.3, 11, Vertical Shoot-'Em-Up, Arika, Nintendo
-Mount & Blade: With Fire & Sword, https://www.metacritic.com/game/mount-and-blade-with-fire-and-sword/, 2011, 68, 24, 6.9, 298, Western RPG, Taleworlds Entertainment, Paradox Interactive
-Men of War: Vietnam, https://www.metacritic.com/game/men-of-war-vietnam/, 2011, 68, 19, 5.4, 51, Real-Time Tactics, Best Way, 1C Entertainment
-WRC: FIA World Rally Championship, https://www.metacritic.com/game/wrc-fia-world-rally-championship/, 2011, 68, 24, 5.5, 12, Auto Racing Sim, Milestone S.r.l, CyberFront
-Battlefield: Play4Free, https://www.metacritic.com/game/battlefield-play4free/, 2011, 68, 11, 2.0, 207, Tactical FPS, EA DICE, Electronic Arts
-Nin2-Jump, https://www.metacritic.com/game/nin2-jump/, 2011, 67, 12, 7.8, 5, 2D Platformer, Cave, Cave
-The Fancy Pants Adventures, https://www.metacritic.com/game/the-fancy-pants-adventures/, 2011, 67, 26, 7.8, 16, 2D Platformer, Over the Top Games, Electronic Arts
-Tom Clancy's Splinter Cell Classic Trilogy HD, https://www.metacritic.com/game/tom-clancys-splinter-cell-classic-trilogy-hd/, 2011, 67, 21, 6.9, 42, Compilation, Ubisoft, Ubisoft
-Oil Rush, https://www.metacritic.com/game/oilrush/, 2011, 67, 23, 6.4, 59, Real-Time Strategy, Unigine Corp, Russia, Unigine Corp, Russia
-SOCOM 4: U.S. Navy SEALs, https://www.metacritic.com/game/socom-4-u-s-navy-seals/, 2011, 67, 64, 6.4, 141, Third Person Shooter, Zipper Interactive, SCEA
-Modern Combat: Domination, https://www.metacritic.com/game/modern-combat-domination/, 2011, 67, 13, 6.7, 35, Tactical FPS, Gameloft, Gameloft
-Railworks 3: Train Simulator 2012, https://www.metacritic.com/game/railworks-3-train-simulator-2012/, 2011, 67, 9, 6.8, 52, Train Sim, RailSimulator.com, RailSimulator.com
-The Sims Medieval: Pirates & Nobles, https://www.metacritic.com/game/the-sims-medieval-pirates-and-nobles/, 2011, 67, 13, 4.9, 28, Virtual Life, The Sims Studio, Electronic Arts
-Resident Evil Code: Veronica X, https://www.metacritic.com/game/resident-evil-code-veronica-x/, 2011, 67, 28, 8.1, 178, Survival, Capcom, Capcom
-Mahjong Cub3d, https://www.metacritic.com/game/mahjong-cub3d/, 2011, 67, 11, 4.2, 5, Matching Puzzle, SunSoft, Atlus
-Warhammer 40,000: Kill Team, https://www.metacritic.com/game/warhammer-40-000-kill-team/, 2011, 67, 45, 6.8, 36, Third Person Shooter, THQ Warrington, THQ
-Red Johnson's Chronicles, https://www.metacritic.com/game/red-johnsons-chronicles/, 2011, 67, 12, 5.2, 5, Point-and-Click, Lexis Numerique, Lexis Numerique
-DC Universe Online, https://www.metacritic.com/game/dc-universe-online/, 2011, 67, 46, 7.2, 170, MMORPG, WBIE, Sony Online Entertainment
-Two Worlds II, https://www.metacritic.com/game/two-worlds-ii/, 2011, 67, 50, 6.5, 164, Action RPG, Reality Pump, SouthPeak Games
-Mario & Sonic at the London 2012 Olympic Games, https://www.metacritic.com/game/mario-and-sonic-at-the-london-2012-olympic-games/, 2011, 66, 38, 7.9, 138, Athletics, Sega Sports R&D, Sega
-Back to the Future: The Game, https://www.metacritic.com/game/back-to-the-future-the-game/, 2011, 66, 7, 5.5, 20, Third-Person Adventure, Iron Galaxy Studios, Telltale Games
-Kinect Sports: Season Two, https://www.metacritic.com/game/kinect-sports-season-two/, 2011, 66, 46, 7.1, 57, Sports, Rare Ltd., Microsoft Game Studios
-Fantastic Pets, https://www.metacritic.com/game/fantastic-pets/, 2011, 66, 11, 7.5, 4, Virtual Pet, Blitz Games Studios, THQ
-Backbreaker: Vengeance, https://www.metacritic.com/game/backbreaker-vengeance/, 2011, 66, 19, 5.5, 10, Football, NaturalMotion, 505 Games
-L.A. Noire: Reefer Madness, https://www.metacritic.com/game/l-a-noire-reefer-madness/, 2011, 66, 7, 7.8, 8, Open-World Action, Team Bondi, Rockstar Games
-Strania, https://www.metacritic.com/game/strania/, 2011, 66, 13, 66, 13 C, Vertical Shoot-'Em-Up, G.Rev, G.Rev
-Slam Bolt Scrappers, https://www.metacritic.com/game/slam-bolt-scrappers/, 2011, 66, 21, 7.8, 8, Action Puzzle, Fire Hose Games, Sony Online Entertainment
-Disney Universe, https://www.metacritic.com/game/disney-universe/, 2011, 66, 31, 6.7, 35, Action Adventure, Eurocom, Disney Interactive Studios
-Carnival Island, https://www.metacritic.com/game/carnival-island/, 2011, 66, 25, 6.4, 8, Party, Magic Pixel Games, SCEA
-Rotastic, https://www.metacritic.com/game/rotastic/, 2011, 66, 18, 66, 18 C, Puzzle, Dancing Dots, Focus Home Interactive
-Burnout Crash!, https://www.metacritic.com/game/burnout-crash/, 2011, 66, 49, 6.5, 25, Arcade, Criterion Games, Electronic Arts
-The Black Eyed Peas Experience, https://www.metacritic.com/game/the-black-eyed-peas-experience/, 2011, 66, 17, 7.0, 8, Rhythm, iNiS, Ubisoft
-Kingdom Hearts Re:coded, https://www.metacritic.com/game/kingdom-hearts-re-coded/, 2011, 66, 58, 6.5, 184, Action RPG, Square Enix, Square Enix
-Dungeons, https://www.metacritic.com/game/dungeons/, 2011, 65, 35, 4.6, 113, Strategy, Realmforge Studios, Kalypso
-Mass Effect 2: Arrival, https://www.metacritic.com/game/mass-effect-2-arrival/, 2011, 65, 24, 6.1, 131, Western RPG, BioWare, EA Games
-Dynasty Warriors: Gundam 3, https://www.metacritic.com/game/dynasty-warriors-gundam-3/, 2011, 65, 27, 7.6, 28, 3D Beat-'Em-Up, Omega Force, Namco Bandai Games
-Darkspore, https://www.metacritic.com/game/darkspore/, 2011, 65, 52, 6.0, 140, Action RPG, Maxis, Electronic Arts
-Explodemon, https://www.metacritic.com/game/explodemon/, 2011, 65, 20, 7.7, 7, 2D Platformer, Curve Studios, Curve Studios
-Tekken Hybrid, https://www.metacritic.com/game/tekken-hybrid/, 2011, 65, 51, 6.6, 44, 3D Fighting, Namco Bandai Games, Namco Bandai Games
-Mystery Case Files: The Malgrave Incident, https://www.metacritic.com/game/mystery-case-files-the-malgrave-incident/, 2011, 65, 26, 7.8, 8, Hidden Object, Sanzaru Games, Nintendo
-Resident Evil: The Mercenaries 3D, https://www.metacritic.com/game/resident-evil-the-mercenaries-3d/, 2011, 65, 69, 6.6, 146, Tactical Third Person Shooter, Capcom, Capcom
-EyePet & Friends, https://www.metacritic.com/game/eyepet-and-friends/, 2011, 65, 12, 5.2, 9, Virtual Life, SCEE London Studio, SCEA
-Hoard (2011), https://www.metacritic.com/game/hoard/, 2011, 65, 19, 6.9, 45, Real-Time Strategy, Big Sandwich Games, Inc., Big Sandwich Games, Inc.
-Go Vacation, https://www.metacritic.com/game/go-vacation/, 2011, 64, 28, 8.1, 56, Party, Namco Bandai Games, Namco Bandai Games
-Conduit 2, https://www.metacritic.com/game/conduit-2/, 2011, 64, 51, 7.7, 70, FPS, High Voltage Software, Sega
-Fallout: New Vegas - Honest Hearts, https://www.metacritic.com/game/fallout-new-vegas-honest-hearts/, 2011, 64, 19, 7.1, 147, Western RPG, Obsidian Entertainment, Bethesda Softworks
-Cargo! The Quest for Gravity, https://www.metacritic.com/game/cargo-the-quest-for-gravity/, 2011, 64, 18, 6.5, 33, Action Adventure, Ice-Pick Lodge, bitComposer
-StarDrone, https://www.metacritic.com/game/stardrone/, 2011, 64, 15, 4.4, 7, Arcade, Beatshapers, Beatshapers
-Dynasty Warriors 7: Xtreme Legends, https://www.metacritic.com/game/dynasty-warriors-7-xtreme-legends/, 2011, 64, 11, 6.8, 20, 3D Beat-'Em-Up, Omega Force, Koei Tecmo Games
-TNT Racers, https://www.metacritic.com/game/tnt-racers/, 2011, 64, 10, 8.0, 4, Auto Racing, Keen Games, DTP Entertainment
-Mario Sports Mix, https://www.metacritic.com/game/mario-sports-mix/, 2011, 64, 54, 8.0, 103, Sports, Square Enix, Nintendo
-Serious Sam: The Random Encounter, https://www.metacritic.com/game/serious-sam-the-random-encounter/, 2011, 64, 11, 6.1, 42, JRPG, Vlambeer, Devolver Digital
-Dragon Age II: Legacy, https://www.metacritic.com/game/dragon-age-ii-legacy/, 2011, 64, 17, 5.7, 90, Action RPG, BioWare, Electronic Arts
-BlazBlue: Continuum Shift II, https://www.metacritic.com/game/blazblue-continuum-shift-ii/, 2011, 64, 14, 6.6, 24, 2D Fighting, Arc System Works, Aksys Games
-The Baconing, https://www.metacritic.com/game/the-baconing/, 2011, 64, 37, 5.4, 8, Action RPG, Hothead Games, Valcon Games
-Hydrophobia: Prophecy, https://www.metacritic.com/game/hydrophobia-prophecy/, 2011, 64, 18, 5.9, 158, Survival, Dark Energy Digital, Dark Energy Digital
-The Adventures of Tintin: The Game, https://www.metacritic.com/game/the-adventures-of-tintin-the-game/, 2011, 63, 35, 7.4, 25, Adventure, Ubisoft Montpellier, Ubisoft
-Supreme Ruler: Cold War, https://www.metacritic.com/game/supreme-ruler-cold-war/, 2011, 63, 12, 6.5, 29, Turn-Based Strategy, BattleGoat Studios, Paradox Interactive
-Beat Hazard Ultra, https://www.metacritic.com/game/beat-hazard-ultra/, 2011, 63, 7, 6.8, 15, Top-Down Shoot-'Em-Up, Cold Beam Games, Cold Beam Games
-Harvest Moon: The Tale of Two Towns, https://www.metacritic.com/game/harvest-moon-the-tale-of-two-towns/, 2011, 63, 14, 6.4, 38, Tycoon, Marvelous Entertainment, Natsume
-Fallout: New Vegas - Lonesome Road, https://www.metacritic.com/game/fallout-new-vegas-lonesome-road/, 2011, 63, 16, 7.8, 104, Western RPG, Obsidian Entertainment, Bethesda Softworks
-Puzzle Agent 2, https://www.metacritic.com/game/puzzle-agent-2/, 2011, 63, 22, 6.6, 53, Puzzle, Telltale Games, Telltale Games
-Phineas and Ferb: Across the 2nd Dimension, https://www.metacritic.com/game/phineas-and-ferb-across-the-2nd-dimension/, 2011, 63, 13, 7.6, 33, Action Adventure, High Impact Games, Disney Interactive Studios
-MX vs. ATV Alive, https://www.metacritic.com/game/mx-vs-atv-alive/, 2011, 63, 43, 6.8, 32, Arcade Racing, THQ Digital Studio Phoenix, THQ
-The Tiny Bang Story, https://www.metacritic.com/game/the-tiny-bang-story/, 2011, 63, 12, 7.0, 78, Point-and-Click, Colibri Games, Colibri Games
-Islands of Wakfu, https://www.metacritic.com/game/islands-of-wakfu/, 2011, 62, 27, 7.3, 13, Action Adventure, Ankama Games, Microsoft Game Studios
-Let's Golf 3D, https://www.metacritic.com/game/lets-golf-3d/, 2011, 62, 11, 6.4, 9, Golf, Gameloft, Gameloft
-Zombie Apocalypse: Never Die Alone, https://www.metacritic.com/game/zombie-apocalypse-never-die-alone/, 2011, 62, 15, 4.9, 9, Top-Down Shoot-'Em-Up, Backbone Entertainment, Konami
-Chantelise: A Tale of Two Sisters, https://www.metacritic.com/game/chantelise-a-tale-of-two-sisters/, 2011, 62, 13, 6.6, 38, Action RPG, EasyGameStation, Carpe Fulgur
-Bionic Commando Rearmed 2, https://www.metacritic.com/game/bionic-commando-rearmed-2/, 2011, 62, 42, 5.7, 19, 2D Platformer, Fatshark, Capcom
-Mortal Kombat Arcade Kollection, https://www.metacritic.com/game/mortal-kombat-arcade-kollection/, 2011, 62, 19, 6.9, 46, Compilation, Other Ocean Interactive, Warner Bros. Interactive Entertainment
-Armageddon Riders, https://www.metacritic.com/game/armageddon-riders/, 2011, 62, 12, 5.9, 14, Auto Racing, Targem Games, Targem Games
-Gabrielle's Ghostly Groove 3D, https://www.metacritic.com/game/gabrielles-ghostly-groove-3d/, 2011, 62, 9, 7.5, 10, Rhythm, Santa Entertainment, Natsume
-NASCAR 2011: The Game, https://www.metacritic.com/game/nascar-2011-the-game/, 2011, 62, 24, 4.3, 15, Auto Racing Sim, Eutechnyx, Activision
-Saint Seiya: Sanctuary Battle, https://www.metacritic.com/game/saint-seiya-sanctuary-battle/, 2011, 62, 14, 7.8, 57, 3D Beat-'Em-Up, Dimps Corporation, Bandai Namco Games
-Rayman 2: The Great Escape, https://www.metacritic.com/game/rayman-2-the-great-escape/, 2011, 61, 39, 7.1, 129, 3D Platformer, Ubisoft Casablanca, Ubisoft
-The Lord of the Rings: War in the North, https://www.metacritic.com/game/the-lord-of-the-rings-war-in-the-north/, 2011, 61, 48, 7.4, 204, Action RPG, Snowblind Studios, Warner Bros. Interactive Entertainment
-Medieval Moves: Deadmund's Quest, https://www.metacritic.com/game/medieval-moves-deadmunds-quest/, 2011, 61, 41, 7.2, 21, Action Adventure, Zindagi Games, SCEA
-Nikoli's Pencil Puzzle, https://www.metacritic.com/game/nikolis-pencil-puzzle/, 2011, 61, 7, 61, 7 C, Logic Puzzle, NATSUME ATARI Inc., Konami
-Cities XL 2012, https://www.metacritic.com/game/cities-xl-2012/, 2011, 61, 18, 5.6, 99, Management, Monte Cristo, Focus Home Interactive
-Acceleration of SUGURI X-Edition, https://www.metacritic.com/game/acceleration-of-suguri-x-edition/, 2011, 61, 10, 5.5, 13, 2D Fighting, Rockin' Android, Sony Online Entertainment
-Hunted: The Demon's Forge, https://www.metacritic.com/game/hunted-the-demons-forge/, 2011, 61, 59, 6.4, 125, Action Adventure, InXile Entertainment, Bethesda Softworks
-E.Y.E: Divine Cybermancy, https://www.metacritic.com/game/eye-divine-cybermancy/, 2011, 61, 22, 6.8, 194, Western RPG, Streum On Studio, Streum On Studio
-Ar tonelico Qoga: Knell of Ar Ciel, https://www.metacritic.com/game/ar-tonelico-qoga-knell-of-ar-ciel/, 2011, 61, 27, 7.9, 78, JRPG, Gust, NIS America
-Venetica, https://www.metacritic.com/game/venetica/, 2011, 61, 17, 6.5, 78, Action RPG, Deck 13, Rombax Games
-PowerUp Heroes, https://www.metacritic.com/game/powerup-heroes/, 2011, 61, 13, 6.8, 12, 3D Fighting, Ubisoft, Ubisoft
-Air Conflicts: Secret Wars, https://www.metacritic.com/game/air-conflicts-secret-wars/, 2011, 61, 14, 5.6, 5, Aircraft Combat Sim, Games Farm, Kalypso
-Samurai Warriors Chronicles, https://www.metacritic.com/game/samurai-warriors-chronicles/, 2011, 61, 30, 7.7, 42, 3D Beat-'Em-Up, Omega Force, Koei Tecmo Games
-Wii Play: Motion, https://www.metacritic.com/game/wii-play-motion/, 2011, 60, 34, 6.6, 37, Party, Good-Feel, Nintendo
-Moon Diver, https://www.metacritic.com/game/moon-diver/, 2011, 60, 34, 7.1, 8, 2D Beat-'Em-Up, FeelPlus, Square Enix
-Magicka: Vietnam, https://www.metacritic.com/game/magicka-vietnam/, 2011, 60, 8, 6.2, 29, Linear Action Adventure, Arrowhead Game Studios, Paradox Interactive
-Captain America: Super Soldier, https://www.metacritic.com/game/captain-america-super-soldier/, 2011, 60, 48, 6.4, 63, Action Adventure, Next Level Games, Sega
-James Noir's Hollywood Crimes, https://www.metacritic.com/game/james-noirs-hollywood-crimes/, 2011, 60, 22, 6.6, 8, Puzzle, Ubisoft, Ubisoft
-Storm: Frontline Nation, https://www.metacritic.com/game/storm-frontline-nation/, 2011, 60, 12, 8.0, 15, Turn-Based Strategy, SimBin, Just A Game
-All Zombies Must Die!, https://www.metacritic.com/game/all-zombies-must-die/, 2011, 60, 27, 5.1, 14, Top-Down Shoot-'Em-Up, Doublesix, Square Enix
-Leedmees, https://www.metacritic.com/game/leedmees/, 2011, 60, 10, 6.2, 5, Action, Konami, Konami
-Rio, https://www.metacritic.com/game/rio/, 2011, 60, 16, 6.1, 13, Party, Eurocom, THQ
-Off-Road Drive, https://www.metacritic.com/game/off-road-drive/, 2011, 60, 10, 6.0, 21, Auto Racing Sim, Avalon Style, 1C Entertainment
-Exerbeat, https://www.metacritic.com/game/exerbeat/, 2011, 60, 9, 8.2, 6, Sports, Namco Bandai Games, Namco Bandai Games
-White Knight Chronicles II, https://www.metacritic.com/game/white-knight-chronicles-ii/, 2011, 60, 45, 7.1, 78, Action RPG, Level 5, D3Publisher
-Pyramids (2011), https://www.metacritic.com/game/pyramids/, 2011, 60, 8, 6.1, 7, Puzzle, Visual Impact, Enjoy Gaming
-IL-2 Sturmovik: Cliffs of Dover, https://www.metacritic.com/game/il-2-sturmovik-cliffs-of-dover/, 2011, 60, 13, 7.0, 120, Aircraft Combat Sim, 1C: Maddox Games, Ubisoft
-Pac-Man & Galaga Dimensions, https://www.metacritic.com/game/pac-man-and-galaga-dimensions/, 2011, 60, 25, 6.6, 14, Compilation, Namco, Namco Bandai Games
-Inazuma Eleven Strikers, https://www.metacritic.com/game/inazuma-eleven-strikers/, 2011, 59, 16, 7.8, 68, Soccer, Level 5, Level 5
-Okabu, https://www.metacritic.com/game/okabu/, 2011, 59, 28, 4.4, 8, Action Adventure, HandCircus, SCEA
-inMomentum, https://www.metacritic.com/game/inmomentum/, 2011, 59, 8, 4.9, 24, 3D Platformer, Digital Arrow, White Rabbit Interactive
-Worms Ultimate Mayhem, https://www.metacritic.com/game/worms-ultimate-mayhem/, 2011, 59, 18, 7.5, 24, Artillery, Team17, Team17
-Kyotokei, https://www.metacritic.com/game/kyotokei/, 2011, 59, 8, 59, 8 C, Vertical Shoot-'Em-Up, Microforum, Microforum
-Naruto Shippuden: Ultimate Ninja Impact, https://www.metacritic.com/game/naruto-shippuden-ultimate-ninja-impact/, 2011, 59, 16, 7.8, 81, 3D Beat-'Em-Up, Racjin, Namco Bandai Games
-Green Lantern: Rise of the Manhunters, https://www.metacritic.com/game/green-lantern-rise-of-the-manhunters/, 2011, 59, 17, 6.7, 44, Action Adventure, Double Helix Games, Warner Bros. Interactive Entertainment
-Wanted Corp, https://www.metacritic.com/game/wanted-corp/, 2011, 59, 7, 59, 7 C, Top-Down Shoot-'Em-Up, EKO Software, Zoo Entertainment
-LEGO Battles: Ninjago, https://www.metacritic.com/game/lego-battles-ninjago/, 2011, 59, 14, 7.1, 29, Real-Time Strategy, Hellbent Games, Warner Bros. Interactive Entertainment
-Ignite (2011), https://www.metacritic.com/game/ignite-2011/, 2011, 59, 9, 6.2, 26, Auto Racing, Nemesys, Just A Game
-SpongeBob Squigglepants, https://www.metacritic.com/game/spongebob-squigglepants/, 2011, 59, 12, 6.5, 13, Miscellaneous, WayForward, THQ
-Dance Paradise, https://www.metacritic.com/game/dance-paradise/, 2011, 59, 11, 59, 11 C, Dancing, Smack Down Productions, THQ
-Transformers: Dark of the Moon, https://www.metacritic.com/game/transformers-dark-of-the-moon/, 2011, 59, 53, 6.5, 51, Linear Action Adventure, High Moon Studios, Activision
-Steel Diver, https://www.metacritic.com/game/steel-diver/, 2011, 58, 55, 6.3, 38, Marine Combat Sim, Nintendo, Nintendo
-DualPenSports, https://www.metacritic.com/game/dualpensports/, 2011, 58, 11, 4.2, 6, Sports, indieszero, Namco Bandai Games
-Bleach: Soul Resurreccion, https://www.metacritic.com/game/bleach-soul-resurreccion/, 2011, 58, 34, 7.2, 81, 3D Beat-'Em-Up, Racjin, NIS America
-Dragon Ball Z: Ultimate Tenkaichi, https://www.metacritic.com/game/dragon-ball-z-ultimate-tenkaichi/, 2011, 58, 26, 5.3, 143, 3D Fighting, Spike, Namco Bandai Games
-Fate/Extra, https://www.metacritic.com/game/fate-extra/, 2011, 58, 10, 7.9, 60, JRPG, Imageepoch, Aksys Games
-Cartoon Network: Punch Time Explosion, https://www.metacritic.com/game/cartoon-network-punch-time-explosion-xl/, 2011, 58, 16, 6.3, 32, 2D Fighting, Papaya Studio, Crave
-Duke Nukem Forever: The Doctor Who Cloned Me, https://www.metacritic.com/game/duke-nukem-forever-the-doctor-who-cloned-me/, 2011, 58, 8, 6.9, 32, FPS, Gearbox Software, 2K Games
-Rabbids: Alive & Kicking, https://www.metacritic.com/game/rabbids-alive-and-kicking/, 2011, 58, 31, 5.9, 16, Party, Ubisoft, Ubisoft
-Naruto Shippuden: Kizuna Drive, https://www.metacritic.com/game/naruto-shippuden-kizuna-drive/, 2011, 57, 22, 5.0, 20, Action, Premium Agency , Namco Bandai Games
-Call of Duty: Modern Warfare 3 - Defiance, https://www.metacritic.com/game/call-of-duty-modern-warfare-3-defiance/, 2011, 57, 9, 1.6, 285, FPS, n-Space, Activision
-Ghost Mania, https://www.metacritic.com/game/ghost-mania/, 2011, 57, 9, 57, 9 C, Stacking Puzzle, Legendo Entertainment, Legendo Entertainment
-Dynasty Warriors 7, https://www.metacritic.com/game/dynasty-warriors-7/, 2011, 57, 25, 7.2, 73, 3D Beat-'Em-Up, Omega Force, Koei Tecmo Games
-Body and Brain Connection, https://www.metacritic.com/game/body-and-brain-connection/, 2011, 57, 33, 4.8, 6, Logic Puzzle, Namco Bandai Games, Namco Bandai Games
-Breach (2011), https://www.metacritic.com/game/breach-2011/, 2011, 57, 46, 4.4, 11, Tactical FPS, Atomic Games, Destineer
-Dead Space 2: Severed, https://www.metacritic.com/game/dead-space-2-severed/, 2011, 57, 15, 6.8, 37, Third Person Shooter, Visceral Games, Electronic Arts
-Wizardry: Labyrinth of Lost Souls, https://www.metacritic.com/game/wizardry-labyrinth-of-lost-souls/, 2011, 57, 9, 5.9, 16, Western RPG, Acquire, XSEED Games
-Spider-Man: Edge of Time, https://www.metacritic.com/game/spider-man-edge-of-time/, 2011, 57, 50, 7.2, 100, 3D Beat-'Em-Up, Beenox, Activision
-Carnival Games: Monkey See, Monkey Do!, https://www.metacritic.com/game/carnival-games-monkey-see-monkey-do/, 2011, 56, 12, 6.2, 10, Party, Take-Two Interactive, Take-Two Interactive
-Deadliest Warrior: Legends, https://www.metacritic.com/game/deadliest-warrior-legends/, 2011, 56, 9, 5.6, 19, 3D Fighting, Pipeworks Software, Inc., Spike Games
-Xevious, https://www.metacritic.com/game/xevious/, 2011, 56, 10, 5.8, 14, Vertical Shoot-'Em-Up, Arika, Nintendo
-Kung-Fu High Impact, https://www.metacritic.com/game/kung-fu-high-impact/, 2011, 56, 18, 7.6, 22, 2D Beat-'Em-Up, Virtual Air Guitar Company, UTV Ignition Games
-APB: Reloaded, https://www.metacritic.com/game/apb-reloaded/, 2011, 56, 12, 5.7, 318, MMORPG, Reloaded Games, GamersFirst
-Pirates of Black Cove, https://www.metacritic.com/game/pirates-of-black-cove/, 2011, 56, 21, 5.5, 33, Strategy, Nitro Games, Paradox Interactive
-Pokemon Rumble Blast, https://www.metacritic.com/game/pokemon-rumble-blast/, 2011, 56, 36, 6.7, 99, 3D Beat-'Em-Up, Ambrella, Nintendo
-Super Monkey Ball 3D, https://www.metacritic.com/game/super-monkey-ball-3d/, 2011, 55, 57, 5.5, 53, Action, Sega, Sega
-Crazy Machines Elements, https://www.metacritic.com/game/crazy-machines-elements/, 2011, 55, 14, 55, 14 C, Puzzle, FAKT Software, DTP Entertainment
-Ninjamurai, https://www.metacritic.com/game/ninjamurai/, 2011, 55, 7, 4.5, 4, Action, Open Emotion Studios, Open Emotion Studios
-Rune Factory: Tides of Destiny, https://www.metacritic.com/game/rune-factory-tides-of-destiny/, 2011, 55, 12, 8.3, 51, Action RPG, Neverland, Natsume
-Yar's Revenge, https://www.metacritic.com/game/yars-revenge/, 2011, 55, 22, 55, 22 C, Top-Down Shoot-'Em-Up, Killspace Entertainment, Atari SA
-Rabbids Travel in Time 3D, https://www.metacritic.com/game/rabbids-travel-in-time-3d/, 2011, 55, 26, 6.0, 21, 2D Platformer, Ubisoft, Ubisoft
-Crasher, https://www.metacritic.com/game/crasher/, 2011, 55, 8, 6.0, 9, Vehicle Combat Sim, Punchers Impact, Mindscape
-The War of the Worlds, https://www.metacritic.com/game/the-war-of-the-worlds/, 2011, 55, 30, 5.1, 7, 2D Platformer, Other Ocean Interactive, Paramount Digital Entertainment
-Trinity: Souls of Zill O'll, https://www.metacritic.com/game/trinity-souls-of-zill-oll/, 2011, 55, 34, 7.4, 34, Action RPG, Omega Force, Tecmo Koei Games
-Rugby World Cup 2011, https://www.metacritic.com/game/rugby-world-cup-2011/, 2011, 55, 14, 3.9, 15, Rugby, HB Studios Multimedia, 505 Games
-BurgerTime World Tour, https://www.metacritic.com/game/burgertime-world-tour/, 2011, 55, 23, 8.8, 17, 2D Platformer, MonkeyPaw Games, MonkeyPaw Games
-I Heart Geeks!, https://www.metacritic.com/game/i-heart-geeks/, 2011, 54, 10, 9.3, 8, Puzzle, SevenOne Intermedia, cdv Software
-King Arthur: Fallen Champions, https://www.metacritic.com/game/king-arthur-fallen-champions/, 2011, 54, 10, 4.5, 8, Real-Time Strategy, NeocoreGames, Paradox Interactive
-Elevator Action Deluxe, https://www.metacritic.com/game/elevator-action-deluxe/, 2011, 54, 7, 6.0, 6, 2D Platformer, , Square Enix
-Dream Trigger 3D, https://www.metacritic.com/game/dream-trigger-3d/, 2011, 54, 24, 6.4, 31, Top-Down Shoot-'Em-Up, Art Co., Ltd., D3Publisher
-Jurassic Park: The Game, https://www.metacritic.com/game/jurassic-park-the-game/, 2011, 54, 34, 4.9, 226, Point-and-Click, Telltale Games, Telltale Games
-Achron, https://www.metacritic.com/game/achron/, 2011, 54, 11, 7.6, 18, Real-Time Strategy, Hazardous Software , Hazardous Software 
-Frogger 3D, https://www.metacritic.com/game/frogger-3d/, 2011, 54, 11, 6.1, 11, Action, Alpha Unit, Konami
-Rise of Nightmares, https://www.metacritic.com/game/rise-of-nightmares/, 2011, 54, 56, 7.7, 48, Survival, Sega, Sega
-Doctor Lautrec and the Forgotten Knights, https://www.metacritic.com/game/doctor-lautrec-and-the-forgotten-knights/, 2011, 53, 19, 6.0, 9, Puzzle, WinkySoft, Konami
-Dreamcast Collection, https://www.metacritic.com/game/dreamcast-collection/, 2011, 53, 31, 5.1, 15, Compilation, Sega, Sega
-PlayStation Move Heroes, https://www.metacritic.com/game/playstation-move-heroes/, 2011, 53, 39, 6.7, 23, Action, Nihilistic, SCEA
-A Game of Thrones: Genesis, https://www.metacritic.com/game/a-game-of-thrones-genesis/, 2011, 53, 40, 4.1, 118, Real-Time Strategy, Cyanide, Focus Home Interactive
-Lord of Arcana, https://www.metacritic.com/game/lord-of-arcana/, 2011, 53, 45, 6.8, 34, Action RPG, Access Games, Square Enix
-Bodycount (2011), https://www.metacritic.com/game/bodycount-2011/, 2011, 53, 61, 4.7, 79, FPS, Guildford Studio, Codemasters
-Alpha Polaris: A Horror Adventure Game, https://www.metacritic.com/game/alpha-polaris-a-horror-adventure-game/, 2011, 52, 8, 4.5, 14, Point-and-Click, Turmoil Games, Just A Game
-Xotic, https://www.metacritic.com/game/xotic/, 2011, 52, 16, 7.8, 4, FPS, WXP, Valcon Games
-Mythos (2011), https://www.metacritic.com/game/mythos-2011/, 2011, 52, 8, 52, 8 C, MMORPG, Flagship Seattle, Deep Silver
-Spare Parts, https://www.metacritic.com/game/spare-parts/, 2011, 52, 23, 6.3, 6, 3D Platformer, EA Bright Light, Electronic Arts
-Red Faction: Battlegrounds, https://www.metacritic.com/game/red-faction-battlegrounds/, 2011, 52, 37, 7.3, 4, Vehicle Combat Sim, THQ Digital Studios UK, THQ
-The First Templar, https://www.metacritic.com/game/the-first-templar/, 2011, 52, 21, 6.3, 38, Linear Action Adventure, Haemimont Games, Kalypso
-The Haunted: Hell's Reach, https://www.metacritic.com/game/the-haunted-hells-reach/, 2011, 51, 8, 7.5, 51, Survival, ValuSoft, THQ
-Rush'N Attack Ex-Patriot, https://www.metacritic.com/game/rushn-attack-ex-patriot/, 2011, 51, 24, 6.6, 8, 2D Platformer, Vatra, Konami
-Cubic Ninja, https://www.metacritic.com/game/cubic-ninja/, 2011, 51, 15, 5.9, 15, Action Puzzle, AQ Interactive, Ubisoft
-Afterfall: InSanity, https://www.metacritic.com/game/afterfall-insanity/, 2011, 50, 20, 5.8, 155, Survival, Nicolas Intoxicate, Nicolas Intoxicate
-Gods & Heroes: Rome Rising, https://www.metacritic.com/game/gods-and-heroes-rome-rising/, 2011, 50, 8, 6.0, 27, MMORPG, Heatwave Interactive, SouthPeak Games
-Trapped Dead, https://www.metacritic.com/game/trapped-dead/, 2011, 50, 14, 4.6, 61, Real-Time Strategy, Headup Games, Meridian4
-Yoostar 2: In The Movies, https://www.metacritic.com/game/yoostar-2-in-the-movies/, 2011, 50, 25, 3.5, 10, Party, Blitz Games Studios, Yoostar Entertainment Group
-Record of Agarest War Zero, https://www.metacritic.com/game/record-of-agarest-war-zero/, 2011, 50, 8, 6.6, 35, Turn-Based Tactics, Compile Heart, Aksys Games
-Dead Block, https://www.metacritic.com/game/dead-block/, 2011, 50, 20, 6.9, 25, Strategy, Candygun Games, Namco Bandai Games
-DreamWorks Kung Fu Panda 2, https://www.metacritic.com/game/dreamworks-kung-fu-panda-2/, 2011, 50, 18, 4.8, 9, Action Adventure, THQ, THQ
-Voltron, https://www.metacritic.com/game/voltron/, 2011, 50, 20, 7.2, 6, Vertical Shoot-'Em-Up, Behaviour Interactive, THQ
-Naruto Shippuden: The New Era, https://www.metacritic.com/game/naruto-shippuden-the-new-era/, 2011, 50, 15, 50, 15 C, 2D Beat-'Em-Up, Takara Tomy, Takara Tomy
-Elements of War, https://www.metacritic.com/game/elements-of-war/, 2011, 49, 10, 49, 10 C, Real-Time Strategy, Lesta Studio, Kalypso
-Knights Contract, https://www.metacritic.com/game/knights-contract/, 2011, 49, 41, 5.6, 29, Action Adventure, Game Republic, Namco Bandai Games
-Garshasp: The Monster Slayer, https://www.metacritic.com/game/garshasp-the-monster-slayer/, 2011, 49, 19, 6.0, 70, Action Adventure, Dead Mage Studio, Dead Mage Studio
-Madden NFL Football, https://www.metacritic.com/game/madden-nfl-football/, 2011, 49, 18, 5.3, 26, Football Sim, EA Tiburon, Electronic Arts
-Theatre of War 3: Korea, https://www.metacritic.com/game/theatre-of-war-3-korea/, 2011, 49, 9, 5.4, 14, Strategy, 1C Entertainment, Battlefront.com
-Duke Nukem Forever, https://www.metacritic.com/game/duke-nukem-forever/, 2011, 49, 76, 4.6, 559, FPS, 3D Realms, 2K Games
-Bust-A-Move Universe, https://www.metacritic.com/game/bust-a-move-universe/, 2011, 49, 30, 4.9, 14, Matching Puzzle, Arika, Square Enix
-Sherlock Holmes and the Mystery of Osborne House, https://www.metacritic.com/game/sherlock-holmes-and-the-mystery-of-osborne-house/, 2011, 48, 11, 48, 11 C, Point-and-Click, Frogwares, THQ
-Otomedius Excellent, https://www.metacritic.com/game/otomedius-excellent/, 2011, 48, 8, 7.6, 22, Horizontal Shoot-'Em-Up, Konami, Konami
-Michael Phelps: Push the Limit, https://www.metacritic.com/game/michael-phelps-push-the-limit/, 2011, 48, 10, 3.6, 8, Athletics, Blitz Games, 505 Games
-Driver: Renegade, https://www.metacritic.com/game/driver-renegade/, 2011, 48, 13, 5.4, 35, Auto Racing, Ubisoft, Ubisoft
-Grotesque Tactics 2: Dungeons & Donuts, https://www.metacritic.com/game/grotesque-tactics-2-dungeons-and-donuts/, 2011, 48, 7, 6.2, 29, Turn-Based Tactics, Silent Dreams, Meridian4
-Call of Juarez: The Cartel, https://www.metacritic.com/game/call-of-juarez-the-cartel/, 2011, 47, 62, 5.4, 149, FPS, Techland, Ubisoft
-Stronghold 3, https://www.metacritic.com/game/stronghold-3/, 2011, 47, 29, 3.0, 390, Real-Time Strategy, FireFly Studios, SouthPeak Games
-Supremacy MMA, https://www.metacritic.com/game/supremacy-mma/, 2011, 47, 17, 4.6, 8, Combat Sport, Kung Fu Factory, 505 Games
-Hole in the Wall (2011), https://www.metacritic.com/game/hole-in-the-wall-2011/, 2011, 47, 15, 4.3, 10, Trivia, Virtuos, Microsoft Game Studios
-X-Men: Destiny, https://www.metacritic.com/game/x-men-destiny/, 2011, 47, 51, 5.0, 83, 3D Beat-'Em-Up, Silicon Knights, Activision
-Dungeons & Dragons: Daggerdale, https://www.metacritic.com/game/dungeons-and-dragons-daggerdale/, 2011, 46, 43, 4.8, 56, Action RPG, Bedlam Games, Atari SA
-One Piece: Unlimited Cruise SP, https://www.metacritic.com/game/one-piece-unlimited-cruise-sp/, 2011, 46, 20, 7.1, 21, Action, Bandai Namco Games, Bandai Namco Games
-Winter Stars, https://www.metacritic.com/game/winter-stars/, 2011, 46, 9, 6.5, 4, Sports, 49Games, Deep Silver
-Ugly Americans: Apocalypsegeddon, https://www.metacritic.com/game/ugly-americans-apocalypsegeddon/, 2011, 45, 16, 6.5, 20, Vertical Shoot-'Em-Up, Backbone Entertainment, Comedy Central Games
-Ghostbusters: Sanctum of Slime, https://www.metacritic.com/game/ghostbusters-sanctum-of-slime/, 2011, 45, 38, 3.6, 27, Action Adventure, Behavior Studios, Atari SA
-Red Bull X-Fighters, https://www.metacritic.com/game/red-bull-x-fighters/, 2011, 45, 12, 45, 12 C, Biking, Xendex, Konami
-Dead Horde, https://www.metacritic.com/game/dead-horde/, 2011, 45, 7, 4.9, 40, Survival, DNS Development, DNS Development
-Hyperdimension Neptunia, https://www.metacritic.com/game/hyperdimension-neptunia/, 2011, 45, 31, 6.7, 135, JRPG, Compile Heart, NIS America
-Warriors: Legends of Troy, https://www.metacritic.com/game/warriors-legends-of-troy/, 2011, 44, 22, 7.1, 32, 3D Beat-'Em-Up, Tecmo Koei Canada, Koei Tecmo Games
-Sword of the Stars II: Lords of Winter, https://www.metacritic.com/game/sword-of-the-stars-ii-lords-of-winter/, 2011, 44, 14, 4.7, 137, Strategy, Kerberos Productions, Paradox Interactive
-Harry Potter and the Deathly Hallows, Part 2, https://www.metacritic.com/game/harry-potter-and-the-deathly-hallows-part-2/, 2011, 44, 31, 4.5, 52, Third Person Shooter, EA Bright Light, Electronic Arts
-Combat of Giants: Dinosaurs 3D, https://www.metacritic.com/game/battle-of-giants-dinosaurs-strike/, 2011, 44, 18, 5.4, 11, Action Adventure, Ubisoft, Ubisoft
-PlayStation Move Ape Escape, https://www.metacritic.com/game/playstation-move-ape-escape/, 2011, 43, 23, 4.6, 23, Party, SCE Japan Studio, SCEA
-Painkiller: Redemption, https://www.metacritic.com/game/painkiller-redemption/, 2011, 43, 7, 4.9, 56, FPS, DreamCatcher Interactive, DreamCatcher Interactive
-1950s Lawn Mower Kids, https://www.metacritic.com/game/1950s-lawn-mower-kids/, 2011, 43, 7, 3.3, 4, Action Puzzle, Zordix, Zordix
-Asphalt 3D, https://www.metacritic.com/game/asphalt-3d/, 2011, 43, 37, 5.1, 48, Auto Racing, Gameloft, Ubisoft
-Mindjack, https://www.metacritic.com/game/mindjack/, 2011, 43, 42, 1.5, 122, Third Person Shooter, FeelPlus, Square Enix
-Arcania: Fall of Setarrif, https://www.metacritic.com/game/arcania-fall-of-setarrif/, 2011, 41, 10, 3.4, 52, Action RPG, Spellbound, Nordic Games Publishing
-MotionSports Adrenaline, https://www.metacritic.com/game/motionsports-adrenaline/, 2011, 41, 8, 6.4, 9, Sports, Ubisoft Vancouver, Ubisoft
-JASF: Jane's Advanced Strike Fighters, https://www.metacritic.com/game/jasf-janes-advanced-strike-fighters/, 2011, 41, 7, 4.6, 10, Aircraft Combat Sim, Trickstar Games, Maximum Family Games
-101-in-1 Sports Party Megamix, https://www.metacritic.com/game/101-in-1-sports-party-megamix/, 2011, 41, 7, 41, 7 C, Sports, Nordcurrent, Atlus
-Real Steel, https://www.metacritic.com/game/real-steel/, 2011, 40, 7, 7.1, 37, 3D Fighting, Yuke's, Yuke's
-Battle: Los Angeles, https://www.metacritic.com/game/battle-los-angeles/, 2011, 39, 22, 4.5, 30, FPS, Saber Interactive, Konami
-The Cursed Crusade, https://www.metacritic.com/game/the-cursed-crusade/, 2011, 39, 27, 4.5, 41, Action Adventure, Kylotonn, Atlus
-Thor: God of Thunder, https://www.metacritic.com/game/thor-god-of-thunder/, 2011, 38, 40, 5.4, 33, 3D Beat-'Em-Up, Liquid Entertainment, Sega
-Blackwater, https://www.metacritic.com/game/blackwater/, 2011, 37, 12, 4.5, 16, FPS, Zombie Studios, 505 Games
-Lucha Fury, https://www.metacritic.com/game/lucha-fury/, 2011, 37, 17, 5.9, 7, 2D Beat-'Em-Up, Punchers Impact, Mindscape
-Urban Champion, https://www.metacritic.com/game/urban-champion/, 2011, 37, 7, 5.8, 33, 2D Fighting, Arika, Nintendo
-NCIS, https://www.metacritic.com/game/ncis/, 2011, 35, 11, 5.1, 9, Adventure, Ubisoft, Ubisoft
-Star Raiders (2011), https://www.metacritic.com/game/star-raiders-2011/, 2011, 35, 17, 5.3, 8, Space Combat Sim, Incinerator Games, Atari SA
-Shadow Harvest: Phantom Ops, https://www.metacritic.com/game/shadow-harvest-phantom-ops/, 2011, 34, 12, 2.3, 38, Tactical Third Person Shooter, Black Lion Studios, Viva Media
-The Asskickers, https://www.metacritic.com/game/the-asskickers/, 2011, 31, 11, 3.4, 8, 2D Beat-'Em-Up, AGO Games, AGO Games
-Duke Nukem: Critical Mass, https://www.metacritic.com/game/duke-nukem-critical-mass/, 2011, 29, 12, 3.3, 32, 2D Platformer, Apogee Software, Ltd., Deep Silver
-Postal III, https://www.metacritic.com/game/postal-iii/, 2011, 24, 20, 4.3, 448, Third Person Shooter, Running With Scissors, Akella
-FlatOut 3: Chaos & Destruction, https://www.metacritic.com/game/flatout-3-chaos-and-destruction/, 2011, 23, 22, 3.7, 418, Auto Racing, Team6 Game Studios, Strategy First
+nome  url  lançamento  metascore  qnt_meta  p:m:n-meta  userscore  qnt_user  p:m:n-user  plataforma:nota  desenvolvedora  publisher  gênero
+The Elder Scrolls V: Skyrim   https://www.metacritic.com/game/the-elder-scrolls-v-skyrim/   11/11/2011   96   89 C   100:0:0   8.7   8,288   85:9:6   Xbox 360:96, PlayStation 3:92, PC:94   Bethesda Game Studios   Bethesda Softworks   Western RPG
+Portal 2   https://www.metacritic.com/game/portal-2/   19/04/2011   95   66 C   98:2:0   8.9   4,181   90:7:3   PC:95, Xbox 360:95, PlayStation 3:95   Valve Software   Valve Software   FPS
+Batman: Arkham City   https://www.metacritic.com/game/batman-arkham-city/   18/10/2011   94   87 C   100:0:0   8.8   4,743   89:8:3   Xbox 360:94, PlayStation 3:96, PC:91, Nintendo Switch:tbd   Rocksteady Studios   Warner Bros. Interactive Entertainment   Open-World Action
+The Legend of Zelda: Ocarina of Time 3D   https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-3d/   19/06/2011   94   85 C   99:1:0   9.1   2,551   91:5:4   3DS:94   GREZZO   Nintendo   Open-World Action
+Minecraft   https://www.metacritic.com/game/minecraft/   18/11/2011   93   33 C   100:0:0   8.4   12,003   81:11:8   PC:93, Nintendo Switch:86, PlayStation 5:tbd, Nintendo Switch 2:tbd, 3DS:62, PlayStation 3:86, PlayStation 4:89, PlayStation Vita:84, Wii U:77, Xbox 360:82, Xbox One:88   Mojang AB   Mojang AB   Sandbox
+The Legend of Zelda: Skyward Sword   https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword/   20/11/2011   93   81 C   96:4:0   8.3   3,147   78:13:9   Wii:93   Nintendo   Nintendo   Open-World Action
+Uncharted 3: Drake's Deception   https://www.metacritic.com/game/uncharted-3-drakes-deception/   01/11/2011   92   97 C   99:1:0   8.4   6,994   84:11:5   PlayStation 3:92   Naughty Dog   SCEA   Linear Action Adventure
+The ICO & Shadow of the Colossus Collection   https://www.metacritic.com/game/the-ico-and-shadow-of-the-colossus-collection/   27/09/2011   92   58 C   100:0:0   8.7   803   86:7:6   PlayStation 3:92   Bluepoint Games   SCEA   Compilation
+LittleBigPlanet 2   https://www.metacritic.com/game/littlebigplanet-2/   18/01/2011   91   86 C   98:2:0   8.6   1,042   85:12:3   PlayStation 3:91   Media Molecule   SCEA   2D Platformer
+Forza Motorsport 4   https://www.metacritic.com/game/forza-motorsport-4/   11/10/2011   91   83 C   100:0:0   8.4   826   83:8:8   Xbox 360:91   Turn 10   Microsoft Game Studios   Auto Racing Sim
+Gears of War 3   https://www.metacritic.com/game/gears-of-war-3/   20/09/2011   91   96 C   98:2:0   8.2   2,423   80:13:8   Xbox 360:91   Epic Games   Microsoft Game Studios   Third Person Shooter
+FIFA Soccer 12   https://www.metacritic.com/game/fifa-soccer-12/   27/09/2011   90   69 C   99:1:0   7.0   484   59:25:16   iOS (iPhone/iPad):87, 3DS:67, Xbox 360:90, PlayStation 3:90, PlayStation 2:tbd, PSP:tbd, PC:89, Wii:70   Electronic Arts   Electronic Arts   Soccer Sim
+MLB 11: The Show   https://www.metacritic.com/game/mlb-11-the-show/   08/03/2011   90   30 C   100:0:0   8.0   90   81:6:13   PlayStation 3:90, PSP:77, PlayStation 2:tbd   SCEA San Diego Studios   SCEA   Baseball Sim
+Dead Space 2   https://www.metacritic.com/game/dead-space-2/   25/01/2011   90   83 C   99:1:0   8.7   1,527   86:11:3   PlayStation 3:89, Xbox 360:90, PC:87   Visceral Games   Electronic Arts   Third Person Shooter
+Super Mario 3D Land   https://www.metacritic.com/game/super-mario-3d-land/   13/11/2011   90   82 C   99:1:0   8.3   1,925   80:16:4   3DS:90   Nintendo   Nintendo   3D Platformer
+Pushmo   https://www.metacritic.com/game/pushmo/   08/12/2011   90   31 C   100:0:0   8.3   237   80:12:8   3DS:90   Intelligent Systems   Nintendo   Action Puzzle
+Total War: Shogun 2   https://www.metacritic.com/game/total-war-shogun-2/   15/03/2011   90   62 C   100:0:0   8.3   1,604   79:15:6   PC:90   Creative Assembly   Sega   Turn-Based Strategy
+NBA 2K12   https://www.metacritic.com/game/nba-2k12/   04/10/2011   90   42 C   100:0:0   7.9   179   76:16:8   Wii:tbd, PSP:tbd, Xbox 360:90, PlayStation 3:90, PlayStation 2:tbd, PC:86, iOS (iPhone/iPad):64   Visual Concepts   2K Sports   Basketball Sim
+Dark Souls   https://www.metacritic.com/game/dark-souls/   04/10/2011   89   66 C   97:3:0   8.5   2,688   84:8:8   PlayStation 3:89, Xbox 360:89   From Software   Namco Bandai Games   Action RPG
+Metal Gear Solid HD Collection   https://www.metacritic.com/game/metal-gear-solid-hd-collection/   08/11/2011   89   50 C   100:0:0   9.1   592   92:3:5   PlayStation 3:89, Xbox 360:90   ,    Konami   Compilation
+Battlefield 3   https://www.metacritic.com/game/battlefield-3/   25/10/2011   89   61 C   98:2:0   7.7   6,431   71:17:12   PC:89, Xbox 360:84, PlayStation 3:85, Wii U:tbd   EA DICE   Electronic Arts   Tactical FPS
+Deus Ex: Human Revolution   https://www.metacritic.com/game/deus-ex-human-revolution/   23/08/2011   89   70 C   96:4:0   8.2   1,220   78:17:4   PlayStation 3:89, Xbox 360:89, PC:90   Eidos Montreal   Square Enix   Action Adventure
+L.A. Noire   https://www.metacritic.com/game/l-a-noire/   17/05/2011   89   83 C   94:6:0   8.0   1,534   72:22:6   PlayStation 3:89, Xbox 360:89   Team Bondi   Rockstar Games   Open-World Action
+Call of Duty: Modern Warfare 3   https://www.metacritic.com/game/call-of-duty-modern-warfare-3/   08/11/2011   88   81 C   98:2:0   4.0   9,882   30:14:56   Xbox 360:88, PlayStation 3:88, PC:78, Wii:70   ,    Activision   FPS
+Kerbal Space Program   https://www.metacritic.com/game/kerbal-space-program/   24/06/2011   88   24 C   100:0:0   8.3   883   81:10:10   PC:88, PlayStation 4:77, Xbox One:75, Wii U:tbd   Squad   Squad   Space Sim
+Joe Danger: Special Edition   https://www.metacritic.com/game/joe-danger-special-edition/   14/12/2011   88   38 C   100:0:0   7.5   26   73:12:15   Xbox 360:88   Hello Games   Microsoft Game Studios   Auto Racing
+Pokemon White Version   https://www.metacritic.com/game/pokemon-white-version/   06/03/2011   87   56 C   100:0:0   8.1   1,202   78:14:9   DS:87   Game Freak   Nintendo   Trainer RPG
+Tactics Ogre: Let Us Cling Together   https://www.metacritic.com/game/tactics-ogre-1995/   15/02/2011   87   49 C   100:0:0   8.6   169   85:9:6   PlayStation:tbd, PSP:87   Square Enix   Square Enix   Turn-Based Tactics
+DiRT 3   https://www.metacritic.com/game/dirt-3/   24/05/2011   87   81 C   94:6:0   7.3   271   56:34:10   Xbox 360:87, PlayStation 3:87, PC:86   Codemasters   Codemasters   Auto Racing Sim
+Pokemon Black Version   https://www.metacritic.com/game/pokemon-black-version/   06/03/2011   87   63 C   98:2:0   8.1   1,365   77:15:8   DS:87   Game Freak   Nintendo   Trainer RPG
+Rayman Origins   https://www.metacritic.com/game/rayman-origins/   15/11/2011   87   55 C   95:5:0   8.3   567   81:13:5   Xbox 360:87, PlayStation 3:87, Wii:92, 3DS:71, PlayStation Vita:88, PC:86   UBlart Montpellier   Ubisoft   2D Platformer
+Radiant Silvergun   https://www.metacritic.com/game/radiant-silvergun/   14/09/2011   86   25 C   100:0:0   8.3   39   79:10:10   Xbox 360:86, Nintendo Switch:tbd, PC:90   Treasure   Microsoft Game Studios   Vertical Shoot-'Em-Up
+Mortal Kombat (2011)   https://www.metacritic.com/game/mortal-kombat-2011/   19/04/2011   86   66 C   95:5:0   8.3   810   81:14:5   PlayStation 3:84, Xbox 360:86, PlayStation Vita:85   NetherRealm Studios   Warner Bros. Interactive Entertainment   2D Fighting
+Street Fighter III: 3rd Strike - Fight for the Future   https://www.metacritic.com/game/street-fighter-iii-3rd-strike/   24/08/2011   86   41 C   95:5:0   7.9   115   71:17:11   Dreamcast:84, PlayStation 2:tbd, Xbox 360:86, PlayStation 3:86   Iron Galaxy Studios   Capcom   2D Fighting
+Dance Central 2   https://www.metacritic.com/game/dance-central-2/   25/10/2011   86   56 C   100:0:0   8.4   70   83:10:7   Xbox 360:86   Harmonix Music Systems   Microsoft Game Studios   Dancing
+Bastion   https://www.metacritic.com/game/bastion/   20/07/2011   86   79 C   91:9:0   8.1   510   75:20:5   PC:86, Xbox 360:86, iOS (iPhone/iPad):94, PlayStation 4:89, PlayStation Vita:tbd, Xbox One:83, Nintendo Switch:90   Supergiant Games   Warner Bros. Interactive Entertainment   Action RPG
+Fight Night Champion   https://www.metacritic.com/game/fight-night-champion/   01/03/2011   86   59 C   98:2:0   7.7   210   71:19:10   PlayStation 3:84, Xbox 360:86   EA Canada   EA Sports   Combat Sport
+NHL 12   https://www.metacritic.com/game/nhl-12/   13/09/2011   86   56 C   98:2:0   7.1   83   64:20:16   Xbox 360:86, PlayStation 3:86   Electronic Arts   Electronic Arts   Hockey Sim
+Battlefield 3: Back to Karkand   https://www.metacritic.com/game/battlefield-3-back-to-karkand/   13/12/2011   86   9 C   89:11:0   7.3   186   62:23:15   PlayStation 3:83, Xbox 360:83, PC:86   EA DICE   Electronic Arts   Tactical FPS
+Super Street Fighter IV   https://www.metacritic.com/game/super-street-fighter-iv/   27/03/2011   85   69 C   97:3:0   7.9   270   71:23:7   Xbox 360:91, PlayStation 3:92, 3DS:85   Capcom   Capcom   2D Fighting
+The Legend of Zelda: Four Swords Anniversary Edition   https://www.metacritic.com/game/the-legend-of-zelda-four-swords-anniversary-editi/   28/09/2011   85   13 C   100:0:0   7.4   118   55:35:10   DS:85   GREZZO   Nintendo   Action Adventure
+Marvel vs. Capcom 3: Fate of Two Worlds   https://www.metacritic.com/game/marvel-vs-capcom-3-fate-of-two-worlds/   15/02/2011   85   77 C   97:3:0   7.2   206   54:32:14   PlayStation 3:84, Xbox 360:85   Capcom   Capcom   2D Fighting
+Frozen Synapse   https://www.metacritic.com/game/frozen-synapse/   26/05/2011   85   27 C   89:11:0   7.5   209   66:20:14   PC:85, iOS (iPhone/iPad):84   Mode 7 Games   Matrix Games   Turn-Based Tactics
+NBA JAM: On Fire Edition   https://www.metacritic.com/game/nba-jam-on-fire-edition/   05/10/2011   85   20 C   100:0:0   7.7   44   73:18:9   PlayStation 3:81, Xbox 360:85   EA Sports   Electronic Arts   Basketball
+Mario Kart 7   https://www.metacritic.com/game/mario-kart-7/   04/12/2011   85   73 C   88:12:0   8.1   1,303   76:21:3   3DS:85   ,    Nintendo   Auto Racing
+Star Wars: The Old Republic   https://www.metacritic.com/game/star-wars-the-old-republic/   20/12/2011   85   73 C   93:7:0   6.1   3,038   49:20:32   PC:85   ,    Electronic Arts   MMORPG
+Crysis 2   https://www.metacritic.com/game/crysis-2/   22/03/2011   84   72 C   92:8:0   7.6   971   64:28:8   PC:86, PlayStation 3:85, Xbox 360:84   Crytek   EA Games   FPS
+SpaceChem   https://www.metacritic.com/game/spacechem/   02/03/2011   84   13 C   85:15:0   8.3   183   81:12:7   PC:84   Zachtronics Industries   Zachtronics Industries   Puzzle
+Beyond Good & Evil HD   https://www.metacritic.com/game/beyond-good-and-evil-hd/   02/03/2011   84   57 C   91:9:0   8.6   142   88:8:4   PlayStation 3:83, Xbox 360:84   Ubisoft Shanghai   Ubisoft   Action Adventure
+God of War: Origins Collection   https://www.metacritic.com/game/god-of-war-origins-collection/   13/09/2011   84   58 C   93:7:0   8.8   390   89:8:3   PlayStation 3:84   Ready at Dawn   SCEA   Compilation
+Top Spin 4   https://www.metacritic.com/game/top-spin-4/   15/03/2011   84   54 C   98:2:0   8.3   106   80:16:4   PlayStation 3:82, Xbox 360:84, Wii:54   2K Czech   2K Sports   Tennis
+Outland   https://www.metacritic.com/game/outland/   27/04/2011   84   55 C   89:11:0   7.4   75   57:35:8   PlayStation 3:83, Xbox 360:84, PC:79   Housemarque   Ubisoft   2D Platformer
+Football Manager 2012   https://www.metacritic.com/game/football-manager-2012/   20/10/2011   84   45 C   96:4:0   8.2   210   81:12:7   PC:84   Sports Interactive   Sega   Soccer Management
+Unity of Command   https://www.metacritic.com/game/unity-of-command/   15/11/2011   84   7 C   100:0:0   7.2   75   55:31:15   PC:84   2x2 Games   2x2 Games   Turn-Based Strategy
+Killzone 3   https://www.metacritic.com/game/killzone-3/   22/02/2011   84   85 C   88:12:0   8.1   1,218   75:18:6   PlayStation 3:84   Guerrilla   SCEA   FPS
+Stacking   https://www.metacritic.com/game/stacking/   09/02/2011   84   68 C   96:4:0   8.0   55   71:24:5   PlayStation 3:83, Xbox 360:84, PC:80   Double Fine Productions   THQ   Third-Person Adventure
+F1 2011   https://www.metacritic.com/game/f1-2011/   20/09/2011   84   61 C   98:2:0   7.3   83   61:24:14   Xbox 360:84, PlayStation 3:82, PC:83, 3DS:59, PlayStation Vita:66   Codemasters   Codemasters   Auto Racing Sim
+Bulletstorm   https://www.metacritic.com/game/bulletstorm/   22/02/2011   84   83 C   93:7:0   7.6   615   65:27:8   Xbox 360:84, PlayStation 3:83, PC:82   ,    Electronic Arts   FPS
+Pinball FX 2: Marvel Pinball - Vengeance and Virtue   https://www.metacritic.com/game/pinball-fx-2-marvel-pinball-vengeance-and-virtu/   13/12/2011   84   7 C   100:0:0   tbd   tdb   100:0:0   Xbox 360:84, PC:tbd   Zen Studios   Zen Studios   Pinball
+Saints Row: The Third   https://www.metacritic.com/game/saints-row-the-third/   15/11/2011   84   70 C   87:13:0   7.6   925   65:27:8   PC:84, PlayStation 3:82, Xbox 360:84   Volition Inc.   THQ   Open-World Action
+The Binding of Isaac   https://www.metacritic.com/game/the-binding-of-isaac/   28/09/2011   84   30 C   93:7:0   8.2   1,259   77:16:7   PC:84   ,    Edmund McMillen   Top-Down Shoot-'Em-Up
+Trine 2   https://www.metacritic.com/game/trine-2/   07/12/2011   84   55 C   tdb   8.3   826   79:17:4   PlayStation 3:85, PC:84, Xbox 360:85   Frozenbyte, Inc.   Frozenbyte, Inc.   2D Platformer
+Rift (2011)   https://www.metacritic.com/game/rift-2011/   01/03/2011   84   59 C   95:5:0   7.3   596   58:26:16   PC:84   Trion Worlds   Trion Worlds   MMORPG
+Child of Eden   https://www.metacritic.com/game/child-of-eden/   14/06/2011   84   81 C   90:10:0   7.9   99   70:21:9   PlayStation 3:81, Xbox 360:84   Q Entertainment   Ubisoft   Rail Shooter
+Resident Evil 4 HD   https://www.metacritic.com/game/resident-evil-4-hd/   20/09/2011   84   36 C   86:14:0   8.5   524   82:11:7   Xbox One:76, Nintendo Switch:80, PlayStation 4:82, Xbox 360:84, PlayStation 3:84, PC:79   Capcom   Capcom   Survival
+Anno 2070   https://www.metacritic.com/game/anno-2070/   17/11/2011   83   33 C   88:12:0   7.2   571   62:23:16   PC:83   Related Designs   Ubisoft   Management
+Ghost Trick: Phantom Detective   https://www.metacritic.com/game/ghost-trick-phantom-detective/   11/01/2011   83   60 C   90:10:0   7.9   397   77:9:15   iOS (iPhone/iPad):87, DS:83, Nintendo Switch:86, PC:90, Xbox One:84, PlayStation 4:84   Capcom   Capcom   Adventure
+Guardian Heroes   https://www.metacritic.com/game/guardian-heroes/   12/10/2011   83   32 C   91:9:0   8.5   31   84:6:10   Xbox 360:83   Treasure   Sega   Action RPG
+Fallout: New Vegas - Old World Blues   https://www.metacritic.com/game/fallout-new-vegas-old-world-blues/   19/07/2011   83   19 C   79:21:0   8.0   186   74:17:9   PC:82, Xbox 360:83, PlayStation 3:81   Obsidian Entertainment   Bethesda Softworks   Western RPG
+Resistance 3   https://www.metacritic.com/game/resistance-3/   06/09/2011   83   91 C   87:13:0   7.9   744   73:19:8   PlayStation 3:83   Insomniac Games   SCEA   FPS
+inFamous 2   https://www.metacritic.com/game/infamous-2/   07/06/2011   83   90 C   86:14:0   8.6   1,514   87:10:3   PlayStation 3:83   Sucker Punch   SCEA   Open-World Action
+Professor Layton and the Last Specter   https://www.metacritic.com/game/professor-layton-and-the-last-specter/   18/10/2011   83   58 C   88:12:0   8.2   123   73:24:3   DS:83   Level 5   Nintendo   Point-and-Click
+Kirby Mass Attack   https://www.metacritic.com/game/kirby-mass-attack/   19/09/2011   83   46 C   93:7:0   7.8   108   69:22:9   DS:83   HAL Labs   Nintendo   2D Platformer
+VVVVVV   https://www.metacritic.com/game/vvvvvv/   29/12/2011   83   19 C   95:5:0   7.8   134   69:22:9   3DS:83, PC:81, PlayStation Vita:tbd, iOS (iPhone/iPad):95, PlayStation 4:tbd, Nintendo Switch:80   Terry Cavanagh   Nicalis   Metroidvania
+Ms. 'Splosion Man   https://www.metacritic.com/game/ms-splosion-man/   13/07/2011   83   62 C   85:15:0   7.0   36   58:22:19   Xbox 360:83, PC:tbd, Nintendo Switch:tbd, iOS (iPhone/iPad):76   Twisted Pixel Games   Twisted Pixel Games   2D Platformer
+The Book of Unwritten Tales   https://www.metacritic.com/game/the-book-of-unwritten-tales/   28/10/2011   82   32 C   88:13:0   8.3   171   79:16:5   PC:82   KING Art   The Adventure Company   Adventure
+Cave Story 3D   https://www.metacritic.com/game/cave-story-3d/   08/11/2011   82   29 C   90:10:0   7.9   78   77:9:14   3DS:82   Nicalis   NIS America   Metroidvania
+You Don't Know Jack (2011)   https://www.metacritic.com/game/you-dont-know-jack-2011/   08/02/2011   82   23 C   87:13:0   7.9   29   72:17:10   Xbox 360:82, PlayStation 3:82, Wii:81, DS:tbd, iOS (iPhone/iPad):77, PC:71   Jellyvision   THQ   Trivia
+Shift 2: Unleashed   https://www.metacritic.com/game/shift-2-unleashed/   29/03/2011   82   70 C   89:11:0   6.7   137   44:39:17   iOS (iPhone/iPad):73, PC:84, Xbox 360:82, PlayStation 3:81   Slightly Mad Studios   Electronic Arts   Auto Racing Sim
+Iron Brigade   https://www.metacritic.com/game/iron-brigade/   22/06/2011   82   43 C   88:12:0   8.1   82   77:12:11   PC:75, Xbox 360:82   Double Fine Productions   Microsoft Game Studios   Defense
+Gemini Rue: Verschworung auf Barracus   https://www.metacritic.com/game/gemini-rue-verschworung-auf-barracus/   24/02/2011   82   24 C   88:13:0   8.3   234   82:14:4   iOS (iPhone/iPad):86, PC:82   Joshua Nuernberger   Wadjet Eye Games   Point-and-Click
+Sonic CD   https://www.metacritic.com/game/sonic-cd/   14/12/2011   82   20 C   85:15:0   7.9   231   67:25:8   PlayStation 3:80, PC:tbd, Xbox 360:82, iOS (iPhone/iPad):93   Sega   Sega   2D Platformer
+NCAA Football 12   https://www.metacritic.com/game/ncaa-football-12/   12/07/2011   82   25 C   84:16:0   6.8   62   58:26:16   Xbox 360:82, PlayStation 3:82   EA Sports   EA Sports   Football Sim
+PixelJunk Shooter 2   https://www.metacritic.com/game/pixeljunk-shooter-2/   01/03/2011   82   41 C   85:15:0   7.8   32   66:25:9   PlayStation 3:82   Q-Games   SCEA   Top-Down Shoot-'Em-Up
+Okamiden   https://www.metacritic.com/game/okamiden/   10/03/2011   82   48 C   88:13:0   8.2   84   74:20:6   DS:82   Capcom   Capcom   Action Adventure
+Flight Control HD   https://www.metacritic.com/game/flight-control-hd/   27/01/2011   82   14 C   79:21:0   5.2   6   33:33:33   PlayStation 3:82, PC:tbd   Firemint Pty Ltd   Firemint Pty Ltd   Action Puzzle
+Halo: Combat Evolved Anniversary   https://www.metacritic.com/game/halo-combat-evolved-anniversary/   15/11/2011   82   73 C   89:11:0   8.0   796   75:18:7   Xbox 360:82, PC:79   343 Industries   Microsoft Game Studios   FPS
+To the Moon   https://www.metacritic.com/game/to-the-moon/   01/11/2011   81   26 C   85:15:0   8.8   1,756   86:9:4   PC:81, iOS (iPhone/iPad):tbd, Nintendo Switch:84, PlayStation 5:tbd, Xbox Series X:tbd, Xbox One:tbd   Freebird Games   Freebird Games   Adventure
+Torchlight   https://www.metacritic.com/game/torchlight/   09/03/2011   81   61 C   85:15:0   7.6   182   62:32:6   PC:83, Xbox 360:81   Runic Games   Microsoft Game Studios   Action RPG
+Renegade Ops   https://www.metacritic.com/game/renegade-ops/   14/09/2011   81   36 C   92:8:0   7.8   24   67:25:8   Xbox 360:81, PlayStation 3:80, PC:76   Avalanche Studios   Sega   Top-Down Shoot-'Em-Up
+Where is My Heart?   https://www.metacritic.com/game/where-is-my-heart/   08/11/2011   81   10 C   90:10:0   7.9   9   67:33:0   PSP:81, PC:74   Die Gute Fabrik   Copenhagen Game Collective   2D Platformer
+Mighty Milky Way   https://www.metacritic.com/game/mighty-milky-way/   09/05/2011   81   10 C   80:20:0   8.2   13   77:8:15   DS:81   WayForward   WayForward   Action Puzzle
+Toy Soldiers: Cold War   https://www.metacritic.com/game/toy-soldiers-cold-war/   17/08/2011   81   46 C   83:17:0   8.0   101   75:12:13   Xbox 360:81   Signal Studios   Microsoft Game Studios   Real-Time Strategy
+ilomilo   https://www.metacritic.com/game/ilomilo/   05/01/2011   81   53 C   91:9:0   8.3   65   82:14:5   Xbox 360:81   Southend Interactive   Microsoft Game Studios   Action Puzzle
+RAGE   https://www.metacritic.com/game/rage/   04/10/2011   81   77 C   78:21:1   6.8   720   48:35:18   PC:79, PlayStation 3:81, Xbox 360:81   id Software   Bethesda Softworks   FPS
+Bit.Trip Flux   https://www.metacritic.com/game/bit-trip-flux/   28/02/2011   81   15 C   87:7:7   8.0   8   75:13:13   Wii:81, PC:tbd, Nintendo Switch:80   Gaijin Games   Aksys Games   Rhythm
+Star Fox 64 3D   https://www.metacritic.com/game/star-fox-64-3d/   09/09/2011   81   65 C   86:14:0   8.0   315   71:24:5   3DS:81   Q-Games   Nintendo   Rail Shooter
+The Dishwasher: Vampire Smile   https://www.metacritic.com/game/the-dishwasher-vampire-smile/   06/04/2011   81   55 C   78:20:2   8.3   35   77:14:9   Xbox 360:81, PC:tbd   Ska Studios   Microsoft Game Studios   2D Beat-'Em-Up
+escapeVektor: Chapter 1   https://www.metacritic.com/game/escapevektor-chapter-1/   29/09/2011   81   7 C   71:29:0   7.2   5   80:0:20   Wii:81   Nnooo   Nnooo   Action Puzzle
+Jamestown: Legend of the Lost Colony   https://www.metacritic.com/game/jamestown-legend-of-the-lost-colony/   08/06/2011   81   20 C   85:15:0   7.4   145   59:31:10   PlayStation 4:83, Nintendo Switch:78, PC:81   Final Form Games, LLC   Final Form Games, LLC   Vertical Shoot-'Em-Up
+Prince of Persia Trilogy   https://www.metacritic.com/game/prince-of-persia-trilogy/   19/04/2011   81   21 C   76:24:0   8.1   99   76:16:8   PlayStation 3:81, PlayStation 2:tbd, PC:tbd   Ubisoft   Ubisoft   Compilation
+TrackMania 2 Canyon   https://www.metacritic.com/game/trackmania-2-canyon/   14/09/2011   81   37 C   81:19:0   7.7   119   70:16:14   PC:81   Nadeo   Ubisoft   Auto Racing
+The 2D Adventures of Rotating Octopus Character   https://www.metacritic.com/game/the-2d-adventures-of-rotating-octopus-character/   02/06/2011   81   7 C   86:14:0   4.4   5   0:80:20   PSP:81   Dakko Dakko   Dakko Dakko   2D Platformer
+Anomaly: Warzone Earth   https://www.metacritic.com/game/anomaly-warzone-earth/   08/04/2011   80   36 C   83:17:0   7.2   185   52:38:10   PC:80, Xbox 360:79, PlayStation 3:78   11 bit studios   11 bit studios   Real-Time Strategy
+Assassin's Creed: Revelations   https://www.metacritic.com/game/assassins-creed-revelations/   15/11/2011   80   77 C   75:25:0   7.6   1,738   63:31:6   PlayStation 3:80, Xbox 360:80, PC:80   Ubisoft Montreal   Ubisoft   Open-World Action
+Driver: San Francisco   https://www.metacritic.com/game/driver-san-francisco/   06/09/2011   80   63 C   87:13:0   tbd   tdb   tdb   PlayStation 3:79, Xbox 360:80, PC:80, Wii:64   Ubisoft Reflections   Ubisoft   Auto Racing
+From Dust   https://www.metacritic.com/game/from-dust/   27/07/2011   80   76 C   72:24:4   7.7   101   65:28:7   Xbox 360:80, PlayStation 3:81, PC:76   Ubisoft Montpellier   Ubisoft   Strategy
+Disgaea 4: A Promise Unforgotten   https://www.metacritic.com/game/disgaea-4-a-promise-unforgotten/   06/09/2011   80   39 C   85:15:0   8.5   122   84:8:8   PlayStation Vita:82, PlayStation 3:80   Nippon Ichi Software   NIS America   Turn-Based Tactics
+Tetris (2009)   https://www.metacritic.com/game/tetris-2009/   04/01/2011   80   11 C   82:18:0   7.2   18   67:22:11   PlayStation 3:80   EA Mobile   Electronic Arts   Stacking Puzzle
+World of Tanks   https://www.metacritic.com/game/world-of-tanks/   12/04/2011   80   38 C   76:24:0   3.4   2,395   24:13:63   PC:80, Xbox One:76, PlayStation 4:80, Xbox 360:77   Wargaming.net   Wargaming.net   Vehicle Combat Sim
+Warhammer 40,000: Dawn of War II - Retribution   https://www.metacritic.com/game/warhammer-40-000-dawn-of-war-ii-retribution/   28/02/2011   80   52 C   81:19:0   7.7   291   65:27:8   PC:80   Relic Entertainment   THQ   Real-Time Strategy
+Pro Evolution Soccer 2012   https://www.metacritic.com/game/pro-evolution-soccer-2012/   27/09/2011   80   41 C   73:27:0   6.9   209   46:40:14   PlayStation 3:80, Xbox 360:78, PSP:74, Wii:79, PlayStation 2:tbd, PC:77, 3DS:73   Konami   Konami   Soccer Sim
+Panzer Corps   https://www.metacritic.com/game/panzer-corps/   11/07/2011   80   12 C   83:17:0   8.0   90   77:11:12   PC:80, iOS (iPhone/iPad):tbd   The Lordz Games Studio   Slitherine   Turn-Based Tactics
+Tiger Woods PGA Tour 12: The Masters   https://www.metacritic.com/game/tiger-woods-pga-tour-12-the-masters/   29/03/2011   80   50 C   84:16:0   6.1   27   56:11:33   PlayStation 3:80, Xbox 360:80, Wii:85, PC:43   Electronic Arts   Electronic Arts   Golf Sim
+The King of Fighters XIII   https://www.metacritic.com/game/the-king-of-fighters-xiii/   22/11/2011   79   31 C   84:16:0   8.3   97   79:12:8   Xbox 360:79, PlayStation 3:77   SNK Playmore   Atlus   2D Fighting
+Sesame Street: Once Upon a Monster   https://www.metacritic.com/game/sesame-street-once-upon-a-monster/   11/10/2011   79   26 C   81:19:0   7.3   27   67:15:19   Xbox 360:79   Double Fine Productions   Warner Bros. Interactive Entertainment   Third-Person Adventure
+Dead or Alive Dimensions   https://www.metacritic.com/game/dead-or-alive-dimensions/   24/05/2011   79   62 C   77:23:0   8.0   149   74:17:8   3DS:79   Team Ninja   Tecmo Koei Games   3D Fighting
+Puzzle Dimension   https://www.metacritic.com/game/puzzle-dimension/   28/06/2011   79   23 C   78:22:0   tbd   tdb   100:0:0   PC:79, iOS (iPhone/iPad):tbd, PlayStation 3:79   Doctor Entertainment   Doctor Entertainment   Puzzle
+Runaway: A Twist of Fate   https://www.metacritic.com/game/runaway-a-twist-of-fate/   21/04/2011   79   15 C   87:13:0   8.3   67   73:25:1   PC:79, DS:66, iOS (iPhone/iPad):tbd   Pendulo Studios   Focus Home Interactive   Point-and-Click
+Bloodline Champions   https://www.metacritic.com/game/bloodline-champions/   13/01/2011   79   13 C   92:8:0   8.0   95   65:22:13   PC:79   Stunlock Studios   Funcom   MOBA
+The Legend of Heroes: Trails in the Sky   https://www.metacritic.com/game/the-legend-of-heroes-trails-in-the-sky/   28/03/2011   79   22 C   82:18:0   8.3   189   82:10:8   PSP:79, PC:85   Falcom   XSEED Games   JRPG
+Legends of War: Patton's Campaign   https://www.metacritic.com/game/legends-of-war-pattons-campaign/   03/01/2011   79   8 C   75:25:0   8.2   18   83:6:11   PSP:79   Enigma Software Productions   Enigma Software Productions   Strategy
+Orcs Must Die!   https://www.metacritic.com/game/orcs-must-die/   05/10/2011   79   37 C   81:16:3   7.8   95   66:26:7   PC:83, Xbox 360:79   Robot Entertainment   Robot Entertainment   Defense
+Dungeons of Dredmor   https://www.metacritic.com/game/dungeons-of-dredmor/   13/07/2011   79   18 C   72:28:0   7.6   222   66:23:10   PC:79   Gaslamp Games   Gaslamp Games   Roguelike
+Rochard   https://www.metacritic.com/game/rochard/   27/09/2011   79   34 C   76:24:0   4.6   48   42:13:46   PlayStation 3:79, PC:81   Recoil Games   Sony Online Entertainment   2D Platformer
+Catherine   https://www.metacritic.com/game/catherine/   26/07/2011   79   61 C   75:23:2   8.2   614   78:16:6   Xbox 360:82, PlayStation 3:79, PC:80   Atlus   Atlus   Survival
+Monster Tale   https://www.metacritic.com/game/monster-tale/   16/03/2011   79   15 C   80:20:0   7.9   30   73:20:7   DS:79, Xbox One:tbd, PlayStation 4:tbd, Nintendo Switch:tbd   DreamRift   Majesco   Metroidvania
+Call of Duty: Black Ops - Escalation   https://www.metacritic.com/game/call-of-duty-black-ops-escalation/   03/05/2011   79   19 C   74:26:0   5.4   83   42:19:39   Xbox 360:79, PlayStation 3:tbd, PC:tbd   Treyarch   Activision   Tactical FPS
+Dragon Age II   https://www.metacritic.com/game/dragon-age-ii/   08/03/2011   79   75 C   73:25:1   5.0   2,894   34:21:44   Xbox 360:79, PlayStation 3:82, PC:82   BioWare   Electronic Arts   Action RPG
+The Sims 3: Pets   https://www.metacritic.com/game/the-sims-3-pets/   18/10/2011   79   18 C   72:28:0   6.3   86   47:30:23   PC:79   The Sims Studio   Electronic Arts   Virtual Life
+Mighty Switch Force!   https://www.metacritic.com/game/mighty-switch-force/   22/12/2011   79   30 C   83:17:0   7.8   62   68:27:5   3DS:79   WayForward   WayForward   2D Platformer
+Yakuza 4   https://www.metacritic.com/game/yakuza-4/   15/03/2011   78   59 C   76:24:0   8.3   317   78:16:5   PlayStation 3:78   Ryu ga Gotoku Studios   Sega   Open-World Action
+Skylanders: Spyro's Adventure   https://www.metacritic.com/game/skylanders-spyros-adventure/   16/10/2011   78   35 C   80:20:0   6.9   141   59:22:19   Wii:81, PlayStation 3:77, PC:tbd, Xbox 360:78, 3DS:82, Wii U:tbd   Toys for Bob   Activision   3D Platformer
+Madden NFL 12   https://www.metacritic.com/game/madden-nfl-12/   30/08/2011   78   55 C   76:24:0   6.4   125   44:34:22   PlayStation 3:79, Xbox 360:78, iOS (iPhone/iPad):71, PlayStation 2:tbd, Wii:tbd, PSP:tbd   EA Tiburon   EA Sports   Football Sim
+inFamous: Festival of Blood   https://www.metacritic.com/game/infamous-festival-of-blood/   25/10/2011   78   32 C   91:9:0   8.0   214   69:28:3   PlayStation 3:78   Sucker Punch   SCEA   Open-World Action
+Dragon Quest VI: Realms of Revelation   https://www.metacritic.com/game/dragon-quest-vi-realms-of-revelation/   14/02/2011   78   41 C   tdb   7.9   63   67:27:6   iOS (iPhone/iPad):86, DS:78   ArtePiazza   Nintendo   JRPG
+The Tomb Raider Trilogy   https://www.metacritic.com/game/the-tomb-raider-trilogy/   22/03/2011   78   37 C   76:24:0   8.3   95   78:18:4   PlayStation 3:78   Crystal Dynamics   Square Enix   Compilation
+Super Street Fighter IV: Arcade Edition   https://www.metacritic.com/game/super-street-fighter-iv-arcade-edition/   28/06/2011   78   32 C   81:19:0   7.2   67   63:24:13   PlayStation 3:80, Xbox 360:78, PC:84   Capcom   Capcom   2D Fighting
+Two Worlds II: Pirates of the Flying Fortress   https://www.metacritic.com/game/two-worlds-ii-pirates-of-the-flying-fortress/   30/09/2011   78   9 C   89:0:11   7.3   41   54:37:10   PC:78, PlayStation 3:tbd, Xbox 360:tbd   Reality Pump   TopWare Interactive   Action RPG
+Call of Duty: Black Ops - First Strike   https://www.metacritic.com/game/call-of-duty-black-ops-first-strike/   01/02/2011   78   14 C   79:21:0   6.5   60   52:27:22   Xbox 360:78, PlayStation 3:tbd, PC:tbd   Treyarch   Activision   Tactical FPS
+Chime Super Deluxe   https://www.metacritic.com/game/chime-super-deluxe/   29/03/2011   78   19 C   74:26:0   8.0   16   63:31:6   PlayStation 3:78   Zoe Mode   Zoe Mode   Stacking Puzzle
+Bangai-O HD: Missile Fury   https://www.metacritic.com/game/bangai-o-hd-missile-fury/   04/05/2011   78   27 C   70:26:4   7.6   11   82:0:18   Xbox 360:78   Treasure   D3Publisher   Vertical Shoot-'Em-Up
+Dissidia 012: Duodecim Final Fantasy   https://www.metacritic.com/game/dissidia-012-duodecim-final-fantasy/   21/03/2011   78   52 C   71:27:2   7.3   201   65:19:16   PSP:78   Square Enix   Square Enix   3D Fighting
+Shin Megami Tensei: Devil Survivor Overclocked   https://www.metacritic.com/game/shin-megami-tensei-devil-survivor-overclocked/   23/08/2011   78   27 C   70:26:4   8.0   188   78:9:13   3DS:78   Atlus   Atlus   Turn-Based Tactics
+Ace Combat: Assault Horizon   https://www.metacritic.com/game/ace-combat-assault-horizon/   11/10/2011   78   71 C   76:23:1   6.1   98   45:26:30   Xbox 360:78, PlayStation 3:77   Project Aces    Namco Bandai Games   Aircraft Combat Sim
+El Shaddai: Ascension of the Metatron   https://www.metacritic.com/game/el-shaddai-ascension-of-the-metatron/   16/08/2011   78   46 C   72:26:2   7.6   58   59:34:7   Xbox 360:75, PlayStation 3:78, PC:tbd   Ignition Entertainment   Ignition Entertainment   Action Adventure
+Tropico 4   https://www.metacritic.com/game/tropico-4/   30/08/2011   78   46 C   70:30:0   7.7   444   65:29:7   PC:78, Xbox 360:77   Haemimont Games   Kalypso   Management
+Call of Duty: Black Ops - Annihilation   https://www.metacritic.com/game/call-of-duty-black-ops-annihilation/   28/06/2011   78   17 C   65:35:0   5.2   57   33:28:39   PC:tbd, PlayStation 3:79, Xbox 360:78   Treyarch   Activision   Tactical FPS
+Tom Clancy's Ghost Recon: Shadow Wars   https://www.metacritic.com/game/tom-clancys-ghost-recon-shadow-wars/   22/03/2011   77   49 C   71:29:0   7.9   84   77:14:8   3DS:77   Ubisoft   Ubisoft   Turn-Based Strategy
+Angry Birds   https://www.metacritic.com/game/angry-birds/   04/01/2011   77   14 C   71:21:7   5.4   122   33:33:34   iOS (iPhone/iPad):80, PSP:77, PC:tbd   ,    Chillingo   Action Puzzle

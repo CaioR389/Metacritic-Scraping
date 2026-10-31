@@ -27,7 +27,7 @@ def main():
 
     for ano in range(ano_inicial, ano_final):
         print(f"Ano de {ano}:")
-        metacritic.browse_scrapping("https://www.metacritic.com/browse/game/all/all/" + str(ano) + "/metascore/?pageSize=50", ano)
+        metacritic.browse_scraping("https://www.metacritic.com/browse/game/all/all/" + str(ano) + "/metascore/?pageSize=50", ano)
 
 if __name__ == "__main__":
 	main()
