@@ -25,9 +25,21 @@ def main():
     else:
         ano_final -= 1
 
+    decisao_sobrescrever = input("Deseja sobrescrever os arquivos? Digite s para sim e n para não.\n> ")
+    while True:
+        if decisao_sobrescrever.lower() != 's' and decisao_sobrescrever.lower() != 'n':
+            decisao_sobrescrever = input(f"Opção inválida. Digite novamente: ")
+            continue
+    
+        if decisao_sobrescrever.lower() == 's':
+            sobrescrever = True
+        elif decisao_sobrescrever.lower() == 'n':
+            sobrescrever = False
+
+        break
+
     for ano in range(ano_inicial, ano_final):
-        print(f"Ano de {ano}:")
-        metacritic.browse_scraping("https://www.metacritic.com/browse/game/all/all/" + str(ano) + "/metascore/?pageSize=50", ano)
+        metacritic.browse_scraping("https://www.metacritic.com/browse/game/all/all/" + str(ano) + "/metascore/?pageSize=50", ano, sobrescrever)
 
 if __name__ == "__main__":
 	main()

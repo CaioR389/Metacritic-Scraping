@@ -1,5 +1,7 @@
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
+from time import sleep
+import pandas as pd
 
 import config_scraping as config
 
@@ -145,6 +147,18 @@ def game_scraping(url):
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
+    while True:
+        try:
+            scrap_nome(soup)
+            break
+        except AttributeError:
+            print("Deu pau. Esperando 10 minutos para a próxima requisição.")
+
+            sleep(600)
+
+            html = requests.get(url, headers=config.headers).text
+            soup = BeautifulSoup(html, "html.parser")
+
     return {"nome" : scrap_nome(soup),
             "url" : url,
             "lançamento" : scrap_data_lancamento(soup),
@@ -164,28 +178,36 @@ def game_scraping(url):
 def criar_csv(nome_arquivo):
     with open(nome_arquivo, 'w') as arquivo:
         for atributo in config.cabeçalho:
-            if atributo != config.cabeçalho[-1]: arquivo.write(atributo + "  ")
+            if atributo != config.cabeçalho[-1]: arquivo.write(atributo + "\t")
             else: arquivo.write(atributo + '\n')
 
 # Adiciona os jogos ao arquivo CSV
 def append_csv(nome_arquivo, dados: dict):
     with open(nome_arquivo, 'a') as arquivo:
         for atributo in config.cabeçalho:
-            if atributo != config.cabeçalho[-1]: arquivo.write(dados[atributo] + "   ")
+            if atributo != config.cabeçalho[-1]: arquivo.write(dados[atributo] + "\t")
             else: arquivo.write(dados[atributo] + '\n')
 
 # Procura na página de browse global do Metacritic
-def browse_scraping(url, ano):
+def browse_scraping(url, ano: str, sobrescrever: bool):
     html = requests.get(url, headers=config.headers).text
     soup = BeautifulSoup(html, "html.parser")
 
     # Nome do CSV em que será armazenado os dados
     nome_arquivo = "jogos_por_ano/jogos" + str(ano) + ".csv"
 
+    if sobrescrever:
+        criar_csv(nome_arquivo)
+
+    else:
+        try:
+            links_acessados = set(pd.read_csv(nome_arquivo, sep='\t')["url"])
+        except FileNotFoundError:
+            criar_csv(nome_arquivo)
+            links_acessados = set()
+
     qnt_jogos = soup.find("span", {"class" : "hidden lg:inline text-base text-gray-500"}).text[0:-8]
     qnt_paginas = int(soup.find_all("span", {"class" : "c-navigation-pagination__item-content"})[3].text)
-
-    criar_csv(nome_arquivo)
 
     pagina_atual = 1
     progresso = 0
@@ -196,7 +218,10 @@ def browse_scraping(url, ano):
 
         for jogo in jogos:
             link_jogo = "https://www.metacritic.com" + jogo.find('a')["href"]
-            print(link_jogo)
+            if sobrescrever == False:
+                if link_jogo in links_acessados:
+                    progresso += 1
+                    continue
 
             # Organiza os dados do jogo. A ordem do dicionário não importa
             dados = game_scraping(link_jogo)
@@ -205,7 +230,7 @@ def browse_scraping(url, ano):
             append_csv(nome_arquivo, dados)            
 
             progresso += 1
-            print(str(progresso) + '/' + qnt_jogos)
+            print(f"{ano}: {str(progresso)}/{qnt_jogos}")
 
         # Executa todas as operações para o próximo loop while
         pagina_atual += 1
