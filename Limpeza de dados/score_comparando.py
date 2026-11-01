@@ -35,35 +35,23 @@ def media_pub_favorita(df):
     return favorita
 
 def extrair_quantitativo():
-    
-    lista_dados = []
-    pasta_atual = os.getcwd()
-    colunas_desejadas = ['nome','metascore','qnt_meta','userscore','qnt_user','publisher','genero']
+
+    # diz onde o jogos_geral.csv tá
+    caminho_csv = os.path.join("..", "Dados dos jogos", "jogos_geral.csv")
+    colunas_desejadas = ['nome', 'ano', 'metascore', 'qnt_meta', 'userscore', 'qnt_user', 'publisher', 'genero']
     csv_final = "comparativo_dados.csv"
+    
+    try:
+        df = pd.read_csv(caminho_csv, sep='\t', usecols=colunas_desejadas)
         
-    #junta as colunas pedidas
-    for csv in sorted(os.listdir(pasta_atual)):
-        if csv.endswith(".csv") and csv != csv_final and "geral" not in csv:
-            try:
-                # lê o jogo e os dados quantitativos
-                df = pd.read_csv(csv, sep='\t', usecols = colunas_desejadas)
-                df['ano'] = csv[5:9]
-                lista_dados.append(df)
-                print(f"teste: {csv}")
-                
-            except Exception as e:
-                print(f"deu erro chefe, e foi isso aqui {csv}: {e}")
-
-    #cria o csv
-    if lista_dados:
-        df_final = pd.concat(lista_dados, ignore_index=True) 
-        df_final.to_csv(csv_final, sep='\t', index=False, encoding="utf-8")
-        print(f"\ncsv gerado : {csv_final}")
-        return df_final
-    else:
-        print("sobrou nada")
+        #salva o arquivo final na pasta atual, é bom mudar, acho)
+        df.to_csv(csv_final, sep='\t', index=False, encoding="utf-8")
+        
+        print(f"dados extraídos do jogos_geral.csv e csv gerado: {csv_final}")
+        return df
+    except Exception as e:
+        print(f"deu erro chefe 'tem dia que é noite', foi isso aqui: {e}")
         return None
-
 
 def media_metascore(df):
     soma_meta = {}
