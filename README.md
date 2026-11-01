@@ -38,8 +38,6 @@
 * **genero:** Categoria em que o jogo se enquadra. Ex: *Action Adventure*
 * **ano:** Ano de lançamento extraído para facilitar a análise. Ex: *1998*
 
- **5** Dados hospedados: [INSERIR LINK DO GOOGLE DRIVE AQUI]
-
 ## RESUMO  
 # O que este projeto faz, exatamente?
 - **Coleta de dados (Data Scraping)**
