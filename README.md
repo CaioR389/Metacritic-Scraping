@@ -1,4 +1,4 @@
-# Projeto de Análise de Dados do Metacritic
+# Projeto de API do Metacritic
 
  **2** O foco deste projeto é analisar dados de jogos lançados entre 2000 e 2026 na plataforma Metacritic e comparar avaliações dos críticos e usuários ao longo dos anos, assim como a distribuição das notas.
 
