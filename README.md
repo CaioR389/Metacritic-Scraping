@@ -55,4 +55,4 @@
 # Observações
 *Em alguns jogos, devido a má organização da distribuidora, pode ocasionar ou não em erros na extração de dados*
 
-*.Não é recomendados, embora seja possível a extração de dados dos anos 1996-1999, a quantidade de jogos disponíveis e a organização dos dados nesse periodo são terríveis* 
+*Não recomendados, embora seja possível, a extração de dados dos anos 1996-1999; pois a quantidade de jogos disponíveis e a organização destes dados durante o período: 1996-1999, são terríveis* 
