@@ -28,15 +28,14 @@
 * **lancamento:** Data exata de lançamento. Ex: *23/11/1998*
 * **metascore:** Nota da crítica especializada (0 a 100). Ex: *99*
 * **qnt_meta:** Número total de análises da crítica. Ex: *22*
-* **pmn_meta:** Contagem de críticas positivas, mistas e negativas. Ex: *22:0:0*
+* **pmn_meta:** Porcentagem de avaliações críticas positivas, mistas e negativas, respectivamente. Separados por ':'. Ex: *100:0:0*
 * **userscore:** Nota média atribuída pelos usuários (0.0 a 10.0). Ex: *9.1*
 * **qnt_user:** Número total de avaliações do público. Ex: *7500*
-* **pmn_user:** Contagem de avaliações de usuários positivas, mistas e negativas. Ex: *6000:1000:500*
-* **plataforma_nota:** Notas divididas por plataforma. Ex: *Nintendo 64:99*
+* **pmn_user:** Porcentagem de avaliações de usuários positivas, mistas e negativas, respectivamente. Separados por ':'. Ex: *90:4:6*
+* **plataforma_nota:** Notas divididas por plataforma. Separados por ','. Ex: *Nintendo 64:99*
 * **desenvolvedora:** Estúdio responsável pela criação do jogo. Ex: *Nintendo*
 * **publisher:** Empresa distribuidora. Ex: *Nintendo*
 * **genero:** Categoria em que o jogo se enquadra. Ex: *Action Adventure*
-* **ano:** Ano de lançamento extraído para facilitar a análise. Ex: *1998*
 
 ## RESUMO  
 # O que este projeto faz, exatamente?
