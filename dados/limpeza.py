@@ -4,7 +4,7 @@ from pathlib import Path
 from limpar import limpar
 from pathlib import Path
 
-for arq in sorted(Path(".").glob("jogos*.csv")):
+for arq in sorted(Path("jogos_por_ano").glob("jogos*.csv")):
     if "_limpo" in arq.stem:
         continue
     try:

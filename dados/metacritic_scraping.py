@@ -16,7 +16,7 @@ def game_scraping(url):
 
         # Tinha um jogo sem data de lançamento, por isso essa manipulação toda só para pegar a data
         try:
-            data_lançamento = soup.find("div", {"class" : "hero-release-date__value"}).text
+            data_lançamento = soup.find("div", {"class" : "inline-block uppercase"}).text
             if len(data_lançamento) == 11:
                 data_lançamento = f"0{data_lançamento[4]}/{tabela_data[data_lançamento[0:3]]}/{data_lançamento[-4:]}"
             else:
@@ -42,7 +42,7 @@ def game_scraping(url):
         for review in reviews:
             if review.find("div", {"data-testid" : "global-score-header"}).text == "Metascore":
                 try:
-                    return review.find("a", {"data-testid" : "global-score-review-count-link"}).text[9:-13]
+                    return review.find("a", {"data-testid" : "global-score-review-count-link"}).text[9:-15]
                 except AttributeError:
                     return "tdb"
 
@@ -52,13 +52,13 @@ def game_scraping(url):
         for review in reviews:
             try:
                 if review.find("div", {"data-testid" : "global-score-header"}).text == "Metascore":
-                    bloco_metascore = review
+                    p_m_n = review.find("div", {"class" : "grid grid-cols-[repeat(3,1fr)] justify-evenly gap-0 px-0 py-4 text-center text-[0.75rem] leading-5 font-normal"}).find_all("div")
 
-                    positivas = bloco_metascore.find("div", {"class" : "reviews-stats__positive-stats"})
-                    mistas = bloco_metascore.find("div", {"class" : "reviews-stats__neutral-stats"})
-                    negativas = bloco_metascore.find("div", {"class" : "reviews-stats__negative-stats"})
+                    positiva = p_m_n[0].find("span").text
+                    mista = p_m_n[1].find("span").text
+                    negativa = p_m_n[2].find("span").text
                                 
-                    return positivas.find("span", {"class" : "bold"}).text[:-10] + ':' + mistas.find("span", {"class" : "bold"}).text[:-7] + ':' + negativas.find("span", {"class" : "bold"}).text[:-10]
+                    return positiva[:-10] + ':' + mista[:-7] + ':' + negativa[:-10]
 
             # Não é uma review
             except AttributeError:
@@ -88,15 +88,14 @@ def game_scraping(url):
 
         for review in reviews:
             try:
-                if review.find("div", {"data-testid" : "global-score-header"}).text == "User score":
-                    bloco_userscore = review
-
-                    # Porcentagem de avaliações positivas, mistas e negativas
-                    positivas = bloco_userscore.find("div", {"class" : "reviews-stats__positive-stats"})
-                    mistas = bloco_userscore.find("div", {"class" : "reviews-stats__neutral-stats"})
-                    negativas = bloco_userscore.find("div", {"class" : "reviews-stats__negative-stats"})
-                        
-                    return positivas.find("span", {"class" : "bold"}).text[:-10] + ':' + mistas.find("span", {"class" : "bold"}).text[:-7] + ':' + negativas.find("span", {"class" : "bold"}).text[:-10]
+                 if review.find("div", {"data-testid" : "global-score-header"}).text == "User score":
+                    p_m_n = review.find("div", {"class" : "grid grid-cols-[repeat(3,1fr)] justify-evenly gap-0 px-0 py-4 text-center text-[0.75rem] leading-5 font-normal"}).find_all("div")
+                
+                    positiva = p_m_n[0].find("span").text
+                    mista = p_m_n[1].find("span").text
+                    negativa = p_m_n[2].find("span").text
+                                                
+                    return positiva[:-10] + ':' + mista[:-7] + ':' + negativa[:-10]
 
             # Não é uma review
             except AttributeError:
@@ -105,12 +104,26 @@ def game_scraping(url):
         return "tdb"
 
     def scrap_plataformas_notas(soup):
-        # plataformas & notas_p_plataforma
-        plataformas = soup.find("div", {"class" : "c-product-details__section c-product-details__section--grouped"}).find_all("li", {"class" : "c-product-details__section__list-item"})
-        notas_plataformas =  soup.find_all("div", {"class" : "c-siteReviewScore_background c-siteReviewScore_background-critic_xlarge product-score-card__score"})
-        plataforma_nota = ""
-        for plataforma in range(len(plataformas)):
-            plataforma_nota += plataformas[plataforma].text + ':' + notas_plataformas[plataforma].find("span").text + ", "
+        todas_plataformas = soup.find("div", {"data-testid" : "all-platforms"})
+
+        try:
+            plataforma_nota = todas_plataformas.find("div", {"data-testid" : "product-score-card"}).find("div", {"class" : "inline-block leading-0"}).find("span")["title"] + ':' + todas_plataformas.find("div", {"data-testid" : "product-score-card"}).find("div", {"class" : "c-siteReviewScore_background c-siteReviewScore_background-critic_xlarge shrink-0"}).find("span").text + ", "
+        except AttributeError:
+            plataforma_nota = ""
+
+        plataformas = todas_plataformas.find_all("a", {"data-testid" : "product-score-card"})
+        for plataforma in plataformas:
+            try:
+                nome_plataforma = plataforma.find("div", {"class" : "inline-block leading-0"}).find("span")["title"]
+            except AttributeError:
+                nome_plataforma = plataforma.find("div", {"class" : "game-platform-logo__text truncate font-[family-name:var(--font-family-body,'Proxima_Nova',sans-serif)] text-[1.5rem] leading-8 font-bold text-black"}).text
+
+            nota_plataforma = plataforma.find("div", {"class" : "c-siteReviewScore_background c-siteReviewScore_background-critic_xlarge shrink-0"}).find("span").text
+
+            try:
+                plataforma_nota += nome_plataforma + ':' + nota_plataforma + ", "
+            except AttributeError:
+                continue
 
         return plataforma_nota[:-2]
 
@@ -128,18 +141,26 @@ def game_scraping(url):
 
     def scrap_publisher(soup):
         try: 
-            info_publisher = soup.find_all("div", {"class" : "c-product-details__section-group c-product-details__section-group--game"})[1]
-            if info_publisher.find("a", {"class" : "c-product-detail-link"}) != None:
-                return info_publisher.find("a", {"class" : "c-product-detail-link"}).text
+            info_publisher = soup.find("div", {"data-testid" : "game-details"}).find_all("div", {"class" : "flex items-baseline gap-4 max-md:flex-row max-md:gap-2 [&_.c-genreList]:m-0 min-h-[unset] bg-transparent p-0"})[2]
+
+            if info_publisher.find("a", {"class" : "inline text-[0.875rem] text-gray-500 underline transition-[color] duration-200 ease-[ease] [word-break:break-word] hover:text-gray-600 hover:no-underline"}) != None:
+                publisher = info_publisher.find("a", {"class" : "inline text-[0.875rem] text-gray-500 underline transition-[color] duration-200 ease-[ease] [word-break:break-word] hover:text-gray-600 hover:no-underline"}).text
+            elif info_publisher.find("span", {"class" : "c-product-details__section__value block text-gray-700"}) != None:
+                publisher = info_publisher.find("span", {"class" : "c-product-details__section__value block text-gray-700"}).text
             else:
-                return info_publisher.find("span", {"class" : "c-product-details__section__value"}).text
+                publisher = None
+
+            if publisher != None:
+                return publisher
+            else:
+                return "tdb"
 
         except AttributeError:
             return "tbd"
 
     def scrap_genero(soup):
         try:
-            return soup.find("span", {"class" : "global-link-button__label"}).text
+            return soup.find('a', {"class" : "inline-flex cursor-pointer flex-row items-center justify-center gap-2 rounded-sm border border-solid no-underline [transition:all_0.15s_ease] focus-visible:outline-2 focus-visible:outline-offset-[0.125rem] focus-visible:outline-current focus-visible:outline-solid font-[family-name:var(--font-family-body,'Proxima_Nova',sans-serif)] h-8 px-3 text-[0.875rem] leading-[1.625rem] font-normal max-md:px-1 border-(--color-bg-brand-primary-default) bg-(--color-bg-brand-primary-default) text-(--color-text-grayscale-primary-default) hover:border-(--color-bg-brand-primary-hover) hover:bg-(--color-bg-brand-primary-hover) hover:text-(--color-text-grayscale-primary-default) active:border-(--color-bg-brand-primary-pressed) active:bg-(--color-bg-brand-primary-pressed)"}).find("span", {"class" : "leading-none"}).text
         
         except AttributeError:
             return "tdb"
@@ -174,7 +195,7 @@ def game_scraping(url):
             "gênero" : scrap_genero(soup)
             }
 
-# Sobrescreve o arquivo anterior e cria o cabeçalho
+# Sobrescreve o arquivo anterior e cria o cabeçalho"
 def criar_csv(nome_arquivo):
     with open(nome_arquivo, 'w') as arquivo:
         for atributo in config.cabeçalho:
@@ -206,8 +227,18 @@ def browse_scraping(url, ano: str, sobrescrever: bool):
             criar_csv(nome_arquivo)
             links_acessados = set()
 
-    qnt_jogos = soup.find("span", {"class" : "hidden lg:inline text-base text-gray-500"}).text[0:-8]
-    qnt_paginas = int(soup.find_all("span", {"class" : "c-navigation-pagination__item-content"})[3].text)
+    while True:
+            try:
+                qnt_jogos = soup.find("span", {"class" : "hidden lg:inline text-base text-gray-500"}).text[0:-8]
+                qnt_paginas = int(soup.find_all("span", {"class" : "flex items-center justify-center min-w-8 h-8 p-3 rounded-[100px] font-bold text-gray-800 group-hover/item:bg-gray-100"})[1].text)
+                break
+            except AttributeError:
+                print("Deu pau. Esperando 10 minutos para a próxima requisição.")
+    
+                sleep(600)
+    
+                html = requests.get(url, headers=config.headers).text
+                soup = BeautifulSoup(html, "html.parser")
 
     pagina_atual = 1
     progresso = 0

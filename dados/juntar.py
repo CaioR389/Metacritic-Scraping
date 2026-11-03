@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-arquivos = sorted(Path(".").glob("jogos*_limpo.csv"))
+arquivos = sorted(Path("jogos_por_ano").glob("jogos*_limpo.csv"))
 print(len(arquivos))   
 
 partes = []
