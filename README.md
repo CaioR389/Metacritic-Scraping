@@ -1,5 +1,7 @@
 # Projeto de API do Metacritic
 
+**1** Arquivo CSV de dados: https://drive.google.com/file/d/1aevqQ49cACMwR_4jUBq9RFtJ5hfS8W2M/view?usp=sharing (separados por tab)
+
  **2** O foco deste projeto é analisar dados de jogos lançados entre 2000 e 2026 na plataforma Metacritic e comparar avaliações dos críticos e usuários ao longo dos anos, assim como a distribuição das notas.
 
  **3**
