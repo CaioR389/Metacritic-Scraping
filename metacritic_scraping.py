@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import pandas as pd
 
-import config_scraping as config
+import config
 
 # Adquire as notas de críticos e usuários
 # Notas iguais (metascore = userscore) significa que não tem dados de um deles, e substitui pelo outro
